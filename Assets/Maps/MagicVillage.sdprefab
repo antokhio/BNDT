@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 0e07b5b2-80d1-43ac-8cec-81b989f260d7
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 070112f5-8ff4-4156-bd5b-d4e23cd22f1c
+    Parts:
+        -   Entity:
+                Id: 070112f5-8ff4-4156-bd5b-d4e23cd22f1c
+                Name: magic-village-low-poly-location
+                Components:
+                    d4df66aae5b8d9a3c90fc03a6587071e: !TransformComponent
+                        Id: d4baea61-daab-4e7b-9173-d39a576f48f0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cc3c5e19165796eec30f51848ee458c0: !ModelComponent
+                        Id: c5c6567b-b9dd-4b09-a346-dd7db8b1e3c5
+                        Model: eb6bd94c-0816-47c2-9f33-073b34fcac92:Maps/magic-village/magic-village-low-poly-location
+                        Materials: {}

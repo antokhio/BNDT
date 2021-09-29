@@ -1,0 +1,8 @@
+!Texture
+Id: e5da30cc-bf85-4e00-9dcf-2c4af082c58c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/potion_master_diff.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,0 +1,33 @@
+!Skeleton
+Id: ae25e645-0e4c-4745-a4e2-34523d91229c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p4/_rig.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    66d72864e20ee37a847fa86feae6b9ba: {Name: RootNode, Depth: 0}
+    3770a9b255f794c3a6b8a2df82537573: {Name: Box014, Depth: 1}
+    9e6223ed1e4b7bc630d512df7ac0348a: {Name: QuickRigCharacter_Reference, Depth: 1}
+    1bcfdb2709feae9b165897662d2059ab: {Name: QuickRigCharacter_Hips, Depth: 2}
+    51ccef115245b68a91be4ff25fdd7b5f: {Name: QuickRigCharacter_LeftUpLeg, Depth: 3}
+    adc327941e1281844bcbd8216755ed32: {Name: QuickRigCharacter_LeftLeg, Depth: 4}
+    0a46ad90ef929fd24f4c53c1d73c592e: {Name: QuickRigCharacter_LeftFoot, Depth: 5}
+    fe330e172903c4728daed8e36158dfb1: {Name: QuickRigCharacter_LeftToeBase, Depth: 6}
+    fcf72d6e5f6ddbe26d23bd0a15d040a8: {Name: QuickRigCharacter_RightUpLeg, Depth: 3}
+    7a5f4776409fc68abaad18fb954dc446: {Name: QuickRigCharacter_RightLeg, Depth: 4}
+    0fefc5eebee0c7aed0aae38a3ad5469a: {Name: QuickRigCharacter_RightFoot, Depth: 5}
+    a51d57e62db24bd679d112d40b0360e1: {Name: QuickRigCharacter_RightToeBase, Depth: 6}
+    eae73f2c2456ad85372a49a328c19936: {Name: QuickRigCharacter_Spine, Depth: 3}
+    640c42635c3fed99254333e242998c1e: {Name: QuickRigCharacter_Spine1, Depth: 4}
+    c978812474a842bd1dc60eea1547e365: {Name: QuickRigCharacter_LeftShoulder, Depth: 5}
+    76258846e111277f115206201458926d: {Name: QuickRigCharacter_LeftArm, Depth: 6}
+    537beb8d543a147b9e9ce23381c44eb0: {Name: QuickRigCharacter_LeftForeArm, Depth: 7}
+    19f5c05096b62b976705997a1858aad5: {Name: QuickRigCharacter_LeftHand, Depth: 8}
+    c88ca7e3d19f9adbce75e39f3ad59016: {Name: QuickRigCharacter_RightShoulder, Depth: 5}
+    2888b82b602d180e18f9275aa1f4a3ef: {Name: QuickRigCharacter_RightArm, Depth: 6}
+    2f26cd4dbc48db03148f0eb119c85b62: {Name: QuickRigCharacter_RightForeArm, Depth: 7}
+    c244ecd2ad91fa3bac7712e2a7f5b1a8: {Name: QuickRigCharacter_RightHand, Depth: 8}
+    fc06f77ee405f196f22e1090403109c0: {Name: QuickRigCharacter_Neck, Depth: 5}
+    76e04880d2b45efea9d4d85b3aac8de6: {Name: QuickRigCharacter_Head, Depth: 6}
+~SourceHashes:
+    d59d3187c76d4ddc6aa2a9c4c9980802~../../../Resources/p4/_rig.fbx: 0e9836bc277bd7b62388854ebe39204e

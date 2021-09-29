@@ -1,0 +1,27 @@
+!MaterialAsset
+Id: c3f84cfe-ec19-4702-9f25-2dee652582cf
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: aaf086a7-b713-4bc8-88bb-313bbe14eb6f:Maps/magic-village/foliage_diff
+            FallbackValue:
+                Value: {R: 1.0, G: 0.8392157, B: 0.435294122, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Transparency: !MaterialTransparencyBlendFeature
+        Alpha: !ComputeTextureScalar
+            Texture: 3c4bf2ba-e838-4e94-86f1-dc5c12b8a8db:Maps/magic-village/foliage_alpha
+            FallbackValue:
+                Value: 1.0
+            Channel: A
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Tint: !ComputeColor
+            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

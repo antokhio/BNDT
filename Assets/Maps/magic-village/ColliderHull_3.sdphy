@@ -1,0 +1,21 @@
+!ColliderShapeAsset
+Id: 446f5bee-05d1-446e-847a-e6ae700a8147
+SerializedVersion: {Stride: 3.0.0.0}
+Tags: []
+ColliderShapes:
+    2c43c1294bac62a7a0059752c3f48f96: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: 5da189c1-271d-4507-a440-2860e270c7d8:Maps/magic-village/01
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        Scaling: {X: 1.0, Y: 1.0, Z: 1.0}
+        Decomposition:
+            Depth: 20
+            PosSampling: 20
+            AngleSampling: 20
+            PosRefine: 10
+            AngleRefine: 10
+            Alpha: 0.01
+            Threshold: 0.01
+            Enabled: false

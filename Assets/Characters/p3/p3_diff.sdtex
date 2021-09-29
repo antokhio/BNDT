@@ -1,0 +1,7 @@
+!Texture
+Id: d0fda535-0a41-46b9-9e83-f2acc0057270
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p3/p3_diff.JPG
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

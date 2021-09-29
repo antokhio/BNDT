@@ -1,0 +1,8 @@
+!Texture
+Id: 66a1ab71-9142-4b13-8eb3-6d71f6daec29
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/earth_props_diff.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

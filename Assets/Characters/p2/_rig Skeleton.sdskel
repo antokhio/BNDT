@@ -1,0 +1,101 @@
+!Skeleton
+Id: 0848eb32-9471-416f-b6cf-160c138ee49a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p2/_rig.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    1612d0d03af019309c71628bdf0611bf: {Name: RootNode, Depth: 0}
+    2ac2a5d4e3fb7f99ffcf30381c6e81e0: {Name: QuickRigCharacter_Guides, Depth: 1}
+    80d6899f440b90c7dbdf16fd664a12c3: {Name: QuickRigCharacter_Hips, Depth: 1}
+    8be80919f36009827da9bee40c250a90: {Name: QuickRigCharacter_LeftUpLeg, Depth: 2}
+    f58ffcb00c07b355fece072187322624: {Name: QuickRigCharacter_LeftLeg, Depth: 3}
+    cecb7e984c66b1c3ec637e426df014c6: {Name: QuickRigCharacter_LeftFoot, Depth: 4}
+    2e9032045aee11370b87041f8293483e: {Name: QuickRigCharacter_LeftToeBase, Depth: 5}
+    ea70206e9731cdfd94b4fd5867f9ad1c: {Name: QuickRigCharacter_RightUpLeg, Depth: 2}
+    3af0ad8ecdc780b41596fe8798d1085d: {Name: QuickRigCharacter_RightLeg, Depth: 3}
+    479b832bb8d386e67a8d2b913913aa55: {Name: QuickRigCharacter_RightFoot, Depth: 4}
+    fbf6db65624aaa652be3b35147cd8589: {Name: QuickRigCharacter_RightToeBase, Depth: 5}
+    0674ddf894f4aec80c4cda2dd357c0fb: {Name: QuickRigCharacter_Spine, Depth: 2}
+    25c62ec82c179e2f78c5f45b8e3609c5: {Name: QuickRigCharacter_Spine1_1, Depth: 3}
+    088b414793ad79c4859b5148324b3b83: {Name: QuickRigCharacter_LeftShoulder, Depth: 4}
+    1f6f3624c2f2ec6213ed490ea14c03bf: {Name: QuickRigCharacter_LeftArm, Depth: 5}
+    57f100a7305f981ada19a8f4a9b5d920: {Name: QuickRigCharacter_LeftForeArm, Depth: 6}
+    15ba82dc37bba66be356acb3d69dc4bb: {Name: QuickRigCharacter_LeftHand, Depth: 7}
+    9ee5d8df7344260974f294090bbaa322: {Name: QuickRigCharacter_RightShoulder, Depth: 4}
+    521ac864acefd8080d6060a029a07a63: {Name: QuickRigCharacter_RightArm, Depth: 5}
+    ed8cfd735b7f6c7bf5afe2da783965a1: {Name: QuickRigCharacter_RightForeArm, Depth: 6}
+    bfae3266f767b7f837627fa7130411e6: {Name: QuickRigCharacter_RightHand, Depth: 7}
+    9baba1ced24e9122756deaccd2f75445: {Name: QuickRigCharacter_Neck, Depth: 4}
+    fc999498c296bc689f7a7a6e060bb0af: {Name: QuickRigCharacter_Head, Depth: 5}
+    8049596397ef278ab80e6807cda91382: {Name: QuickRigCharacter_Guides1, Depth: 1}
+    50c65f3ca0dbcfbedf4c97f8f2a6fb7f: {Name: QuickRigCharacter_Hips1, Depth: 1}
+    9e3ce9a5f729fb976aa11fb54f70ae9b: {Name: QuickRigCharacter_LeftUpLeg1, Depth: 2}
+    6a762a52400ab605772e118e58c7fa24: {Name: QuickRigCharacter_LeftLeg1, Depth: 3}
+    0d2a501ebc711c54309fbea9d09b2f68: {Name: QuickRigCharacter_LeftFoot1, Depth: 4}
+    a797edb2a60d9e4d738839f26509cf7a: {Name: QuickRigCharacter_LeftToeBase1, Depth: 5}
+    ba7d28cdd3c3aab9fd8a7ecb044a186f: {Name: QuickRigCharacter_RightUpLeg1, Depth: 2}
+    b045091d21ef18c72b84262977c492ef: {Name: QuickRigCharacter_RightLeg1, Depth: 3}
+    f3e47c983817cb251990e9bb428307a1: {Name: QuickRigCharacter_RightFoot1, Depth: 4}
+    b856339ecf251cd25b9ecf78360aa9c2: {Name: QuickRigCharacter_RightToeBase1, Depth: 5}
+    829ad65539f3236ca07236efec16cc65: {Name: QuickRigCharacter_Spine1_2, Depth: 2}
+    a29861e704b2e9350e13f295caec01b1: {Name: QuickRigCharacter_Spine11, Depth: 3}
+    1b25fa2747dcc13fe100877eb8533f1e: {Name: QuickRigCharacter_LeftShoulder1, Depth: 4}
+    8e6476fb8006a1334e9e900a22e90be6: {Name: QuickRigCharacter_LeftArm1, Depth: 5}
+    7104d671ff24763ad9c938da9290e60c: {Name: QuickRigCharacter_LeftForeArm1, Depth: 6}
+    17c6dfac07c84ad4ab951d5b80c35bba: {Name: QuickRigCharacter_LeftHand1, Depth: 7}
+    bd2f93e371ebf828b0f61ec0e494f1b5: {Name: QuickRigCharacter_RightShoulder1, Depth: 4}
+    019c2ec2a75d0d576280468c97d9b845: {Name: QuickRigCharacter_RightArm1, Depth: 5}
+    0468b7d817c6e78fbb3bae0e4bce0bc4: {Name: QuickRigCharacter_RightForeArm1, Depth: 6}
+    ec29b7eedef062976e4749c8abe37711: {Name: QuickRigCharacter_RightHand1, Depth: 7}
+    482886d91aad9e674d93c04c694853d0: {Name: QuickRigCharacter_Neck1, Depth: 4}
+    865ec067643ab9be4504b1c5eee1d79e: {Name: QuickRigCharacter_Head1, Depth: 5}
+    bfe9df42ff256f097059ee561c314c1b: {Name: QuickRigCharacter_Guides2, Depth: 1}
+    81e18948b047cc8c2ce4e9ed2e4417a3: {Name: QuickRigCharacter_Hips2, Depth: 1}
+    79b9be9fff3be86bae33dd893949020a: {Name: QuickRigCharacter_LeftUpLeg2, Depth: 2}
+    e576684e0653218ff8006191ddd4a9a3: {Name: QuickRigCharacter_LeftLeg2, Depth: 3}
+    c642e7b3b8a73ce00be6c0befa963d91: {Name: QuickRigCharacter_LeftFoot2, Depth: 4}
+    c343252724fd63713ee12ff7d53ed280: {Name: QuickRigCharacter_LeftToeBase2, Depth: 5}
+    e7a167ca1818e0709b5f4f9464e7285c: {Name: QuickRigCharacter_RightUpLeg2, Depth: 2}
+    c41386124363b312e7729ad97ce9b2b4: {Name: QuickRigCharacter_RightLeg2, Depth: 3}
+    8f6d89b2085a45566ebf75fe2d035390: {Name: QuickRigCharacter_RightFoot2, Depth: 4}
+    2d1272b6e889087b7ddeddf2bf3d0b11: {Name: QuickRigCharacter_RightToeBase2, Depth: 5}
+    ff8acb4eac8fb744aa65ec49cdb36b59: {Name: QuickRigCharacter_Spine2, Depth: 2}
+    28a5a58e72f851a03a3e2f49537537c4: {Name: QuickRigCharacter_Spine12, Depth: 3}
+    b0d931e452bc7a35c9b3eadae1d6e8a1: {Name: QuickRigCharacter_LeftShoulder2, Depth: 4}
+    6b9114da009907993c6da7d0f45a3f32: {Name: QuickRigCharacter_LeftArm2, Depth: 5}
+    4d18fb592f9f0446231a8c7a26a6dd64: {Name: QuickRigCharacter_LeftForeArm2, Depth: 6}
+    d99186d80a77d9c01c70df8ff3122238: {Name: QuickRigCharacter_LeftHand2, Depth: 7}
+    29a7ac75cf6bfe8711f5712ab14afb1b: {Name: QuickRigCharacter_RightShoulder2, Depth: 4}
+    eb66cd2102b553aefbc6a6f8d1cf77cc: {Name: QuickRigCharacter_RightArm2, Depth: 5}
+    6f562e966b69c99d8e54c38769f2ac3d: {Name: QuickRigCharacter_RightForeArm2, Depth: 6}
+    7b6a524240924c2bd4956d35ebb51ad4: {Name: QuickRigCharacter_RightHand2, Depth: 7}
+    6bbbcbc62966d4040ef3cf2269bf1491: {Name: QuickRigCharacter_Neck2, Depth: 4}
+    6b19fc73a6f2c4fb20660b54f329fad2: {Name: QuickRigCharacter_Head2, Depth: 5}
+    5235b56a9603f8e62470a4456fe2649d: {Name: QuickRigCharacter_Guides3, Depth: 1}
+    3a390bebf0ecd831c8948728c61707b7: {Name: QuickRigCharacter_Guides4, Depth: 1}
+    abbc9208069d7cefc46d069246ebbc4a: {Name: Line006, Depth: 1}
+    998fc68767e896aed3329fc429933385: {Name: QuickRigCharacter_Guides5, Depth: 1}
+    2383358e151b95ae8547a025c0f6bbe2: {Name: QuickRigCharacter_Hips3, Depth: 1}
+    5d37b90059c360ced260fb3ef72acb61: {Name: QuickRigCharacter_LeftUpLeg3, Depth: 2}
+    ea8e92047b93d4f1cf4cf8e52c0f1f90: {Name: QuickRigCharacter_LeftLeg3, Depth: 3}
+    e2bb255300428481613fd874b3d04e56: {Name: QuickRigCharacter_LeftFoot3, Depth: 4}
+    656b8e8ec6de8af6dc0e5779bf33fb39: {Name: QuickRigCharacter_LeftToeBase3, Depth: 5}
+    e67e375afce2788577261ef7fa3ee8a5: {Name: QuickRigCharacter_RightUpLeg3, Depth: 2}
+    b725225d52d31cb913ca5b9137f87f70: {Name: QuickRigCharacter_RightLeg3, Depth: 3}
+    8a4e91be461090bc81267772ad4c6f5c: {Name: QuickRigCharacter_RightFoot3, Depth: 4}
+    3b77d7d9f67877f802b46031114f566b: {Name: QuickRigCharacter_RightToeBase3, Depth: 5}
+    806f948438ca96821f7ef4978c37777e: {Name: QuickRigCharacter_Spine3, Depth: 2}
+    ad7b398b96bbfc384d6874b96c1409f5: {Name: QuickRigCharacter_Spine13, Depth: 3}
+    cf133f5fe59e7d6302e4eaa1f0187d8b: {Name: QuickRigCharacter_LeftShoulder3, Depth: 4}
+    b466bbcff819939286c094f23b009a2b: {Name: QuickRigCharacter_LeftArm3, Depth: 5}
+    3997f3d29430ca27324693ec3f120ead: {Name: QuickRigCharacter_LeftForeArm3, Depth: 6}
+    9467d482298d246190424cfaa9c54eec: {Name: QuickRigCharacter_LeftHand3, Depth: 7}
+    294a1199f98be0e99ef12f60e70f637f: {Name: QuickRigCharacter_RightShoulder3, Depth: 4}
+    3a09e4d46949e3340d23589a2e6c0a4f: {Name: QuickRigCharacter_RightArm3, Depth: 5}
+    2bf4c66ead2627bcdf9c06fb03d8fbab: {Name: QuickRigCharacter_RightForeArm3, Depth: 6}
+    ee5de73883b970d8a01b944730880166: {Name: QuickRigCharacter_RightHand3, Depth: 7}
+    b1d9346a440569340ae2dec22f1f1236: {Name: QuickRigCharacter_Neck3, Depth: 4}
+    2ae781ea80dfdcbcefffd6f332202cf4: {Name: QuickRigCharacter_Head3, Depth: 5}
+~SourceHashes:
+    fd4708714231fd780f3f42ef8be3410b~../../../Resources/p2/_rig.fbx: 8ae77c427878a5255731df270fd6f244

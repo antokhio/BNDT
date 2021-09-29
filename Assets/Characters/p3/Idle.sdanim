@@ -1,0 +1,19 @@
+!Animation
+Id: ecdf0c73-cb1a-4d20-9ae3-ec336cfb104d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p3/Idle.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: ebfd45ce-df28-46fc-8a4f-bcb200a41fc2:Characters/p3/_rig Skeleton
+RootMotion: false
+PreviewModel: 95f472be-9dee-45c9-90de-a4e53c771fdb:Characters/p3/_rig
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:07.0000000
+~SourceHashes:
+    befefc71e3671ff6e13d113592975bfe~../../../Resources/p3/Idle.fbx: b9bd0cf8c88e3e07763f81cdcd49d412

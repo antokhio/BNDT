@@ -1,0 +1,8 @@
+!Texture
+Id: 3c4bf2ba-e838-4e94-86f1-dc5c12b8a8db
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/foliage_alpha.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,0 +1,8 @@
+!Texture
+Id: 6794c4dc-6bdd-4f1c-a02c-db3d490028d1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/spider_web_alpha.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

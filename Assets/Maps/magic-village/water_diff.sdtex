@@ -1,0 +1,8 @@
+!Texture
+Id: c644dcfb-da5d-4a68-9d5f-aef69bd8471a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/water_diff.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

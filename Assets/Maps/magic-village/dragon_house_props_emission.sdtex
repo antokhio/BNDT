@@ -1,0 +1,8 @@
+!Texture
+Id: 77f6d97a-9750-4b7d-b821-543e631288e7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/dragon_house_props_emission.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

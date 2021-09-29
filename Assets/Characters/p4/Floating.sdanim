@@ -1,0 +1,19 @@
+!Animation
+Id: 9310a87f-65fd-4561-b3be-89090b96f596
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p4/Floating.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: ae25e645-0e4c-4745-a4e2-34523d91229c:Characters/p4/_rig Skeleton
+RootMotion: false
+PreviewModel: eda4d1e2-4e6b-4597-89ba-e1999082aa3e:Characters/p4/_rig
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:03.6000000
+~SourceHashes:
+    74f0269685a159de322627d6dfe1fdd3~../../../Resources/p4/Floating.fbx: c447ac39949feb23588db2213e0c3a87

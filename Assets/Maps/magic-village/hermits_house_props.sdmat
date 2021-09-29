@@ -1,0 +1,17 @@
+!MaterialAsset
+Id: 199e8553-6c13-4034-87a8-edfc3630bfee
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: e8ddf23e-f016-4301-ac11-1d3d41a94c22:Maps/magic-village/hermits_house_props_dif
+            FallbackValue:
+                Value: {R: 1.0, G: 0.8392157, B: 0.435294122, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

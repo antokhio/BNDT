@@ -1,0 +1,19 @@
+!Model
+Id: 02e6d66b-1274-4a3d-a42c-0b403c349a43
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/vendor-waving.fbx
+Skeleton: c3d17a55-b59f-4266-a846-0179db8fc7b3:Characters/vendor/vendor-waving Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4870c1708c6114a0f5802960f0d6c760:
+        Name: head
+        MaterialInstance:
+            Material: 30e35829-72cd-4d62-ac0c-be858e439039:Characters/vendor/head
+    b0d63f112cd138253da0d1929d61efb9:
+        Name: body
+        MaterialInstance:
+            Material: 36fd85b2-c893-4753-8399-634de24611f4:Characters/vendor/body
+Modifiers: {}
+~SourceHashes:
+    caa91dfe8754c42beb97ee395fc04428~../../../Resources/vendor-waving.fbx: 24f4f9616ed66d48d089fe16b79b0421

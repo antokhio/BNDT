@@ -1,0 +1,144 @@
+!PrefabAsset
+Id: ab5ae94e-50c3-42be-b3aa-6c2997d52583
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 138f82f1-4803-4df3-9c53-5e60fadab336
+    Parts:
+        -   Entity:
+                Id: 138f82f1-4803-4df3-9c53-5e60fadab336
+                Name: PlayerCharacter
+                Components:
+                    36aa7d024b82d7f8e5f7f3d354ab3fb5: !TransformComponent
+                        Id: 54de71e4-b620-4d34-955f-edb39eeec151
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children:
+                            b32cc370afa17e76c861b121a3d8a349: ref!! 72eb9543-d0f7-467a-9fc0-ad761e6594e1
+                            c84633eb14ed83a5a7d16a8df7476d6b: ref!! b80370ba-faed-4585-b83a-b91b216f270e
+                    98a225e5d39bf830741e5e6d18ea7a83: !CharacterComponent
+                        Id: 4b00baca-849f-4fea-8656-cbe9f3d9d387
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 5.0
+                        Gravity: {X: 0.0, Y: -40.0, Z: 0.0}
+                        ColliderShapes:
+                            eb0ed4316c7cb50b386d5469ab3b8e94: !CapsuleColliderShapeDesc
+                                Length: 0.3
+                                Radius: 0.15
+                                LocalOffset: {X: 0.0, Y: 0.3, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    7591aa13c0c98487032d072f46290b18: !BNDT.PlayerController,BNDT
+                        Id: 199b64d6-e82d-4d04-aef7-8708b53ef4da
+                        MaxRunSpeed: 10.0
+                        DestinationThreshold: 0.2
+                        CornerSlowdown: 0.6
+                        DestinationSlowdown: 0.4
+                        PunchCollision: ref!! ad3a4ed2-2db8-4002-af9a-57e88b9872f8
+                        AttackDistance: 1.0
+                        AttackCooldown: 0.65
+                    85748aa0d059695872a7645d76a794d2: !BNDT.PlayerInput,BNDT
+                        Id: 43cf99d3-fa38-4567-99d7-6648c0a0bea0
+                        ControllerIndex: 0
+                        DeadZone: 0.25
+                        Highlight: null
+                        HighlightMaterial: null
+                        Camera: null
+                        ClickEffect: null
+        -   Entity:
+                Id: 67044428-d43c-46b1-a92f-239dc26f1ee3
+                Name: _rig
+                Components:
+                    16cb1051069ee7ef4e32b8fb205dfe25: !TransformComponent
+                        Id: 72eb9543-d0f7-467a-9fc0-ad761e6594e1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            3f18a92b4144bb1d8131f9134cff978d: ref!! 760ab5f1-c0fb-4993-b29a-2f9002510364
+                    708703d3bebb4efc7f66107047ca5946: !ModelComponent
+                        Id: c4583839-6d78-4274-94c9-ca0fd47f51d8
+                        Model: bbca0bd0-47c8-49c3-a694-46b486680ba2:Characters/p1/_rig
+                        Materials: {}
+                    14d620c3f60e73c76b8ac7bbf644423e: !AnimationComponent
+                        Id: fc5fcbae-0a62-4f59-873a-2d71488c2055
+                        Animations: {}
+                    cfe999258bc681cc3ea8e26519e10082: !BNDT.AnimationController,BNDT
+                        Id: 156d6cf6-68b3-4bc0-9172-64f533c7187f
+                        AnimationComponent: ref!! fc5fcbae-0a62-4f59-873a-2d71488c2055
+                        AnimationIdle: c33bcdaf-b77d-46c8-aecc-9765951cf891:Characters/p1/Idle
+                        AnimationWalk: e1ef014b-4c38-4980-9c50-39383195cb66:Characters/p1/Walking
+                        AnimationRun: 8ec5b839-2bb6-47b5-932f-0f7a3f783beb:Characters/p1/Slow Run
+                        AnimationPunch: 1966203b-c9a5-45a5-8a6d-09387daa8ae0:Characters/p1/Attack
+                        WalkThreshold: 0.25
+                        TimeFactor: 1.0
+        -   Entity:
+                Id: 6ed0e9d8-b076-4298-9dc1-3a0ddfc4d830
+                Name: Camera
+                Components:
+                    5320249e8bcb8c80c64fdfc5602539f8: !TransformComponent
+                        Id: d0cdac40-ef20-4707-bc31-e3f23e776729
+                        Position: {X: 0.0, Y: 0.0, Z: 6.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ca08d16a300ebc761e8bfd6cbd3df784: !CameraComponent
+                        Id: ae87bb85-4fce-4e10-89c2-310e9ad368a7
+                        Name: null
+                        Projection: Perspective
+                        Slot: bfbebed2-1d5c-4188-ba5f-e51222a15abd
+        -   Entity:
+                Id: 8437f513-3285-4030-b3b8-09039a9ac068
+                Name: PunchCollision
+                Components:
+                    b7a599b144bf6b862bdc1adc8e33c377: !TransformComponent
+                        Id: 760ab5f1-c0fb-4993-b29a-2f9002510364
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9ad297e6d74e8219626619d5c31c00e5: !RigidbodyComponent
+                        Id: ad3a4ed2-2db8-4002-af9a-57e88b9872f8
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            e1eb0cc74d38a5603e7fe41ed73e437a: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.05
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                    fed122b25c4e3f719fbc63182cba77c1: !ModelNodeLinkComponent
+                        Id: 42972ca4-28ba-4c45-ba3f-f0c64144e4f7
+                        Target: ref!! c4583839-6d78-4274-94c9-ca0fd47f51d8
+                        NodeName: QuickRigCharacter_RightHand
+        -   Entity:
+                Id: 8f8b76ec-693e-4517-82b5-bea0d1a81f7c
+                Name: CameraTarget
+                Components:
+                    62ec7978dd36f8ffe89b678cfb649398: !TransformComponent
+                        Id: b80370ba-faed-4585-b83a-b91b216f270e
+                        Position: {X: 0.0, Y: 0.4, Z: 0.0}
+                        Rotation: {X: -0.3535534, Y: -0.3535534, Z: -0.14644663, W: 0.853553355}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            d6fd39afb6fdd65db9104f3e639afbdb: ref!! d0cdac40-ef20-4707-bc31-e3f23e776729

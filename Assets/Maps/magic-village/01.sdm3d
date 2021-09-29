@@ -1,0 +1,71 @@
+!Model
+Id: 5da189c1-271d-4507-a440-2860e270c7d8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/magic-village/01.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    16d50538dc71470207fc09a8dfe19b7a:
+        Name: hermits_house_props
+        MaterialInstance:
+            Material: 199e8553-6c13-4034-87a8-edfc3630bfee:Maps/magic-village/hermits_house_props
+    489ed73606851ab04c953246eecfb627:
+        Name: hermits_house
+        MaterialInstance:
+            Material: 8c7f15d9-ae80-4e30-9a4b-c6e57c9c282b:Maps/magic-village/hermits_house
+    7bcf42893ea977184cec8a37dfe10cd9:
+        Name: shelter_for_magical_creatures_grass
+        MaterialInstance:
+            Material: 0fd9270e-a39e-475e-aa57-c04e1e9fe724:Maps/magic-village/shelter_for_magical_creatures_grass
+    406946e6d94ffe41daed456c23d91651:
+        Name: shelter_for_magical_creatures
+        MaterialInstance:
+            Material: 8671f8c7-089c-40ad-818c-6edb72771d6d:Maps/magic-village/shelter_for_magical_creatures
+    63b5ee05a942c5080a53626bc0557ff8:
+        Name: blacksmith's_house
+        MaterialInstance:
+            Material: 2f6d824b-c128-4faf-873d-e8f2c4550da5:Maps/magic-village/blacksmith's_house
+    9f3e7c462f838d5a159b0008d3110d5b:
+        Name: potion_master_props
+        MaterialInstance:
+            Material: 78d5ffc0-702d-453c-9ccb-5cd5348ff2b8:Maps/magic-village/potion_master_props
+    e80d8d01ae0316332e383233e3b1b831:
+        Name: potion_master
+        MaterialInstance:
+            Material: e4058255-9d29-4f60-beb3-0fd5319c9ce6:Maps/magic-village/potion_master
+    358964554e1fcc9f88555d3b4e6a1b6f:
+        Name: foliage
+        MaterialInstance:
+            Material: c3f84cfe-ec19-4702-9f25-2dee652582cf:Maps/magic-village/foliage
+    a8105b49dadd4661674d7fa781eaeea1:
+        Name: tree_trunk
+        MaterialInstance:
+            Material: 306b88ea-6624-4ba7-9e49-37fb1facd47f:Maps/magic-village/tree_trunk
+    cc9d7a51f4335da125727deac42e73a6:
+        Name: travell_house
+        MaterialInstance:
+            Material: 5a2ac58c-1d44-4324-a6ea-3ed0e7161f25:Maps/magic-village/travell_house
+    0257f0379ef1cc582cccd264c86fd9a4:
+        Name: dragon_house
+        MaterialInstance:
+            Material: e9c4f21e-ee87-4094-bafe-a67716e6c330:Maps/magic-village/dragon_house
+    8854c098725a93a3e4ee9cd7e1f69849:
+        Name: spider_web
+        MaterialInstance:
+            Material: 9b061d7c-da95-4890-89c8-46a9ca456c2d:Maps/magic-village/spider_web
+    35473f0a6a4b53237dd326f30090422d:
+        Name: earth_props
+        MaterialInstance:
+            Material: 7f01c198-873b-4ee4-a101-c48f6d6d1a47:Maps/magic-village/earth_props
+    3e5424be3adf826c49ccd1e507fd651f:
+        Name: water
+        MaterialInstance:
+            Material: 70856f16-54bd-43ed-a48b-c8921f949cdb:Maps/magic-village/water
+    fb8522448e335e0fbc138444ab831b47:
+        Name: dragon_house_props
+        MaterialInstance:
+            Material: 58dd9b14-2e6f-4c57-a273-96b9098e0118:Maps/magic-village/dragon_house_props
+Modifiers: {}
+~SourceHashes:
+    65ccde43943df2524d82a15796422c1c~../../../Resources/magic-village/01.FBX: 23cd4c867c60049f71a3d95f78e196f3

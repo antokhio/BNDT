@@ -1,0 +1,23 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: BNDT.Game
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: BNDT
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir ../Assets
+    -   Path: !dir Effects
+ResourceFolders: []
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 0713b9f5-10db-4f02-a38a-50d4c853f3e8:WesternChunk
+    - 78c130db-464d-4a90-9c7f-ff8c8d06d474:NorthernChunk
+    - 7a14d1e0-e262-477b-95a2-1e86b4dba116:SouthernChunk
+    - 86aead79-93a3-4e63-bf93-132551560b8b:CentralChunk
+    - 95e4a58f-bfd3-4346-a1de-09e861012e58:EasternChunk

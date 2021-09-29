@@ -1,0 +1,8 @@
+!Texture
+Id: e8ddf23e-f016-4301-ac11-1d3d41a94c22
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/hermits_house_props_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

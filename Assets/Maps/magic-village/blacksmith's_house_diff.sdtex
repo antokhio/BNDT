@@ -1,0 +1,8 @@
+!Texture
+Id: e20a8076-9c18-45ed-8c8a-24de10e2d4b9
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/blacksmith's_house_diff.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

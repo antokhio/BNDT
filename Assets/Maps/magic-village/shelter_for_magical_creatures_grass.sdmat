@@ -1,0 +1,27 @@
+!MaterialAsset
+Id: 0fd9270e-a39e-475e-aa57-c04e1e9fe724
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: eafc2c34-0b3b-45fa-bd5f-e778265825f0:Maps/magic-village/shelter_for_magical_creatures_grass_diff
+            FallbackValue:
+                Value: {R: 1.0, G: 0.8392157, B: 0.435294122, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Transparency: !MaterialTransparencyBlendFeature
+        Alpha: !ComputeTextureScalar
+            Texture: 4c90aeff-519d-4cd8-833c-4a55985863a5:Maps/magic-village/shelter_for_magical_creatures_grass_alpha
+            FallbackValue:
+                Value: 1.0
+            Channel: A
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Tint: !ComputeColor
+            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

@@ -1,0 +1,15 @@
+!Model
+Id: eda4d1e2-4e6b-4597-89ba-e1999082aa3e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p4/_rig.fbx
+Skeleton: ae25e645-0e4c-4745-a4e2-34523d91229c:Characters/p4/_rig Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4947f30c3c5e2a7a8545751771aba986:
+        Name: Material
+        MaterialInstance:
+            Material: de972766-9bba-4879-b48d-0a816d9662b7:Characters/p4/p4
+Modifiers: {}
+~SourceHashes:
+    d08c8575659859a02948006925ba8d8f~../../../Resources/p4/_rig.fbx: 0e9836bc277bd7b62388854ebe39204e

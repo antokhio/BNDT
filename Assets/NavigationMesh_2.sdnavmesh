@@ -1,0 +1,18 @@
+!NavigationMeshAsset
+Id: 12d78eda-f421-4c50-bfd6-d655e2235ade
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Scene: null
+IncludedCollisionGroups: AllFilter
+BuildSettings:
+    CellHeight: 0.1
+    CellSize: 0.1
+    TileSize: 32
+    MinRegionArea: 10
+    RegionMergeArea: 20
+    MaxEdgeLen: 20.0
+    MaxEdgeError: 2.0
+    DetailSamplingDistance: 2.0
+    MaxDetailSamplingError: 2.0
+SelectedGroups:
+    b3c0db2d8b4d07f11c705ea17c18e426: 9398904c-72b7-ca9b-e966-23346704ae98

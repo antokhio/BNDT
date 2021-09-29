@@ -1,0 +1,8 @@
+!Texture
+Id: 49b47f5f-70ec-497b-a570-9c1fa10cd71b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/dragon_house_diff.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

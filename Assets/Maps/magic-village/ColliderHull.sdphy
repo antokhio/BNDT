@@ -1,0 +1,21 @@
+!ColliderShapeAsset
+Id: 7894ba80-155a-4381-8eda-195454f50cc1
+SerializedVersion: {Stride: 3.0.0.0}
+Tags: []
+ColliderShapes:
+    4088d72d08ba6426132b52925076242f: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: eb6bd94c-0816-47c2-9f33-073b34fcac92:Maps/magic-village/magic-village-low-poly-location
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        Scaling: {X: 1.0, Y: 1.0, Z: 1.0}
+        Decomposition:
+            Depth: 10
+            PosSampling: 10
+            AngleSampling: 10
+            PosRefine: 5
+            AngleRefine: 5
+            Alpha: 0.01
+            Threshold: 0.01
+            Enabled: false

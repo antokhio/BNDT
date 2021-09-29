@@ -1,0 +1,15 @@
+!Model
+Id: 25cc823a-9b76-4298-bc76-38129c044366
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/magic-village/nav.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    5ce7fa7dc484a0bd0f49d03cb4d4617c:
+        Name: earth
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    b0e5f49f895425b9a6b12e743629c48c~../../../Resources/magic-village/nav.FBX: f86f377cc839d423984575f7430628dd

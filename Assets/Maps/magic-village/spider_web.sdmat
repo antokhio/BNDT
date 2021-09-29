@@ -1,0 +1,27 @@
+!MaterialAsset
+Id: 9b061d7c-da95-4890-89c8-46a9ca456c2d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: d2058615-ca1d-4f9c-9ff3-817c962b506a:Maps/magic-village/spider_web_dif
+            FallbackValue:
+                Value: {R: 1.0, G: 0.8392157, B: 0.435294122, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Transparency: !MaterialTransparencyBlendFeature
+        Alpha: !ComputeTextureScalar
+            Texture: 6794c4dc-6bdd-4f1c-a02c-db3d490028d1:Maps/magic-village/spider_web_alpha
+            FallbackValue:
+                Value: 1.0
+            Channel: A
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Tint: !ComputeColor
+            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

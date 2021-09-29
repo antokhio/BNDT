@@ -1,0 +1,19 @@
+!Animation
+Id: 1966203b-c9a5-45a5-8a6d-09387daa8ae0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p1/Attack.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: c2d22871-6e65-4c03-bbd5-11a227ddb9c0:Characters/p1/_rig Skeleton
+RootMotion: false
+PreviewModel: bbca0bd0-47c8-49c3-a694-46b486680ba2:Characters/p1/_rig
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.2000000
+~SourceHashes:
+    0c4a9bb279a5b9645c4348eda55124d3~../../../Resources/p1/Attack.fbx: 1ebeee5cbcaf0aa1fa236e9702c095d0

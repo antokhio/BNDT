@@ -1,0 +1,7 @@
+!Texture
+Id: 96cf372c-4a31-4f36-b6d3-4b2698377d4d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/grem_body_1.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

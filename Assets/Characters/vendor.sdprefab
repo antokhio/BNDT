@@ -1,0 +1,29 @@
+!PrefabAsset
+Id: 6e985199-9ad7-499b-bab2-e2583ff53e77
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! cea25dbb-72cf-4bed-989d-86d7d0560a77
+    Parts:
+        -   Entity:
+                Id: cea25dbb-72cf-4bed-989d-86d7d0560a77
+                Name: vendor
+                Components:
+                    ff4da86b36d41aa8b2727f41f3878c19: !TransformComponent
+                        Id: eeda15a6-6e42-440a-8eb5-0c8f1fccd952
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    56dab3fa8b0386a7ca6b1642642c18db: !ModelComponent
+                        Id: d4455ba3-6561-4791-b372-1f03b7b94359
+                        Model: 02e6d66b-1274-4a3d-a42c-0b403c349a43:Characters/vendor/vendor
+                        Materials: {}
+                    fdbf8720d6fa3c2b0910339dc856305d: !AnimationComponent
+                        Id: 7ba1b925-7d00-4979-889f-9a1c6697c806
+                        Animations:
+                            4a501c427acd6490278cb8001a0cbdd3~waving: 7e096008-203d-4ffe-a074-4ca563b430e0:Characters/vendor/vendor-waving
+                            346b91a601bd10403e136bd4c98ae775~backflip: eed1fa90-a8e9-4df3-b66e-4139863459ab:Characters/vendor/vendor-backflip
+                    55b05d762eba6fd2ee700d5377087fe7: !BNDT.VendorStartupScript,BNDT
+                        Id: 75c10789-b25d-4cec-83ad-c171de25b974

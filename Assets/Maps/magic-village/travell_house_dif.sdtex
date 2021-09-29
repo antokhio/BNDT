@@ -1,0 +1,8 @@
+!Texture
+Id: dbb8bd60-a845-4ea6-a944-2b9efb386914
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/travell_house_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

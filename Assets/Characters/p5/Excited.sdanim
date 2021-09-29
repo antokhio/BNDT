@@ -1,0 +1,19 @@
+!Animation
+Id: 2d4110dd-3d59-4609-816a-34ff259cd2e3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p5/Excited.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 703efc84-16e6-444b-8f4d-26f0e2557775:Characters/p5/_rig Skeleton
+RootMotion: false
+PreviewModel: 157cf7e3-3800-4d1e-a9b2-f050cea20070:Characters/p5/_rig
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:06.5670000
+~SourceHashes:
+    e1866594162055e0236fe9a0e198de41~../../../Resources/p5/Excited.fbx: 17d633b10baf61ee3548bce8441a75ff

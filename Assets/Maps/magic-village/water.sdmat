@@ -1,0 +1,27 @@
+!MaterialAsset
+Id: 70856f16-54bd-43ed-a48b-c8921f949cdb
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: c644dcfb-da5d-4a68-9d5f-aef69bd8471a:Maps/magic-village/water_diff
+            FallbackValue:
+                Value: {R: 1.0, G: 0.8392157, B: 0.435294122, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Transparency: !MaterialTransparencyBlendFeature
+        Alpha: !ComputeTextureScalar
+            Texture: 8ca5f118-e3f6-4937-b5c2-530c861e4ef7:Maps/magic-village/water_opacity
+            FallbackValue:
+                Value: 1.0
+            Channel: A
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Tint: !ComputeColor
+            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

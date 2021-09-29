@@ -1,0 +1,69 @@
+!Skeleton
+Id: c3d17a55-b59f-4266-a846-0179db8fc7b3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/vendor-waving.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    d29fba288d89caeacf8ab78057a839ce: {Name: RootNode, Depth: 0}
+    eaedaa5441637e81b9b600d1448f8289: {Name: head_head_0, Depth: 1}
+    79ceb5516072e6da9cf8f4d2d52c3baf: {Name: body_body_0, Depth: 1}
+    4faa67c39e1ecef56a619fff755cae94: {Name: Hips, Depth: 1}
+    cc335acb56c7c3a04cd775518980c74b: {Name: Spine, Depth: 2}
+    fb7e7567d6fde95096964138f8ed9e14: {Name: Spine1, Depth: 3}
+    57c919c65c978381c0369e2c4342e54c: {Name: Spine2, Depth: 4}
+    a5ee0b262b7e4940d125cc7d37f7fc6b: {Name: Neck, Depth: 5}
+    ae6973b864756b508bf1933c7ea6ee0a: {Name: Head, Depth: 6}
+    2c9bde7d67d9cffc929c815afd44059f: {Name: HeadTop_End, Depth: 7}
+    57e64a03ca217ecab2aac004f1f31ccd: {Name: LeftShoulder, Depth: 5}
+    549c68dd8bf9d2957b86e51b5258a269: {Name: LeftArm, Depth: 6}
+    d6a5bfa525e2f8a9b5d526537865ec32: {Name: LeftForeArm, Depth: 7}
+    7a17c4c7269a9ddf3c21b4f312aacfb2: {Name: LeftHand, Depth: 8}
+    1b905083c9532190fd4dbf7eb90cce83: {Name: LeftHandThumb1, Depth: 9}
+    b2c7f6f3b0ac7ea4f82c4d40094677f9: {Name: LeftHandThumb2, Depth: 10}
+    7809d069637203e133f764641cda39b2: {Name: LeftHandThumb3, Depth: 11}
+    2f4c1ce44d4f06f0d6fa2f18d627d83c: {Name: LeftHandThumb4, Depth: 12}
+    3f3e7d27781e56ba6503d7bd3069dbbf: {Name: LeftHandIndex1, Depth: 9}
+    b2251cd42706da3fa902e78e320be9e1: {Name: LeftHandIndex2, Depth: 10}
+    655b7e772751406ca9352de2073b8805: {Name: LeftHandIndex3, Depth: 11}
+    fb7fdd9a39d95fe4861655759af548e4: {Name: LeftHandIndex4, Depth: 12}
+    b228b6ebb536b257fdabed7727283a6e: {Name: LeftHandMiddle1, Depth: 9}
+    1619e312697e6adb076d54ded74ebdf7: {Name: LeftHandMiddle2, Depth: 10}
+    2fcabaafb5c3f1b68e342a5bd788b92d: {Name: LeftHandMiddle3, Depth: 11}
+    aefccf0f56b2d65bafefd82fab31b29d: {Name: LeftHandMiddle4, Depth: 12}
+    baf0e133c382fd485de0c413ff546828: {Name: LeftHandRing1, Depth: 9}
+    766aa3c15ab1018e748d6ee9b72472b4: {Name: LeftHandRing2, Depth: 10}
+    6c2f277a77efb6eac3137a04464e1cfa: {Name: LeftHandRing3, Depth: 11}
+    251574a0fcd099a39b4fd4d7a9b321b5: {Name: LeftHandRing4, Depth: 12}
+    074f6c57d17eb65462eb6a8bc7210f9c: {Name: RightShoulder, Depth: 5}
+    0ecd0337d1f19ba316d949416aa13f29: {Name: RightArm, Depth: 6}
+    a408ab963fcd62f6acbe98a7fda42f01: {Name: RightForeArm, Depth: 7}
+    342c2e12c210c493dd34d1633f6072c5: {Name: RightHand, Depth: 8}
+    41c62105b48a98237fb7347cca0c4f81: {Name: RightHandThumb1, Depth: 9}
+    1c2f19d2eb772dc6c62673cf4a8ae937: {Name: RightHandThumb2, Depth: 10}
+    c656465aeafe6244356caa91860d28c5: {Name: RightHandThumb3, Depth: 11}
+    7bafef17031fcad8073f866424063638: {Name: RightHandThumb4, Depth: 12}
+    82a72d3f8ffc69b9faa8b4be3f72e7a7: {Name: RightHandIndex1, Depth: 9}
+    33d6908f260100b41e002fbf43a33405: {Name: RightHandIndex2, Depth: 10}
+    e30155a8870484f2cd7068eed0123d1b: {Name: RightHandIndex3, Depth: 11}
+    49d58dbf3d11705cbf22628a2f5dccf0: {Name: RightHandIndex4, Depth: 12}
+    c36d40771f4643fedd8b19e5d0fa7a29: {Name: RightHandMiddle1, Depth: 9}
+    8e83e0209ee2bf2ca65cdcf3e81626b8: {Name: RightHandMiddle2, Depth: 10}
+    10e93fce8fccdbad04e4b590ceedd3e5: {Name: RightHandMiddle3, Depth: 11}
+    56a5e72fc4c26048f6981a64d07b7217: {Name: RightHandMiddle4, Depth: 12}
+    e1ee27216dd02a1bcaead724fba124c8: {Name: RightHandRing1, Depth: 9}
+    6874d179b079019a514afd3800202c3e: {Name: RightHandRing2, Depth: 10}
+    68b346fff4f3a66f3b9b3d6080460292: {Name: RightHandRing3, Depth: 11}
+    f9e3cafa5621fcc9503e2812c40e8ec7: {Name: RightHandRing4, Depth: 12}
+    9ecada572ec425826fd9b420f3496a50: {Name: LeftUpLeg, Depth: 2}
+    33c17b9f2dc61ad2d25cf7fb617231ec: {Name: LeftLeg, Depth: 3}
+    8aa16ecf89cd36fef9cce348705aca73: {Name: LeftFoot, Depth: 4}
+    84fff961a34e020f2423c920b4c26e75: {Name: LeftToeBase, Depth: 5}
+    41f17010c38e6be1e991658eeacf4933: {Name: LeftToe_End, Depth: 6}
+    613958078e168abb747481440ba974a8: {Name: RightUpLeg, Depth: 2}
+    5746f4790dcc168d771cff10ff64ea3e: {Name: RightLeg, Depth: 3}
+    deaf690c6e0d29f343df03993d1080c4: {Name: RightFoot, Depth: 4}
+    f4d52b3748bb989c99b4791c899f1fac: {Name: RightToeBase, Depth: 5}
+    faa795c89ac7bba743aa0c7b2287f674: {Name: RightToe_End, Depth: 6}
+~SourceHashes:
+    5ba372f302276df4473a1d8d6d4ff527~../../../Resources/vendor-waving.fbx: 24f4f9616ed66d48d089fe16b79b0421

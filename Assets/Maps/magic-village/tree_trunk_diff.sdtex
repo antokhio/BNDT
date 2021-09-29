@@ -1,0 +1,8 @@
+!Texture
+Id: da477526-1c4e-44bf-b09f-4e75a84dee33
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/tree_trunk_diff.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

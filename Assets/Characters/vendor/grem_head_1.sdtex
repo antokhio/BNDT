@@ -1,0 +1,7 @@
+!Texture
+Id: fe6d17ff-fa96-48a2-b36f-915d0e8a502d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/grem_head_1.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

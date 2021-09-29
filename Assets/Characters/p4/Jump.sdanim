@@ -1,0 +1,19 @@
+!Animation
+Id: f6904fd4-ee07-4d83-8a59-dc32c49806ac
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p4/Jump.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: ae25e645-0e4c-4745-a4e2-34523d91229c:Characters/p4/_rig Skeleton
+RootMotion: false
+PreviewModel: eda4d1e2-4e6b-4597-89ba-e1999082aa3e:Characters/p4/_rig
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:02.0670000
+~SourceHashes:
+    68901f7c7ba42d229af6806f3f080f32~../../../Resources/p4/Jump.fbx: 50958f78a0300559007bae52bc6655e1

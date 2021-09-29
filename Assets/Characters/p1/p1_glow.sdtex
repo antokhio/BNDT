@@ -1,0 +1,7 @@
+!Texture
+Id: 8e3ea834-2de9-4b5f-93f7-e21b694959fa
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/p1/p1_glow.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

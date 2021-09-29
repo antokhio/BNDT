@@ -1,0 +1,1685 @@
+!SceneAsset
+Id: c26b5309-0b62-474d-bb67-6b834f2fd225
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 5abbc342-dc73-4de2-834c-c66d832be995
+        - ref!! 27a91eaf-7622-42b4-89a2-3495a753b8d9
+        - ref!! e1d761e6-634d-4773-8d81-75dfc8e8b1c4
+        - ref!! 39790120-ebaf-43d5-8b06-e1aaa22d2f51
+        - ref!! 605ce261-0f03-4563-b2d4-4ed4a7d4cd89
+        - ref!! 3f6c30db-f1ee-4476-98fe-7f9a36be4874
+        - ref!! f74b7b21-8928-4702-be11-947da30fd86d
+        - ref!! a6e6cffa-eee4-448d-b843-f7b8cb6e7d38
+        - ref!! 0725de5a-db71-407c-ad52-506b693c932e
+        - ref!! bd5f7af2-f7dc-446f-94c6-6aadba0aacb4
+        - ref!! f5b98748-d372-4371-bfb9-3976bc5ec0bb
+        - ref!! 4f79d06e-7bb2-4f46-b4b1-0cf4251b674d
+        - ref!! f0c6fb81-17db-48c7-b05a-ecec414ba17e
+        - ref!! 4425dede-ff31-4df8-b9d9-d68526aba429
+        - ref!! 53a06403-5e7c-4eb8-8f8e-417f80e18324
+        - ref!! 6f9e2afe-c2cb-4aa7-b1de-ce8f5d4f4ffd
+        - ref!! efa6ce6a-8c20-41e4-b42b-ae3359fefb9e
+        - ref!! 6d5985a2-2b3b-49ef-8fdf-e31aaf8d8b9e
+        - ref!! 5bb61fd1-5a4f-4fe3-9ec0-f6e55722d187
+        - ref!! 5abb848d-028a-4479-a565-dfd78d3e5829
+        - ref!! 3d637909-8d35-4158-bbc1-1e444633500f
+        - ref!! 42a3f18c-3cf8-4687-a87c-ac15d8c26b05
+        - ref!! e643de26-f888-4aa5-b5d3-e6dcce6642d9
+        - ref!! ae721985-2505-45fa-af6d-729b29b69e02
+        - ref!! 065a4aa8-69ec-47d8-b561-6a5847944f26
+        - ref!! 0ddffa94-dc32-47b1-9642-fc445f7db9c3
+        - ref!! 946367f6-86dc-44c0-b54f-9361fbfedb0e
+        - ref!! 899f84c9-073b-4965-9e56-4f731efe3774
+    Parts:
+        -   Folder: Coins
+            Entity:
+                Id: 065a4aa8-69ec-47d8-b561-6a5847944f26
+                Name: CoinGold (4)
+                Components:
+                    be254480664073408d19d8ff0fa79c9e: !TransformComponent
+                        Id: 804425be-4066-4073-8d19-d8ff0fa79c9e
+                        Position: {X: 8.999999, Y: 0.0, Z: -5.0}
+                        Rotation: {X: 0.0, Y: 0.1305262, Z: 0.0, W: 0.9914449}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            40bc0789c794df458f3da83107baa90c: ref!! 8907bc40-94c7-45df-8f3d-a83107baa90c
+        -   Folder: Platform/Grid
+            Entity:
+                Id: 0725de5a-db71-407c-ad52-506b693c932e
+                Name: GridBase10x10 (9)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 819fbef6-c616-4a22-bf18-0956456202eb
+                        Position: {X: 10.0, Y: -9.536743E-07, Z: 10.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! c2b3ec4e-ff7a-47e3-8bcc-584553d59e41
+        -   Folder: Coins
+            Entity:
+                Id: 0ddffa94-dc32-47b1-9642-fc445f7db9c3
+                Name: CoinGold (5)
+                Components:
+                    862c912f0b61834eb4a45ffdcb8ebcb9: !TransformComponent
+                        Id: 2f912c86-610b-4e83-b4a4-5ffdcb8ebcb9
+                        Position: {X: 9.0, Y: 0.0, Z: -3.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            40bc0789c794df458f3da83107baa90c: ref!! 56205388-76ec-46cf-a6e1-7e8fed89be7a
+        -   Entity:
+                Id: 102b3205-57b5-46d7-9788-2e61cd87f1c9
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: 6e18fb64-201f-4ba7-9068-fa430210ecc5
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: fe1d907c-1cd2-4286-83aa-0639481520b1
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: 73de92e8-e7aa-4180-aa74-ca19b0b9f867
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: 6addb7fe-b0dd-48d9-86bb-a494f66eab17
+        -   Entity:
+                Id: 1240d22d-4788-4cbb-b25c-44e831a2ba1b
+                Name: LootBox
+                Components:
+                    4bfa77cbdae1aa40aeba86b0b487ad99: !TransformComponent
+                        Id: cb77fa4b-e1da-40aa-aeba-86b0b487ad99
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            81e049a26ff49a468daa04fa529c1955: ref!! a249e081-f46f-469a-8daa-04fa529c1955
+                    92a01d27b6aa2e49b6f4555de61f78e4: !ModelComponent
+                        Id: 271da092-aab6-492e-b6f4-555de61f78e4
+                        Model: 958a1abf-57ac-4cd9-8859-0e6043e21ce4:Models/BoxF
+                        Materials: {}
+                    9ff39e9a53a90d49bb7faec06f6d32ca: !StaticColliderComponent
+                        Id: 9a9ef39f-a953-490d-bb7f-aec06f6d32ca
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            42588de189ce0146b55493835f755fe8: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4e93d2aaca7cd64e9e2cdb87b6dea8c1: !BNDT.Gameplay.CrateScript,BNDT.Game
+                        Id: aad2934e-7cca-4ed6-9e2c-db87b6dea8c1
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        SoundEffect: f9d957dd-0c73-47b9-b5a8-a6a395e9e908:Audio/crate_breaking
+                        Trigger: ref!! 1fe9cb28-1e2b-4afd-8650-67a932c54649
+                    28cbe91f2b1efd4a865067a932c54649: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 1fe9cb28-1e2b-4afd-8650-67a932c54649
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 7482eb0c-78ea-4a3c-8d85-8133ed9d63b2
+                InstanceId: bb899d64-dc60-41da-8711-009016c72290
+        -   Entity:
+                Id: 13f792de-01fa-468e-9d98-7f8a8de8d389
+                Name: Camera
+                Components:
+                    a116d811cab5bf4da5211050e1d34e10: !TransformComponent
+                        Id: 1d29ffa6-1c21-4333-9032-d0e8a7a0dd65
+                        Position: {X: 0.0, Y: 0.0, Z: 12.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1fb7d1656248fc4eb7c13c9d933979c7: !CameraComponent
+                        Id: 53aaee6a-8f7a-4090-86c2-73f1da3a4446
+                        Name: null
+                        Projection: Perspective
+                        Slot: c15adccd-88f4-4cd9-a45a-55ce9f8e89e5
+            Base:
+                BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
+                BasePartId: 3fa9c531-b276-4f1f-b26f-80ec96769077
+                InstanceId: ebee13a3-5f06-4a1b-80bb-6fc9e40dc9b4
+        -   Entity:
+                Id: 1ddb0a19-0448-4ca0-8fee-951596eeace5
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: f11fdb83-919c-4039-b0af-92cc94c000cc
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: a375b8e6-8dc9-4db4-ade1-22ce7ccd273d
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: 13d9088d-aa83-42dc-b420-dd72f2beef41
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: af0a1a47-a874-4b4c-9510-bdb95c6f0d22
+        -   Entity:
+                Id: 2147e1d1-f4f1-4a88-a785-14a69df0402f
+                Name: LootBox
+                Components:
+                    4bfa77cbdae1aa40aeba86b0b487ad99: !TransformComponent
+                        Id: 0c3f8592-1302-4efc-8802-3843c0ed0f6c
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            81e049a26ff49a468daa04fa529c1955: ref!! 2e6698fd-fd1c-4a50-b888-91a4c97003c1
+                    92a01d27b6aa2e49b6f4555de61f78e4: !ModelComponent
+                        Id: 6fd5655d-eae8-4139-943c-cf319e687dc8
+                        Model: 958a1abf-57ac-4cd9-8859-0e6043e21ce4:Models/BoxF
+                        Materials: {}
+                    9ff39e9a53a90d49bb7faec06f6d32ca: !StaticColliderComponent
+                        Id: 1db7f2e5-789f-40d9-b3fc-3dfc3953e5c1
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            42588de189ce0146b55493835f755fe8: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4e93d2aaca7cd64e9e2cdb87b6dea8c1: !BNDT.Gameplay.CrateScript,BNDT.Game
+                        Id: 9177b62f-a3c6-428d-8e9a-f53261c482e7
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        SoundEffect: f9d957dd-0c73-47b9-b5a8-a6a395e9e908:Audio/crate_breaking
+                        Trigger: ref!! 1519eadf-62d9-4bfd-8fd0-214ebc4d924f
+                    28cbe91f2b1efd4a865067a932c54649: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 1519eadf-62d9-4bfd-8fd0-214ebc4d924f
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 7482eb0c-78ea-4a3c-8d85-8133ed9d63b2
+                InstanceId: 197367e1-a988-4915-abfd-60b119db2faf
+        -   Folder: GlobalLights
+            Entity:
+                Id: 27a91eaf-7622-42b4-89a2-3495a753b8d9
+                Name: Directional light
+                Components:
+                    5ab3300ae74fa14a9efcaa1f506407ce: !TransformComponent
+                        Id: 0a30b35a-4fe7-4aa1-9efc-aa1f506407ce
+                        Position: {X: 1.0, Y: 15.0, Z: 0.0}
+                        Rotation: {X: -0.5540323, Y: 0.212012157, Z: 0.1484525, W: 0.7912401}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    209f95c46d53de41a3dfff661934ae6c: !LightComponent
+                        Id: c4959f20-536d-41de-a3df-ff661934ae6c
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: XLarge
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 5.0
+        -   Entity:
+                Id: 27c824c2-f04d-440e-9614-c1d31ca52e69
+                Name: PunchCollision
+                Components:
+                    651acbbf06fe12468058e1f473b74a32: !TransformComponent
+                        Id: bc8e5b92-4976-46d3-81b3-810de16cf99d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0e97484315c962489b6376c3130914c7: !ModelNodeLinkComponent
+                        Id: f02857b7-e62d-4b40-aef5-4526cae81912
+                        Target: null
+                        NodeName: QuickRigCharacter_RightHand
+                    13f15cf5c64fb5429ce1a586368259bd: !RigidbodyComponent
+                        Id: 0a55886f-8fc4-47cf-a4aa-8caa39482740
+                        CollisionGroup: CharacterFilter
+                        CanCollideWith: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            08c9e89242b2974891270864e1ec3692: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.1
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+            Base:
+                BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
+                BasePartId: 0f796e4c-4943-4b4f-9cc0-2d4c6b09b4ca
+                InstanceId: ebee13a3-5f06-4a1b-80bb-6fc9e40dc9b4
+        -   Entity:
+                Id: 2cf91bab-cc73-47ff-80ac-54800d671443
+                Name: Point light
+                Components:
+                    b9f600a0fde70749a52b71dd66ab24ac: !TransformComponent
+                        Id: a000f6b9-e7fd-4907-a52b-71dd66ab24ac
+                        Position: {X: 0.0, Y: 3.464735E-09, Z: -0.0581285954}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    35701b59a6f3d14a89bd891c23bc95fb: !LightComponent
+                        Id: 591b7035-f3a6-4ad1-89bd-891c23bc95fb
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 0.960625, B: 0.60625}
+                            Radius: 3.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 10.0
+            Base:
+                BasePartAsset: feee4b5a-ab51-4244-b9c1-0d91c880aa2e:CoinGold
+                BasePartId: debc636f-e0c5-4884-9aa6-be4b8287e96a
+                InstanceId: fa985361-eba4-44a7-8d89-55131a395bc0
+        -   Entity:
+                Id: 2ea8e6f8-cdc3-4d09-bd2c-f5cd331e1911
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: 1de7e4f6-4570-4dfd-88e6-9b338ff61f98
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: c63a987e-3275-4cea-b085-94193b375ece
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: a29af66d-7988-48e7-b13e-4f1cba975fa0
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: a2be727a-83c1-4974-965d-320dc7345007
+        -   Entity:
+                Id: 30e79489-a4c5-44ed-be9e-6ff6bd966bd5
+                Name: Point light
+                Components:
+                    b9f600a0fde70749a52b71dd66ab24ac: !TransformComponent
+                        Id: 37568d9d-987a-4e84-87e3-30333d709a94
+                        Position: {X: 0.0, Y: 3.464735E-09, Z: -0.0581285954}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    35701b59a6f3d14a89bd891c23bc95fb: !LightComponent
+                        Id: c80ae4d4-37a7-4014-89ae-c48f1b0e7a9a
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 0.960625, B: 0.60625}
+                            Radius: 3.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 10.0
+            Base:
+                BasePartAsset: feee4b5a-ab51-4244-b9c1-0d91c880aa2e:CoinGold
+                BasePartId: debc636f-e0c5-4884-9aa6-be4b8287e96a
+                InstanceId: 051db492-60d9-406e-88e1-3276be293564
+        -   Folder: Platform/Grid
+            Entity:
+                Id: 39790120-ebaf-43d5-8b06-e1aaa22d2f51
+                Name: GridBase10x10
+                Components:
+                    08c77125d2c27d4080fe4052c6e10d9a: !TransformComponent
+                        Id: 2571c708-c2d2-407d-80fe-4052c6e10d9a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! 84e0908d-d67e-4da0-a3ce-7446882c19de
+        -   Entity:
+                Id: 3acba833-e365-43f6-be83-265d856c7d4f
+                Name: CoinGold
+                Components:
+                    40bc0789c794df458f3da83107baa90c: !TransformComponent
+                        Id: 1a88761a-1d68-416a-a054-c5b6e00a0787
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
+                        Children:
+                            b9f600a0fde70749a52b71dd66ab24ac: ref!! 37568d9d-987a-4e84-87e3-30333d709a94
+                    76eeb34856ae80488daf19410ab51cf5: !ModelComponent
+                        Id: 48b3ee76-ae56-4880-8daf-19410ab51cf5
+                        Model: ce2aba29-2743-4599-b8fb-148e8c075984:Models/CoinGold
+                        Materials: {}
+                    2bdedf2b36b5ac47a5ddb46bc1d762f5: !BNDT.Gameplay.CoinScript,BNDT.Game
+                        Id: 2bdfde2b-b536-47ac-a5dd-b46bc1d762f5
+                        CoinGetEffect: 503c155c-ce78-42bf-a6c6-3c078efaf6d8:VFXPrefabs/vfx-GetCoin
+                        Trigger: ref!! 0f987c5d-9f63-4567-9b68-a76d9fcdd82c
+                        SoundEffect: 4669803f-9fe9-479f-bc57-6ef42511fad9:Audio/coin_get
+                    e3f8cc6b8cb0c44382b6dea99da7b6b1: !StaticColliderComponent
+                        Id: 6bccf8e3-b08c-43c4-82b6-dea99da7b6b1
+                        CollisionGroup: SensorTrigger
+                        CanCollideWith: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ea2081287f443a4aa83ebe876cba60d2: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.025
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                    5d7c980f639f67459b68a76d9fcdd82c: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 0f987c5d-9f63-4567-9b68-a76d9fcdd82c
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: feee4b5a-ab51-4244-b9c1-0d91c880aa2e:CoinGold
+                BasePartId: 867ee466-6e19-4df6-b805-6b1a8f5dbee5
+                InstanceId: 051db492-60d9-406e-88e1-3276be293564
+        -   Entity:
+                Id: 3bf9b6f7-e853-4159-ae02-acd9240318a9
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: 8b0fbeb4-4d6d-477a-8b00-0081fd803d53
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: 1089c660-8fee-4a15-8af8-ab3ed94cc69d
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: bdcf925b-50f2-4466-a01e-12e9aeaa5ecd
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: cf29671f-6508-4eea-8eb1-22f39d4bc302
+        -   Folder: LootCrates
+            Entity:
+                Id: 3d637909-8d35-4158-bbc1-1e444633500f
+                Name: LootBox (5)
+                Components:
+                    671d7829b3a9364fbcb75479cdcd79da: !TransformComponent
+                        Id: 29781d67-a9b3-4f36-bcb7-5479cdcd79da
+                        Position: {X: -15.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4bfa77cbdae1aa40aeba86b0b487ad99: ref!! 7ef369be-0a51-48ce-a968-42aba1211722
+        -   Folder: Platform/Grid
+            Entity:
+                Id: 3f6c30db-f1ee-4476-98fe-7f9a36be4874
+                Name: GridBase10x10 (3)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 482bf0ea-a8b6-4ffa-b639-3ad91f0ace06
+                        Position: {X: -10.0, Y: -9.536743E-07, Z: 10.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! 8b0fbeb4-4d6d-477a-8b00-0081fd803d53
+        -   Folder: LootCrates
+            Entity:
+                Id: 42a3f18c-3cf8-4687-a87c-ac15d8c26b05
+                Name: LootBox (6)
+                Components:
+                    671d7829b3a9364fbcb75479cdcd79da: !TransformComponent
+                        Id: 54ec88a5-72ad-42cd-9e37-2a5c0eb1e7db
+                        Position: {X: 15.0, Y: 0.0, Z: 15.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4bfa77cbdae1aa40aeba86b0b487ad99: ref!! 0c3f8592-1302-4efc-8802-3843c0ed0f6c
+        -   Folder: Platform/Grid
+            Entity:
+                Id: 4425dede-ff31-4df8-b9d9-d68526aba429
+                Name: GridBase10x10 (11)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 833d9b52-d5a3-43c6-ad17-8a90f2799b96
+                        Position: {X: 12.0, Y: 1.999999, Z: -24.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! 53b00d21-1e59-4deb-aae1-0ee0f423e21b
+        -   Entity:
+                Id: 4b759cf3-4a2d-4a86-a4a5-5a61b639b437
+                Name: CoinGold
+                Components:
+                    40bc0789c794df458f3da83107baa90c: !TransformComponent
+                        Id: e3b65d8a-ffc0-4bca-9a47-8140e6cc27a2
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
+                        Children:
+                            b9f600a0fde70749a52b71dd66ab24ac: ref!! 062d3471-355d-4af3-bd2a-21383f711794
+                    76eeb34856ae80488daf19410ab51cf5: !ModelComponent
+                        Id: 89e55426-2adc-4ddf-8320-a71430107395
+                        Model: ce2aba29-2743-4599-b8fb-148e8c075984:Models/CoinGold
+                        Materials: {}
+                    2bdedf2b36b5ac47a5ddb46bc1d762f5: !BNDT.Gameplay.CoinScript,BNDT.Game
+                        Id: 6c6f2349-5fe4-403e-8dd7-9bc904453f93
+                        CoinGetEffect: 503c155c-ce78-42bf-a6c6-3c078efaf6d8:VFXPrefabs/vfx-GetCoin
+                        Trigger: ref!! 741ce862-6e10-4e59-b114-9dfb962228e0
+                        SoundEffect: 4669803f-9fe9-479f-bc57-6ef42511fad9:Audio/coin_get
+                    e3f8cc6b8cb0c44382b6dea99da7b6b1: !StaticColliderComponent
+                        Id: e3baec28-f48b-46b8-af08-630a8b48c41c
+                        CollisionGroup: SensorTrigger
+                        CanCollideWith: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ea2081287f443a4aa83ebe876cba60d2: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.025
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                    5d7c980f639f67459b68a76d9fcdd82c: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 741ce862-6e10-4e59-b114-9dfb962228e0
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: feee4b5a-ab51-4244-b9c1-0d91c880aa2e:CoinGold
+                BasePartId: 867ee466-6e19-4df6-b805-6b1a8f5dbee5
+                InstanceId: f9c24c3f-a096-4b49-bf89-a413c2859298
+        -   Entity:
+                Id: 4e2bee59-86f0-46af-ba2a-32b395331444
+                Name: LootBox
+                Components:
+                    4bfa77cbdae1aa40aeba86b0b487ad99: !TransformComponent
+                        Id: 7ef369be-0a51-48ce-a968-42aba1211722
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            81e049a26ff49a468daa04fa529c1955: ref!! 842bc2cc-770e-4e66-9548-39ec1d8e578a
+                    92a01d27b6aa2e49b6f4555de61f78e4: !ModelComponent
+                        Id: ff3556b6-d460-4cfa-b113-ad58e2a0e79a
+                        Model: 958a1abf-57ac-4cd9-8859-0e6043e21ce4:Models/BoxF
+                        Materials: {}
+                    9ff39e9a53a90d49bb7faec06f6d32ca: !StaticColliderComponent
+                        Id: 6b9752eb-eb4c-470d-b057-63f6dcfb6324
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            42588de189ce0146b55493835f755fe8: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4e93d2aaca7cd64e9e2cdb87b6dea8c1: !BNDT.Gameplay.CrateScript,BNDT.Game
+                        Id: df9dafb2-9399-4eac-87d1-b2d3d9d24d66
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        SoundEffect: f9d957dd-0c73-47b9-b5a8-a6a395e9e908:Audio/crate_breaking
+                        Trigger: ref!! 92f913cf-f410-4676-90d9-6394be819923
+                    28cbe91f2b1efd4a865067a932c54649: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 92f913cf-f410-4676-90d9-6394be819923
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 7482eb0c-78ea-4a3c-8d85-8133ed9d63b2
+                InstanceId: 4a6199bc-8c29-498c-8291-652a2b1693a7
+        -   Entity:
+                Id: 4f669508-23d2-4eae-b007-f220b7b60173
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: a7becb3a-0820-43b4-a05b-a113916e8706
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: ec2acd31-9063-4227-bd32-caba99884253
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: bdd95925-2f75-4f7a-9c29-d33bc01440ac
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: 193ba63e-9fa1-43c6-b8a8-2ae62ee1a860
+        -   Folder: Platform/Grid
+            Entity:
+                Id: 4f79d06e-7bb2-4f46-b4b1-0cf4251b674d
+                Name: GridBase10x10 (13)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 81f584b2-bcd1-47b4-a95e-abad30fe5567
+                        Position: {X: -20.0, Y: -9.536743E-07, Z: -10.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! 6e18fb64-201f-4ba7-9068-fa430210ecc5
+        -   Entity:
+                Id: 53a06403-5e7c-4eb8-8f8e-417f80e18324
+                Name: Highlight
+                Components:
+                    39c709a832f3f340b936f0c83b068505: !TransformComponent
+                        Id: a809c739-f332-40f3-b936-f0c83b068505
+                        Position: {X: 0.0, Y: 20.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1368fd29754b5e48a7a6da94c8c5fe8a: !ModelComponent
+                        Id: 29fd6813-4b75-485e-a7a6-da94c8c5fe8a
+                        Model: b763b5e6-4fe1-4f59-9a47-5aec36a77961:Cube
+                        IsShadowCaster: false
+                        Materials:
+                            8f46c33571e26d4bb19356e1ee060013~0: ddc7c6f8-2830-4dc5-b7c5-cd06be57d794:HighlightMaterial
+        -   Entity:
+                Id: 57968218-7184-484f-ad6c-e63606678260
+                Name: CoinGold
+                Components:
+                    40bc0789c794df458f3da83107baa90c: !TransformComponent
+                        Id: 56205388-76ec-46cf-a6e1-7e8fed89be7a
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
+                        Children:
+                            b9f600a0fde70749a52b71dd66ab24ac: ref!! a000f6b9-e7fd-4907-a52b-71dd66ab24ac
+                    76eeb34856ae80488daf19410ab51cf5: !ModelComponent
+                        Id: aeca4c01-9478-4126-81a5-a19974b7e1ce
+                        Model: ce2aba29-2743-4599-b8fb-148e8c075984:Models/CoinGold
+                        Materials: {}
+                    2bdedf2b36b5ac47a5ddb46bc1d762f5: !BNDT.Gameplay.CoinScript,BNDT.Game
+                        Id: ce7ee1ee-ae53-47df-bc20-78e5ccb03588
+                        CoinGetEffect: 503c155c-ce78-42bf-a6c6-3c078efaf6d8:VFXPrefabs/vfx-GetCoin
+                        Trigger: ref!! 52f64156-93f4-40b1-b054-03ee1d560748
+                        SoundEffect: 4669803f-9fe9-479f-bc57-6ef42511fad9:Audio/coin_get
+                    e3f8cc6b8cb0c44382b6dea99da7b6b1: !StaticColliderComponent
+                        Id: b4654ae0-a8c7-4c3e-929c-a2abb8f6d3db
+                        CollisionGroup: SensorTrigger
+                        CanCollideWith: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ea2081287f443a4aa83ebe876cba60d2: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.025
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                    5d7c980f639f67459b68a76d9fcdd82c: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 52f64156-93f4-40b1-b054-03ee1d560748
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: feee4b5a-ab51-4244-b9c1-0d91c880aa2e:CoinGold
+                BasePartId: 867ee466-6e19-4df6-b805-6b1a8f5dbee5
+                InstanceId: fa985361-eba4-44a7-8d89-55131a395bc0
+        -   Folder: LootCrates
+            Entity:
+                Id: 5abb848d-028a-4479-a565-dfd78d3e5829
+                Name: LootBox (4)
+                Components:
+                    671d7829b3a9364fbcb75479cdcd79da: !TransformComponent
+                        Id: a33369bb-cdc2-4169-a4c8-cc9356f0977a
+                        Position: {X: -10.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4bfa77cbdae1aa40aeba86b0b487ad99: ref!! 1094873f-01c1-4ddd-81f6-1ebe0725b303
+        -   Folder: Platform
+            Entity:
+                Id: 5abbc342-dc73-4de2-834c-c66d832be995
+                Name: PlayerCharacter
+                Components:
+                    b296752080481e41b569d385767428ce: !TransformComponent
+                        Id: e6c317bf-cc30-4a59-841f-4dd2bb64761e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1245d3c0d097e44e8295e28dad432562: ref!! 69d35a9e-c5f6-4b02-81d8-1baad5bd2bbd
+                            39d4bdb202782a41869f2a6d53da4edf: ref!! 2d334e9c-3296-4b7c-a52b-b32a6898cbe1
+                    b978a0332590234b9f3a3537f50e75ae: !CharacterComponent
+                        Id: d0be25a3-e7c9-4447-a682-e56126d5deff
+                        CollisionGroup: CharacterFilter
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter1, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 0.0
+                        Gravity: {X: 0.0, Y: -40.0, Z: 0.0}
+                        ColliderShapes:
+                            56a5239435c0e54188f913fd5d2f5dee: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    f722a19496166946a5d26eaf23d2ae03: !BNDT.Player.PlayerController,BNDT.Game
+                        Id: a20a0576-d140-4082-81d5-eb018d036290
+                        MaxRunSpeed: 8.5
+                        DestinationThreshold: 0.2
+                        CornerSlowdown: 0.6
+                        DestinationSlowdown: 0.4
+                        PunchCollision: ref!! 0a55886f-8fc4-47cf-a4aa-8caa39482740
+                        AttackDistance: 1.25
+                        AttackCooldown: 0.65
+                    809bf66aef692646891c293be4ca17b2: !BNDT.Player.PlayerInput,BNDT.Game
+                        Id: e467cbc9-c87c-4844-b42c-75d15bb32602
+                        ControllerIndex: 0
+                        DeadZone: 0.25
+                        Highlight: null
+                        HighlightMaterial: ddc7c6f8-2830-4dc5-b7c5-cd06be57d794:HighlightMaterial
+                        Camera: ref!! 53aaee6a-8f7a-4090-86c2-73f1da3a4446
+                        ClickEffect: d1fe10e2-3afc-49d0-a536-ebb5ce89e28d:VFXPrefabs/vfx-ClickEffect
+                    46ae7b6257b0c84e8a26b517d4b95492: !NavigationComponent
+                        Id: 4dce08fa-effb-4a95-9478-84a5c66d6e04
+                        NavigationMesh: 8a5c1615-aeae-4575-8123-5bbde498fe34:NavigationMesh
+                        GroupId: 9398904c-72b7-ca9b-e966-23346704ae98
+        -   Folder: LootCrates
+            Entity:
+                Id: 5bb61fd1-5a4f-4fe3-9ec0-f6e55722d187
+                Name: LootBox (3)
+                Components:
+                    671d7829b3a9364fbcb75479cdcd79da: !TransformComponent
+                        Id: 540bdae4-42ed-41f2-a707-a4fc80919022
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4bfa77cbdae1aa40aeba86b0b487ad99: ref!! ce1d766f-8d82-4838-a677-c82e7f656768
+        -   Folder: Platform/Grid
+            Entity:
+                Id: 605ce261-0f03-4563-b2d4-4ed4a7d4cd89
+                Name: GridBase10x10 (2)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 5fe59bd9-5d08-421e-afc6-e8c2c618eaaa
+                        Position: {X: 12.0, Y: 1.0, Z: -12.0000019}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! d19dd39f-abec-4edf-8bdf-307431c17b5f
+        -   Entity:
+                Id: 69f83a75-8cad-4f95-bed4-e84cd7680316
+                Name: CollisionWall
+                Components:
+                    81e049a26ff49a468daa04fa529c1955: !TransformComponent
+                        Id: 2e6698fd-fd1c-4a50-b888-91a4c97003c1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5c346a60c652a4b9b497d243845df03: !StaticColliderComponent
+                        Id: a646c3b5-650c-4b2a-9b49-7d243845df03
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            d1515cec847a6046ab7daa4368a533f7: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 9e2837fb-0640-4774-9d3b-bbf81562d9aa
+                InstanceId: 197367e1-a988-4915-abfd-60b119db2faf
+        -   Entity:
+                Id: 6b0ea4cd-65b9-4531-9848-1640ae3bba66
+                Name: CollisionWall
+                Components:
+                    81e049a26ff49a468daa04fa529c1955: !TransformComponent
+                        Id: 842bc2cc-770e-4e66-9548-39ec1d8e578a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5c346a60c652a4b9b497d243845df03: !StaticColliderComponent
+                        Id: 423ce8f8-e766-45b1-9745-8b441288bcd1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            d1515cec847a6046ab7daa4368a533f7: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 9e2837fb-0640-4774-9d3b-bbf81562d9aa
+                InstanceId: 4a6199bc-8c29-498c-8291-652a2b1693a7
+        -   Folder: LootCrates
+            Entity:
+                Id: 6d5985a2-2b3b-49ef-8fdf-e31aaf8d8b9e
+                Name: LootBox (2)
+                Components:
+                    671d7829b3a9364fbcb75479cdcd79da: !TransformComponent
+                        Id: a0c5e8c8-4a1a-4c29-a764-25d333051cf2
+                        Position: {X: 5.96046448E-08, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4bfa77cbdae1aa40aeba86b0b487ad99: ref!! cb77fa4b-e1da-40aa-aeba-86b0b487ad99
+        -   Entity:
+                Id: 6f9e2afe-c2cb-4aa7-b1de-ce8f5d4f4ffd
+                Name: GameLogic
+                Components:
+                    43ce4968fb19bf47ae1229cc663d55f5: !TransformComponent
+                        Id: 6849ce43-19fb-47bf-ae12-29cc663d55f5
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cca6a18fb6d6004f9bdf6039fd2600ef: !BNDT.Gameplay.MusicScript,BNDT.Game
+                        Id: 8fa1a6cc-d6b6-4f00-9bdf-6039fd2600ef
+                        SoundMusic: 3cf6bb79-685c-4bbd-9f66-383446028a8d:Audio/FishLampByUlrick-EvensSalies
+        -   Entity:
+                Id: 75c6062f-6a4d-4c61-8465-84152ffc6cd4
+                Name: LootBox
+                Components:
+                    4bfa77cbdae1aa40aeba86b0b487ad99: !TransformComponent
+                        Id: ce1d766f-8d82-4838-a677-c82e7f656768
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            81e049a26ff49a468daa04fa529c1955: ref!! 66bade68-a848-4a8c-9dbd-0e3d1f656b8d
+                    92a01d27b6aa2e49b6f4555de61f78e4: !ModelComponent
+                        Id: 26055e6c-70de-4439-85a9-46d2194eae46
+                        Model: 958a1abf-57ac-4cd9-8859-0e6043e21ce4:Models/BoxF
+                        Materials: {}
+                    9ff39e9a53a90d49bb7faec06f6d32ca: !StaticColliderComponent
+                        Id: f5977f98-7c98-4eec-9b1c-1060fcc1f277
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            42588de189ce0146b55493835f755fe8: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4e93d2aaca7cd64e9e2cdb87b6dea8c1: !BNDT.Gameplay.CrateScript,BNDT.Game
+                        Id: 5b906379-fe32-458d-9e26-f5a0f0117314
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        SoundEffect: f9d957dd-0c73-47b9-b5a8-a6a395e9e908:Audio/crate_breaking
+                        Trigger: ref!! 7af01ea2-1ac9-4260-82dd-6a414c6617f6
+                    28cbe91f2b1efd4a865067a932c54649: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 7af01ea2-1ac9-4260-82dd-6a414c6617f6
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 7482eb0c-78ea-4a3c-8d85-8133ed9d63b2
+                InstanceId: acd24d73-55dd-434e-af7d-d37d2dce4fc3
+        -   Entity:
+                Id: 899f84c9-073b-4965-9e56-4f731efe3774
+                Name: MagicVillage
+                Components:
+                    edcb05ebcc709643934c8eaaa180de16: !TransformComponent
+                        Id: f1d9cc67-dba4-46a6-ae02-6b43d5068b73
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e66d54fbc304204cdb5d6d1dba58868c: ref!! 0a47d31a-c77f-4f6e-af37-114db24fd101
+        -   Entity:
+                Id: 8f7632d6-7a64-4edd-8647-0d04eb276458
+                Name: CollisionWall
+                Components:
+                    81e049a26ff49a468daa04fa529c1955: !TransformComponent
+                        Id: a249e081-f46f-469a-8daa-04fa529c1955
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5c346a60c652a4b9b497d243845df03: !StaticColliderComponent
+                        Id: f17e04ca-d3b5-4370-8be7-ea9c96bf3dcc
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            d1515cec847a6046ab7daa4368a533f7: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 9e2837fb-0640-4774-9d3b-bbf81562d9aa
+                InstanceId: bb899d64-dc60-41da-8711-009016c72290
+        -   Entity:
+                Id: 946367f6-86dc-44c0-b54f-9361fbfedb0e
+                Name: Navigation bounding box
+                Components:
+                    37c1541aa6884eef96f68b7d1153cbaf: !TransformComponent
+                        Id: 087a582c-3418-4eea-af38-1af31067645a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2efac89a247a4430959bf2a450fec2a2: !Stride.Navigation.NavigationBoundingBoxComponent,Stride.Navigation
+                        Id: c7f6fe4d-5f51-4b05-8b3c-3112fce86574
+                        Size: {X: 25.0, Y: 20.0, Z: 25.0}
+        -   Entity:
+                Id: 97248b8a-5942-4df5-a424-70322f252e07
+                Name: Point light
+                Components:
+                    b9f600a0fde70749a52b71dd66ab24ac: !TransformComponent
+                        Id: eb48e09a-73a6-4bc9-bb14-8018cb57d12c
+                        Position: {X: 0.0, Y: 3.464735E-09, Z: -0.0581285954}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    35701b59a6f3d14a89bd891c23bc95fb: !LightComponent
+                        Id: 89f2650c-6eef-4663-99b5-8943a3dd893d
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 0.960625, B: 0.60625}
+                            Radius: 3.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 10.0
+            Base:
+                BasePartAsset: feee4b5a-ab51-4244-b9c1-0d91c880aa2e:CoinGold
+                BasePartId: debc636f-e0c5-4884-9aa6-be4b8287e96a
+                InstanceId: 734b55cb-19d8-4d94-805d-7ac3b1127056
+        -   Entity:
+                Id: 984b9f90-1521-4631-996f-84fe5525d8f2
+                Name: CollisionWall
+                Components:
+                    81e049a26ff49a468daa04fa529c1955: !TransformComponent
+                        Id: 6f340267-7f88-448d-a58b-d334b9615a8a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5c346a60c652a4b9b497d243845df03: !StaticColliderComponent
+                        Id: cea01be7-7bd1-4d92-88ef-906f8332d80f
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            d1515cec847a6046ab7daa4368a533f7: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 9e2837fb-0640-4774-9d3b-bbf81562d9aa
+                InstanceId: fe2f6840-d9cf-4283-adcb-656f1f6b203f
+        -   Entity:
+                Id: 9af7de17-613a-48b1-a42d-1aabb4dd32c2
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: c2b3ec4e-ff7a-47e3-8bcc-584553d59e41
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: 0d9f1133-51d3-478d-b644-defca44c9134
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: 021c565c-158f-43d3-8369-e8e2c74001ef
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: c9902a34-0c19-46a2-ac72-917a8a2da140
+        -   Entity:
+                Id: 9b6ed6f4-67dd-4461-b7bf-2fc72e81d070
+                Name: Point light
+                Components:
+                    b9f600a0fde70749a52b71dd66ab24ac: !TransformComponent
+                        Id: 062d3471-355d-4af3-bd2a-21383f711794
+                        Position: {X: 0.0, Y: 3.464735E-09, Z: -0.0581285954}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    35701b59a6f3d14a89bd891c23bc95fb: !LightComponent
+                        Id: 90817f25-d4ff-4145-b49f-d7cc7bda9355
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 0.960625, B: 0.60625}
+                            Radius: 3.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 10.0
+            Base:
+                BasePartAsset: feee4b5a-ab51-4244-b9c1-0d91c880aa2e:CoinGold
+                BasePartId: debc636f-e0c5-4884-9aa6-be4b8287e96a
+                InstanceId: f9c24c3f-a096-4b49-bf89-a413c2859298
+        -   Entity:
+                Id: 9ed41fde-ea3d-47fd-a38e-e12909bf42fd
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: 84e0908d-d67e-4da0-a3ce-7446882c19de
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: 6fc2847c-0401-4f11-94c0-2f3bb2f580e8
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: 388c65cd-c467-4ee4-ad36-730e5f6f5541
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: 3ce85919-14d2-4ddf-afbc-e17118d4ab2e
+        -   Entity:
+                Id: a1b33618-e63a-42ca-8e2a-1cd75654108d
+                Name: CoinGold
+                Components:
+                    40bc0789c794df458f3da83107baa90c: !TransformComponent
+                        Id: 8907bc40-94c7-45df-8f3d-a83107baa90c
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
+                        Children:
+                            b9f600a0fde70749a52b71dd66ab24ac: ref!! eb48e09a-73a6-4bc9-bb14-8018cb57d12c
+                    76eeb34856ae80488daf19410ab51cf5: !ModelComponent
+                        Id: 181af633-47b2-45a8-8257-6c087f2e6354
+                        Model: ce2aba29-2743-4599-b8fb-148e8c075984:Models/CoinGold
+                        Materials: {}
+                    2bdedf2b36b5ac47a5ddb46bc1d762f5: !BNDT.Gameplay.CoinScript,BNDT.Game
+                        Id: 0fb39bff-5916-4999-bd3a-1fc29314274b
+                        CoinGetEffect: 503c155c-ce78-42bf-a6c6-3c078efaf6d8:VFXPrefabs/vfx-GetCoin
+                        Trigger: ref!! c57b4c4a-fafc-4d85-b925-d5b4d8ef473e
+                        SoundEffect: 4669803f-9fe9-479f-bc57-6ef42511fad9:Audio/coin_get
+                    e3f8cc6b8cb0c44382b6dea99da7b6b1: !StaticColliderComponent
+                        Id: 07e4873c-7c30-4b4f-8a0c-248cc547ab60
+                        CollisionGroup: SensorTrigger
+                        CanCollideWith: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ea2081287f443a4aa83ebe876cba60d2: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.025
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                    5d7c980f639f67459b68a76d9fcdd82c: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: c57b4c4a-fafc-4d85-b925-d5b4d8ef473e
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: feee4b5a-ab51-4244-b9c1-0d91c880aa2e:CoinGold
+                BasePartId: 867ee466-6e19-4df6-b805-6b1a8f5dbee5
+                InstanceId: 734b55cb-19d8-4d94-805d-7ac3b1127056
+        -   Folder: Platform/Grid
+            Entity:
+                Id: a6e6cffa-eee4-448d-b843-f7b8cb6e7d38
+                Name: GridBase10x10 (6)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 5e0d034a-fe0c-4183-a098-062a8cf5cfbf
+                        Position: {X: 0.0, Y: -9.536743E-07, Z: -10.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! 1de7e4f6-4570-4dfd-88e6-9b338ff61f98
+        -   Folder: Coins
+            Entity:
+                Id: ae721985-2505-45fa-af6d-729b29b69e02
+                Name: CoinGold (3)
+                Components:
+                    74cdc161b0c70d498def8e8c7022f162: !TransformComponent
+                        Id: 61c1cd74-c7b0-490d-8def-8e8c7022f162
+                        Position: {X: 9.0, Y: 0.0, Z: -6.999999}
+                        Rotation: {X: 0.0, Y: 0.258819044, Z: 0.0, W: 0.9659258}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            40bc0789c794df458f3da83107baa90c: ref!! e3b65d8a-ffc0-4bca-9a47-8140e6cc27a2
+        -   Entity:
+                Id: aecf0c8f-3fdd-47a6-ac2b-da09947365a0
+                Name: LootBox
+                Components:
+                    4bfa77cbdae1aa40aeba86b0b487ad99: !TransformComponent
+                        Id: f35df6f4-1708-4254-879a-642628b3f7c9
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            81e049a26ff49a468daa04fa529c1955: ref!! 125e96d1-32a7-41df-9755-eb8c4e1b2757
+                    92a01d27b6aa2e49b6f4555de61f78e4: !ModelComponent
+                        Id: a95ba82e-cff3-41a5-97d1-41cfb22809d0
+                        Model: 958a1abf-57ac-4cd9-8859-0e6043e21ce4:Models/BoxF
+                        Materials: {}
+                    9ff39e9a53a90d49bb7faec06f6d32ca: !StaticColliderComponent
+                        Id: 09529ff2-a741-4e98-aeb5-bb3fdd9a2844
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            42588de189ce0146b55493835f755fe8: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4e93d2aaca7cd64e9e2cdb87b6dea8c1: !BNDT.Gameplay.CrateScript,BNDT.Game
+                        Id: f415527e-ddb5-432c-a029-8d62603f0c54
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        SoundEffect: f9d957dd-0c73-47b9-b5a8-a6a395e9e908:Audio/crate_breaking
+                        Trigger: ref!! 285a2bdc-4fba-4f65-adfa-2dc2b0cf7492
+                    28cbe91f2b1efd4a865067a932c54649: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 285a2bdc-4fba-4f65-adfa-2dc2b0cf7492
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 7482eb0c-78ea-4a3c-8d85-8133ed9d63b2
+                InstanceId: cf5c9d82-5ed5-451a-97f5-10ebccc01e31
+        -   Entity:
+                Id: aedfa63c-f673-4999-be73-534dd2093b2c
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: 32176683-d064-4104-8836-74950dfcae2d
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: 29edacc4-2aca-4327-b920-9f8ed55bcab9
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: 0a2ff6a2-a9f8-4cee-b0db-de423ffc378d
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: 79caadce-a4a1-4224-be78-1cb8beac31ab
+        -   Entity:
+                Id: afa86d9f-a4e2-4626-8f23-9d1720bbc451
+                Name: magic-village-low-poly-location
+                Components:
+                    d4df66aae5b8d9a3c90fc03a6587071e: !TransformComponent
+                        Id: 0a47d31a-c77f-4f6e-af37-114db24fd101
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cc3c5e19165796eec30f51848ee458c0: !ModelComponent
+                        Id: 5bea2141-1a30-4581-bf21-f9465b80610b
+                        Model: eb6bd94c-0816-47c2-9f33-073b34fcac92:Maps/magic-village/magic-village-low-poly-location
+                        Materials: {}
+            Base:
+                BasePartAsset: 0e07b5b2-80d1-43ac-8cec-81b989f260d7:Maps/MagicVillage
+                BasePartId: 070112f5-8ff4-4156-bd5b-d4e23cd22f1c
+                InstanceId: 4504393e-e634-4237-b62a-2585e9308570
+        -   Entity:
+                Id: b0753cff-b7c3-47ab-bf5f-79525e4cb155
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: 53b00d21-1e59-4deb-aae1-0ee0f423e21b
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: c3b05504-c8de-4861-9090-09e325f02b78
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: f95867b7-21e1-4588-87c0-be9595cff4d9
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: d5d6c3a5-adc2-46d8-8339-70ad8de33f3b
+        -   Entity:
+                Id: b783622b-3155-4bb5-9f3c-f32e2341bb12
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: 01044c1f-ad91-4523-8a05-91888ee2b5ab
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: 94054c9a-ed72-48a5-a1a7-dacd088f92ae
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: fa3447fa-a441-4258-8f86-6096b879827d
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: d249ea53-3135-4381-a8c6-8f7c8f2c720a
+        -   Entity:
+                Id: bbe834d4-c3c7-4e60-8ee2-4632e4b18205
+                Name: CollisionWall
+                Components:
+                    81e049a26ff49a468daa04fa529c1955: !TransformComponent
+                        Id: 66bade68-a848-4a8c-9dbd-0e3d1f656b8d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5c346a60c652a4b9b497d243845df03: !StaticColliderComponent
+                        Id: 1dd1f2c7-c72a-46d1-9ceb-35932f50136e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            d1515cec847a6046ab7daa4368a533f7: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 9e2837fb-0640-4774-9d3b-bbf81562d9aa
+                InstanceId: acd24d73-55dd-434e-af7d-d37d2dce4fc3
+        -   Entity:
+                Id: bc891f95-62b6-4b89-97c2-3e7d2079923c
+                Name: CameraTarget
+                Components:
+                    39d4bdb202782a41869f2a6d53da4edf: !TransformComponent
+                        Id: 2d334e9c-3296-4b7c-a52b-b32a6898cbe1
+                        Position: {X: 0.0, Y: 1.65, Z: 0.0}
+                        Rotation: {X: -0.3535534, Y: -0.3535534, Z: -0.14644663, W: 0.853553355}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a116d811cab5bf4da5211050e1d34e10: ref!! 1d29ffa6-1c21-4333-9032-d0e8a7a0dd65
+            Base:
+                BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
+                BasePartId: 4ac6a8ee-552d-4b53-8147-44467b0a0fc1
+                InstanceId: ebee13a3-5f06-4a1b-80bb-6fc9e40dc9b4
+        -   Folder: Platform/Grid
+            Entity:
+                Id: bd5f7af2-f7dc-446f-94c6-6aadba0aacb4
+                Name: GridBase10x10 (10)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 5405328d-3a97-4028-89f2-8b140d816d9a
+                        Position: {X: 0.0, Y: 0.999999046, Z: -22.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! a7becb3a-0820-43b4-a05b-a113916e8706
+        -   Entity:
+                Id: cc4df6b3-8713-4960-bb1e-4241e38c7301
+                Name: GridBase10x10
+                Components:
+                    4eecb3c27affe3478bcc584553d59e41: !TransformComponent
+                        Id: d19dd39f-abec-4edf-8bdf-307431c17b5f
+                        Position: {X: 5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7c901dfed21c864283aa0639481520b1: !ModelComponent
+                        Id: 999e2b85-e9df-434e-b6a8-fd083ee191b6
+                        Model: 85c13447-af7c-480c-8e53-e0158629bdde:Models/GridBase10x10
+                        IsShadowCaster: false
+                        Materials: {}
+                    e892de73aae78041aa74ca19b0b9f867: !StaticColliderComponent
+                        Id: 42d80d80-76dc-4392-98f1-7b8c29222609
+                        CollisionGroup*: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6f9d4e7e5147bf47ad510aa5f27d122b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 0.3, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
+                BasePartId: b045349c-565e-4488-9130-a795b0e3b229
+                InstanceId: 60005894-abef-486e-ba9b-a6807a1f2b31
+        -   Folder: GlobalLights
+            Entity:
+                Id: e1d761e6-634d-4773-8d81-75dfc8e8b1c4
+                Name: Skybox
+                Components:
+                    6e987687711b70418c85dff5a9bbc2ec: !TransformComponent
+                        Id: 8776986e-1b71-4170-8c85-dff5a9bbc2ec
+                        Position: {X: 0.0, Y: 15.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    197b9ba9a8d24847a1b8d7261d35f329: !LightComponent
+                        Id: a99b7b19-d2a8-4748-a1b8-d7261d35f329
+                        Type: !LightSkybox
+                            Skybox: e1205ce6-8911-4f30-9cde-3f044c100d32:Skybox
+                        Intensity: 1.5
+                    aa0620582b7241f8b026bafcf0a07f05: !BackgroundComponent
+                        Id: 2a03610c-5655-4a9f-b84b-f669c4f63b0a
+                        Texture: 43d42a1a-cfaf-4de8-bf09-fcd999669511:Skybox Texture
+                        Intensity: 3.0
+        -   Entity:
+                Id: e4b4af34-78c7-447f-9938-c02ddb15534c
+                Name: LootBox
+                Components:
+                    4bfa77cbdae1aa40aeba86b0b487ad99: !TransformComponent
+                        Id: 1094873f-01c1-4ddd-81f6-1ebe0725b303
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            81e049a26ff49a468daa04fa529c1955: ref!! 6f340267-7f88-448d-a58b-d334b9615a8a
+                    92a01d27b6aa2e49b6f4555de61f78e4: !ModelComponent
+                        Id: 5f3538bf-9f47-4192-9706-42e3633043a8
+                        Model: 958a1abf-57ac-4cd9-8859-0e6043e21ce4:Models/BoxF
+                        Materials: {}
+                    9ff39e9a53a90d49bb7faec06f6d32ca: !StaticColliderComponent
+                        Id: a56c4fcd-3421-46cd-9ef1-3ccf85b8cb57
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            42588de189ce0146b55493835f755fe8: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4e93d2aaca7cd64e9e2cdb87b6dea8c1: !BNDT.Gameplay.CrateScript,BNDT.Game
+                        Id: a55a6025-047d-442e-aeaa-38d99bb685f5
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        SoundEffect: f9d957dd-0c73-47b9-b5a8-a6a395e9e908:Audio/crate_breaking
+                        Trigger: ref!! d2f1029e-e72a-4674-8ec5-03bf714d7a88
+                    28cbe91f2b1efd4a865067a932c54649: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: d2f1029e-e72a-4674-8ec5-03bf714d7a88
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 7482eb0c-78ea-4a3c-8d85-8133ed9d63b2
+                InstanceId: fe2f6840-d9cf-4283-adcb-656f1f6b203f
+        -   Entity:
+                Id: e5a3aea6-f89f-4b88-9934-2164235637b9
+                Name: MannequinModel
+                Components:
+                    1245d3c0d097e44e8295e28dad432562: !TransformComponent
+                        Id: 69d35a9e-c5f6-4b02-81d8-1baad5bd2bbd
+                        Position: {X: 0.0, Y: 4.76837158E-07, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children:
+                            651acbbf06fe12468058e1f473b74a32: ref!! bc8e5b92-4976-46d3-81b3-810de16cf99d
+                    0fa4902c57c2de428808e383912863ea: !ModelComponent
+                        Id: a6ca08fe-9a89-4f6a-bacf-ee585d398732
+                        Model: bbca0bd0-47c8-49c3-a694-46b486680ba2:Characters/p1/_rig
+                        Materials:
+                            71378812e41bc7a9f735d77cb3daa91a~0: a0b33b21-7464-47c9-8116-28d4c3d12383:Characters/p1/p1
+                    978eabfaac453f4d9375495d32bc299f: !BNDT.Player.AnimationController,BNDT.Game
+                        Id: b4ad9662-5b07-4374-bb97-c603669ed75e
+                        AnimationComponent: ref!! b3f0a6fd-4eb9-4123-9ff0-7a8eaa1c0469
+                        AnimationIdle: c33bcdaf-b77d-46c8-aecc-9765951cf891:Characters/p1/Idle
+                        AnimationWalk: e1ef014b-4c38-4980-9c50-39383195cb66:Characters/p1/Walking
+                        AnimationRun: 8ec5b839-2bb6-47b5-932f-0f7a3f783beb:Characters/p1/Slow Run
+                        AnimationPunch: 1966203b-c9a5-45a5-8a6d-09387daa8ae0:Characters/p1/Attack
+                        WalkThreshold: 0.25
+                        TimeFactor: 1.0
+                    5847b2c0adfcf347a100f94d96c5d325: !AnimationComponent
+                        Id: b3f0a6fd-4eb9-4123-9ff0-7a8eaa1c0469
+                        Animations: {}
+            Base:
+                BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
+                BasePartId: ff4b6a2d-2c03-464f-973b-f24a00d5d9ea
+                InstanceId: ebee13a3-5f06-4a1b-80bb-6fc9e40dc9b4
+        -   Folder: Coins
+            Entity:
+                Id: e643de26-f888-4aa5-b5d3-e6dcce6642d9
+                Name: CoinGold (2)
+                Components:
+                    875073e7bb4e1d43a8a68783e5e1d2d2: !TransformComponent
+                        Id: e7735087-4ebb-431d-a8a6-8783e5e1d2d2
+                        Position: {X: 8.999999, Y: 0.0, Z: -9.0}
+                        Rotation: {X: 0.0, Y: 0.382683456, Z: 0.0, W: 0.9238795}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            40bc0789c794df458f3da83107baa90c: ref!! 1a88761a-1d68-416a-a054-c5b6e00a0787
+        -   Folder: LootCrates
+            Entity:
+                Id: efa6ce6a-8c20-41e4-b42b-ae3359fefb9e
+                Name: LootBox
+                Components:
+                    671d7829b3a9364fbcb75479cdcd79da: !TransformComponent
+                        Id: 6118429c-38c8-49c4-a330-4e99c5e4a0be
+                        Position: {X: -5.0, Y: 0.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4bfa77cbdae1aa40aeba86b0b487ad99: ref!! f35df6f4-1708-4254-879a-642628b3f7c9
+        -   Entity:
+                Id: f07848df-64d9-4eb6-a110-855cadcfd85f
+                Name: CollisionWall
+                Components:
+                    81e049a26ff49a468daa04fa529c1955: !TransformComponent
+                        Id: 125e96d1-32a7-41df-9755-eb8c4e1b2757
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b5c346a60c652a4b9b497d243845df03: !StaticColliderComponent
+                        Id: 68c5a36c-08b7-4dd0-ab02-cfb0a0097b2b
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            d1515cec847a6046ab7daa4368a533f7: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
+                BasePartId: 9e2837fb-0640-4774-9d3b-bbf81562d9aa
+                InstanceId: cf5c9d82-5ed5-451a-97f5-10ebccc01e31
+        -   Folder: Platform/Grid
+            Entity:
+                Id: f0c6fb81-17db-48c7-b05a-ecec414ba17e
+                Name: GridBase10x10 (15)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 7d2a3692-42c8-49a8-b538-e42ec9bdf12c
+                        Position: {X: 9.999999, Y: -9.536743E-07, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! 32176683-d064-4104-8836-74950dfcae2d
+        -   Folder: Platform/Grid
+            Entity:
+                Id: f5b98748-d372-4371-bfb9-3976bc5ec0bb
+                Name: GridBase10x10 (12)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 8b656350-d5ca-4cac-8710-d555e717f49a
+                        Position: {X: -20.0, Y: -9.536743E-07, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! f11fdb83-919c-4039-b0af-92cc94c000cc
+        -   Folder: Platform/Grid
+            Entity:
+                Id: f74b7b21-8928-4702-be11-947da30fd86d
+                Name: GridBase10x10 (5)
+                Components:
+                    f6be9f8116c6224abf180956456202eb: !TransformComponent
+                        Id: 50b6e12b-8b94-4926-868d-3a4a76b47968
+                        Position: {X: -10.0, Y: -9.536743E-07, Z: -10.000001}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4eecb3c27affe3478bcc584553d59e41: ref!! 01044c1f-ad91-4523-8a05-91888ee2b5ab

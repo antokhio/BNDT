@@ -1,0 +1,8 @@
+!Texture
+Id: d2058615-ca1d-4f9c-9ff3-817c962b506a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/magic-village-low-poly-location/spider_web_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

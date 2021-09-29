@@ -1,0 +1,19 @@
+!Animation
+Id: 7e096008-203d-4ffe-a074-4ca563b430e0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/vendor-waving.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: c3d17a55-b59f-4266-a846-0179db8fc7b3:Characters/vendor/vendor-waving Skeleton
+RootMotion: false
+PreviewModel: 02e6d66b-1274-4a3d-a42c-0b403c349a43:Characters/vendor/vendor
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:04.7330000
+~SourceHashes:
+    b7a16feb0595b5c0867d3b23ca1198f9~../../../Resources/vendor-waving.fbx: 24f4f9616ed66d48d089fe16b79b0421
