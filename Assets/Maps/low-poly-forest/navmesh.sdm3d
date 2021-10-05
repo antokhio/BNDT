@@ -1,0 +1,15 @@
+!Model
+Id: 34baad68-b1e1-45e9-86b1-e4369021eb94
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/low-poly-forest/navmesh.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    e1cff050a7446be45fdfd8b3547bc882:
+        Name: grnd
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    5eb8d353bbd89627687beb6a6c76a38d~../../../Resources/low-poly-forest/navmesh.FBX: 7dfc71cf451397735f46ae42d1f94a15

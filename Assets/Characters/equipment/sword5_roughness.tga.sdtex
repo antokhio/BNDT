@@ -1,0 +1,6 @@
+!Texture
+Id: 46d37279-cf73-4567-ae25-117ad90b48a9
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/equipment/sword5_roughness.tga.png
+Type: !GrayscaleTextureType {}

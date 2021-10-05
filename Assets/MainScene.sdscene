@@ -33,7 +33,6 @@ Hierarchy:
         - ref!! 065a4aa8-69ec-47d8-b561-6a5847944f26
         - ref!! 0ddffa94-dc32-47b1-9642-fc445f7db9c3
         - ref!! 946367f6-86dc-44c0-b54f-9361fbfedb0e
-        - ref!! 899f84c9-073b-4965-9e56-4f731efe3774
     Parts:
         -   Folder: Coins
             Entity:
@@ -961,17 +960,6 @@ Hierarchy:
                 BasePartId: 7482eb0c-78ea-4a3c-8d85-8133ed9d63b2
                 InstanceId: acd24d73-55dd-434e-af7d-d37d2dce4fc3
         -   Entity:
-                Id: 899f84c9-073b-4965-9e56-4f731efe3774
-                Name: MagicVillage
-                Components:
-                    edcb05ebcc709643934c8eaaa180de16: !TransformComponent
-                        Id: f1d9cc67-dba4-46a6-ae02-6b43d5068b73
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            e66d54fbc304204cdb5d6d1dba58868c: ref!! 0a47d31a-c77f-4f6e-af37-114db24fd101
-        -   Entity:
                 Id: 8f7632d6-7a64-4edd-8647-0d04eb276458
                 Name: CollisionWall
                 Components:
@@ -1313,24 +1301,6 @@ Hierarchy:
                 BasePartAsset: 76f182cd-b252-479e-b8b6-6662e0f6aaa6:BlocksPrefabs/GridBase10x10
                 BasePartId: b045349c-565e-4488-9130-a795b0e3b229
                 InstanceId: 79caadce-a4a1-4224-be78-1cb8beac31ab
-        -   Entity:
-                Id: afa86d9f-a4e2-4626-8f23-9d1720bbc451
-                Name: magic-village-low-poly-location
-                Components:
-                    d4df66aae5b8d9a3c90fc03a6587071e: !TransformComponent
-                        Id: 0a47d31a-c77f-4f6e-af37-114db24fd101
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    cc3c5e19165796eec30f51848ee458c0: !ModelComponent
-                        Id: 5bea2141-1a30-4581-bf21-f9465b80610b
-                        Model: eb6bd94c-0816-47c2-9f33-073b34fcac92:Maps/magic-village/magic-village-low-poly-location
-                        Materials: {}
-            Base:
-                BasePartAsset: 0e07b5b2-80d1-43ac-8cec-81b989f260d7:Maps/MagicVillage
-                BasePartId: 070112f5-8ff4-4156-bd5b-d4e23cd22f1c
-                InstanceId: 4504393e-e634-4237-b62a-2585e9308570
         -   Entity:
                 Id: b0753cff-b7c3-47ab-bf5f-79525e4cb155
                 Name: GridBase10x10

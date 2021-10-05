@@ -1,0 +1,856 @@
+!SceneAsset
+Id: c443fb7f-5e60-46a8-86e2-b4dbfb53dcc5
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 261033fe-74bb-47bc-b110-5cb3831d9adf
+        - ref!! 6d19ee94-cf69-4941-9ecc-31c91e3997b9
+        - ref!! c5a3ceec-a1f4-42b2-b8f5-aec347f55799
+        - ref!! cc6ac5c0-214c-42b7-917d-43b9066a3273
+        - ref!! e7529c38-54f0-4729-a674-65ba13a882f0
+        - ref!! 4343cd3b-e776-4de9-b5a5-d01ff91f8c31
+        - ref!! 6ac61c9d-3f22-46a0-95e2-74134d7c761a
+        - ref!! 46d295f5-cd3b-4d52-8011-970cb70dbfc0
+        - ref!! 451ef66b-77e9-4367-be9e-acd25d4bae2d
+        - ref!! 65ab0934-6619-41d2-b017-b60411fb9f85
+        - ref!! c664efac-ae72-4307-83a3-f1ab398117c8
+        - ref!! ff9faa06-5038-4d01-8c2c-0ad306d04f51
+        - ref!! 46684098-0d8a-40be-bec4-b3f7240417a0
+        - ref!! e7d6efab-c2df-4d09-b477-c80fc4ad071a
+        - ref!! 7d7cb9a7-09c8-4de2-b533-07b50a5607b7
+    Parts:
+        -   Folder: null
+            Entity:
+                Id: 03b85044-08c2-4f68-a12e-c563871f471e
+                Name: Poring
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: 7d3ea099-ff2c-4e83-9af1-fc400c0c1d99
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f0099cb60d70a1d3d911750e987431b6: ref!! 63e61358-bb90-4d77-bff5-088e056a6a57
+                            48972639f936a163c30baed6aa3818c4: ref!! 3b0a230f-23f2-4a86-a4b1-502cfa14110e
+                    66409bd59700aaa9eefd89045bee6719: !BNDT.Gameplay.PoringScript,BNDT.Game
+                        Id: ad53f559-383e-46f2-b397-749b3dfa5013
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        Trigger: ref!! 6fc0011e-8dd3-4029-ba3b-593556795f0c
+                    774134e92b72633b52aa7503778f2692: !StaticColliderComponent
+                        Id: 6838d5ef-58e5-484f-991d-8fa496a854b1
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ae8256108fb5bdb3095b979e98a8f25f: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.8
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+                    39d58f99b3b5bba79f6125fc526d5f79: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 6fc0011e-8dd3-4029-ba3b-593556795f0c
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: e029775e-4388-4f86-8add-b49afce189ed
+                InstanceId: 7626e520-d2b5-4a23-a2a4-ee5c13c3a15e
+        -   Folder: null
+            Entity:
+                Id: 07af2fa1-d116-4946-9fe4-22905efebeeb
+                Name: CollisionWall
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: 3b0a230f-23f2-4a86-a4b1-502cfa14110e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c04f3f7555ec06045fe74e2183e4bad5: !StaticColliderComponent
+                        Id: 9b44cb2a-56fd-4460-a255-c1cce609441d
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            67adbdab058c6af2856445a4f608952d: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: f74f3b64-d57e-4f55-8609-b843d166fb4d
+                InstanceId: 7626e520-d2b5-4a23-a2a4-ee5c13c3a15e
+        -   Folder: null
+            Entity:
+                Id: 125b84cd-7f93-4c09-9b58-2c238f727460
+                Name: MannequinModel
+                Components:
+                    1245d3c0d097e44e8295e28dad432562: !TransformComponent
+                        Id: 7f6c4b23-d6a7-4e12-b808-439e1672129c
+                        Position: {X: 0.0, Y: 4.76837158E-07, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children:
+                            651acbbf06fe12468058e1f473b74a32: ref!! 24a750ee-c4cf-41e7-970c-84eba13e4ba3
+                            ddd7100a91fe9fda225adf63c3611424: ref!! 14e4a973-7eec-41c5-a3f9-cf5fde2230c9
+                    0fa4902c57c2de428808e383912863ea: !ModelComponent
+                        Id: e60528a0-89cf-4a7e-ba0f-e2e7031b7ed6
+                        Model: bbca0bd0-47c8-49c3-a694-46b486680ba2:Characters/p1/_rig
+                        Materials:
+                            71378812e41bc7a9f735d77cb3daa91a~0: a0b33b21-7464-47c9-8116-28d4c3d12383:Characters/p1/p1
+                    978eabfaac453f4d9375495d32bc299f: !BNDT.Player.AnimationController,BNDT.Game
+                        Id: 4e67e528-9eac-43ad-b2b1-c5b69788f149
+                        AnimationComponent: ref!! bc862dbb-2f33-4f80-94cd-2709fc09130e
+                        AnimationIdle: c33bcdaf-b77d-46c8-aecc-9765951cf891:Characters/p1/Idle
+                        AnimationWalk: e1ef014b-4c38-4980-9c50-39383195cb66:Characters/p1/Walking
+                        AnimationRun: 8ec5b839-2bb6-47b5-932f-0f7a3f783beb:Characters/p1/Slow Run
+                        AnimationPunch*: 2c84d84f-07a4-4a2b-a330-48eba2b76b7b:Characters/p1/Hatching
+                        WalkThreshold: 0.25
+                        TimeFactor: 1.0
+                    5847b2c0adfcf347a100f94d96c5d325: !AnimationComponent
+                        Id: bc862dbb-2f33-4f80-94cd-2709fc09130e
+                        Animations: {}
+            Base:
+                BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
+                BasePartId: ff4b6a2d-2c03-464f-973b-f24a00d5d9ea
+                InstanceId: 82774d2e-3ddb-49f1-abd7-4abeba26b0e3
+        -   Folder: Lights
+            Entity:
+                Id: 261033fe-74bb-47bc-b110-5cb3831d9adf
+                Name: Skybox light
+                Components:
+                    ae00ada9c83693ec93bcf9f436c7966f: !TransformComponent
+                        Id: 8faef8cd-291c-4098-857d-cfbf6efffabc
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ebe3a26d01033edf71f2602b1878b445: !LightComponent
+                        Id: 46677061-852c-4cd2-8032-4ee55c0e8bcf
+                        Type: !LightSkybox
+                            Skybox: e1205ce6-8911-4f30-9cde-3f044c100d32:Skybox
+                    e15c2b89428bc58672b2d39036647aa2: !BackgroundComponent
+                        Id: 1de970f6-2b55-423c-a8d9-9759538b4e4e
+                        Texture: 43d42a1a-cfaf-4de8-bf09-fcd999669511:Skybox Texture
+        -   Folder: null
+            Entity:
+                Id: 32cef158-7dd4-42f3-bd17-414d1decedaa
+                Name: poring
+                Components:
+                    9ac900f415a25cb4297375afc0e53472: !TransformComponent
+                        Id: 9c1bf132-7044-4210-9349-1a396c2a091a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    8cec66c7833c8290568683e740443750: !ModelComponent
+                        Id: fab38d67-2904-4264-9781-354b05817760
+                        Model: 6ac9599f-e8ab-45bf-b75c-9fdad0da4d93:Characters/poring/poring
+                        Materials: {}
+                    61517b6a3c240fcd4cc78f1de504cd26: !AnimationComponent
+                        Id: 915d530c-19f9-484e-b71f-38846adfaea4
+                        Animations:
+                            e9b3ef2cafe778fb40baab11bb70701c~Idle: 55fb3f79-405d-4e77-b0d7-c9701bea4ca2:Characters/poring/idle
+                    cf98cc7ea36fb7b6d4e715de1fd1e17e: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: 82975e88-9949-4aef-8460-10964905f0de
+                        key: Idle
+                        delayStart*: 0.5
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: 8c5d355b-65be-4270-afb2-d6938e3a5aed
+                InstanceId: 9b5b2adf-98b0-4ad5-8a59-e72fb3610a57
+        -   Folder: Scene
+            Entity:
+                Id: 4343cd3b-e776-4de9-b5a5-d01ff91f8c31
+                Name: navmesh
+                Components:
+                    ede5d8297a0ca7563f6a0a8b771718b7: !TransformComponent
+                        Id: 8f8c3793-7395-4813-9959-6d3b5116ca9d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    88ecf59d0b496b6a6026d25243b2e9b5: !ModelComponent
+                        Id: 339ef6bd-7168-49d5-bbf8-df93af246236
+                        Enabled: false
+                        Model: 34baad68-b1e1-45e9-86b1-e4369021eb94:Maps/low-poly-forest/navmesh
+                        Materials: {}
+                    6e5866f50ee165f601b41cc9ba4067fb: !StaticColliderComponent
+                        Id: 475b17ed-0571-4d93-af67-35c8b9747a48
+                        CollisionGroup: CustomFilter1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ef39bfe2343604c9431364a5577b9e69: !ColliderShapeAssetDesc
+                                Shape: 5eacf923-f066-4753-9ecd-51bca0b4d206:Maps/low-poly-forest/ColliderHull
+        -   Folder: null
+            Entity:
+                Id: 44a3fb08-66d2-4c56-9a2d-11805f49675d
+                Name: PunchCollision
+                Components:
+                    651acbbf06fe12468058e1f473b74a32: !TransformComponent
+                        Id: 24a750ee-c4cf-41e7-970c-84eba13e4ba3
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0e97484315c962489b6376c3130914c7: !ModelNodeLinkComponent
+                        Id: 4276ad0a-c5eb-4a65-ae6c-b420b25eb054
+                        Target: null
+                        NodeName: QuickRigCharacter_RightHand
+                    13f15cf5c64fb5429ce1a586368259bd: !RigidbodyComponent
+                        Id: a75f9b7f-96cc-45d9-9408-0e331490113d
+                        CollisionGroup: CharacterFilter
+                        CanCollideWith: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            08c9e89242b2974891270864e1ec3692: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.1
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+            Base:
+                BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
+                BasePartId: 0f796e4c-4943-4b4f-9cc0-2d4c6b09b4ca
+                InstanceId: 82774d2e-3ddb-49f1-abd7-4abeba26b0e3
+        -   Entity:
+                Id: 451ef66b-77e9-4367-be9e-acd25d4bae2d
+                Name: Navigation bounding box
+                Components:
+                    753e5d6d2905002a7f75d3153dfeaac2: !TransformComponent
+                        Id: 786e0493-0878-4755-83d7-b5af8019f828
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0e5f5f176bea8a9c87e4b4d1c76a52dd: !Stride.Navigation.NavigationBoundingBoxComponent,Stride.Navigation
+                        Id: cf52df5c-a766-42a3-a349-e713b76d1a4d
+                        Size: {X: 10.0, Y: 10.0, Z: 10.0}
+        -   Entity:
+                Id: 46684098-0d8a-40be-bec4-b3f7240417a0
+                Name: Poring
+                Components:
+                    5d3dd9cd30f0ea2c9635735013677ce9: !TransformComponent
+                        Id: 3d216677-539d-4023-9b80-b469aea2138e
+                        Position: {X: -4.45385265, Y: -0.492674649, Z: 0.179613948}
+                        Rotation: {X: 0.0, Y: 0.9087881, Z: 0.0, W: 0.4172579}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f9f48972bd37fac240fab6f3673fb342: ref!! 93dd8f5b-90a6-4558-9582-8073c99fda7b
+        -   Folder: Scene
+            Entity:
+                Id: 46d295f5-cd3b-4d52-8011-970cb70dbfc0
+                Name: folliage
+                Components:
+                    128abad4638f6f56776fc905ceb8ff40: !TransformComponent
+                        Id: 7a580774-b651-4711-88ba-1102877b14cc
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ca6e5777e9a58e9ce7b49ecafd18813c: !ModelComponent
+                        Id: 0030bcd7-3e1e-4738-8551-5102cdf4473d
+                        Model: c5082ddc-61ba-4866-9b76-9e58d2e49e7b:Maps/low-poly-forest/folliage
+                        Materials: {}
+        -   Entity:
+                Id: 4e31c1fb-406a-447f-9bbe-4dec71dc2023
+                Name: poring
+                Components:
+                    9ac900f415a25cb4297375afc0e53472: !TransformComponent
+                        Id: 2b868c7c-3633-4521-b38c-e9ed2b521f54
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    8cec66c7833c8290568683e740443750: !ModelComponent
+                        Id: 2fa1e9c8-1967-45c1-827c-e7ff13d058cc
+                        Model: 6ac9599f-e8ab-45bf-b75c-9fdad0da4d93:Characters/poring/poring
+                        Materials: {}
+                    61517b6a3c240fcd4cc78f1de504cd26: !AnimationComponent
+                        Id: 70de965a-2e1d-40cb-8cc0-12a2eccf11d6
+                        Animations:
+                            e9b3ef2cafe778fb40baab11bb70701c~Idle: 55fb3f79-405d-4e77-b0d7-c9701bea4ca2:Characters/poring/idle
+                    cf98cc7ea36fb7b6d4e715de1fd1e17e: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: 4e3091ab-fada-4bf3-9ab8-267a9e2b0ac5
+                        key: Idle
+                        delayStart: 0.0
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: 8c5d355b-65be-4270-afb2-d6938e3a5aed
+                InstanceId: 964b7766-7fac-4588-a848-cf9567c82061
+        -   Entity:
+                Id: 63337ac4-4ac4-43fc-b040-9e7a8b0c6ecc
+                Name: CollisionWall
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: 33b23e9c-606b-4d68-b56b-370763e0cfcf
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c04f3f7555ec06045fe74e2183e4bad5: !StaticColliderComponent
+                        Id: c6f96760-3c4c-4762-b8ff-51c2460a265e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            67adbdab058c6af2856445a4f608952d: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: f74f3b64-d57e-4f55-8609-b843d166fb4d
+                InstanceId: 964b7766-7fac-4588-a848-cf9567c82061
+        -   Entity:
+                Id: 65ab0934-6619-41d2-b017-b60411fb9f85
+                Name: PlayerCharacter
+                Components:
+                    b296752080481e41b569d385767428ce: !TransformComponent
+                        Id: 6ce0c24e-ba91-4739-8524-bd2cdccde3f3
+                        Position: {X: 8.344497, Y: -0.985268652, Z: -0.141713738}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1245d3c0d097e44e8295e28dad432562: ref!! 7f6c4b23-d6a7-4e12-b808-439e1672129c
+                            39d4bdb202782a41869f2a6d53da4edf: ref!! dfee4d87-3755-4bf7-a68d-b840595846be
+                    b978a0332590234b9f3a3537f50e75ae: !CharacterComponent
+                        Id: ea55dfa2-7b28-4bbe-b5bb-010456e8a1e9
+                        CollisionGroup: CharacterFilter
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter1, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 0.0
+                        Gravity: {X: 0.0, Y: -40.0, Z: 0.0}
+                        ColliderShapes:
+                            56a5239435c0e54188f913fd5d2f5dee: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    f722a19496166946a5d26eaf23d2ae03: !BNDT.Player.PlayerController,BNDT.Game
+                        Id: 426aaff1-f610-4a83-929e-2f33eb4771cf
+                        MaxRunSpeed: 8.5
+                        DestinationThreshold: 0.2
+                        CornerSlowdown: 0.6
+                        DestinationSlowdown: 0.4
+                        PunchCollision: ref!! a75f9b7f-96cc-45d9-9408-0e331490113d
+                        AttackDistance: 1.25
+                        AttackCooldown: 0.65
+                    809bf66aef692646891c293be4ca17b2: !BNDT.Player.PlayerInput,BNDT.Game
+                        Id: c759dbdb-4b0f-4d23-9666-29f4d377e28b
+                        ControllerIndex: 0
+                        DeadZone: 0.25
+                        Highlight: null
+                        HighlightMaterial: ddc7c6f8-2830-4dc5-b7c5-cd06be57d794:HighlightMaterial
+                        Camera: ref!! ade9e5b4-4576-4045-8d8f-ff6c3317e87d
+                        ClickEffect: d1fe10e2-3afc-49d0-a536-ebb5ce89e28d:VFXPrefabs/vfx-ClickEffect
+                    46ae7b6257b0c84e8a26b517d4b95492: !NavigationComponent
+                        Id: ee73e579-345e-4dd8-ab1a-6f0d567d25ae
+                        NavigationMesh: 20f7e496-3bb9-4059-a38e-ffa08aa807b1:NavigationMeshLowPolyForest
+                        GroupId: 9398904c-72b7-ca9b-e966-23346704ae98
+        -   Folder: Scene
+            Entity:
+                Id: 6ac61c9d-3f22-46a0-95e2-74134d7c761a
+                Name: ground
+                Components:
+                    52434ec527b4a842fc500d8c707ef426: !TransformComponent
+                        Id: 8cbdcc3e-f552-4df4-bf7b-367efb842ebc
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e06000430d072a51fc1a37989428a886: !ModelComponent
+                        Id: 14dfc3c9-2db6-4bf7-a990-d7b67eb84949
+                        Model: fba352ed-8bab-4b93-82fa-c33032f69caf:Maps/low-poly-forest/ground
+                        Materials: {}
+        -   Folder: Lights
+            Entity:
+                Id: 6d19ee94-cf69-4941-9ecc-31c91e3997b9
+                Name: Directional light
+                Components:
+                    a0c23ed6345b183a8b7c85d57886306d: !TransformComponent
+                        Id: 5e30e1ac-54e5-4e83-986b-f468bd1b6947
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 0.9254165, Y: 0.0593911074, Z: 0.1631759, W: -0.336824059}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78a2141ebad9dcc78ea7c6a73d90c92e: !LightComponent
+                        Id: 3a694d54-a382-4053-a409-8bff1ae9ae87
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+        -   Folder: null
+            Entity:
+                Id: 7649094a-c08e-4d92-bee2-0f57c4cf3b95
+                Name: Point light
+                Components:
+                    38fa1a819bf601bfcf2f3ca977878fc1: !TransformComponent
+                        Id: 4f9f7ec4-bfb8-48a7-9549-7dce1c5b871e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f906dcaf20d49de19857fc415d4efcc4: !LightComponent
+                        Id: df67a6fb-fa1f-4b26-9189-ac6bef50c19c
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Radius: 5.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 10.0
+        -   Entity:
+                Id: 7d7cb9a7-09c8-4de2-b533-07b50a5607b7
+                Name: UI
+                Components:
+                    e4ddc07a47b25691e4fed9a3aa9ea905: !TransformComponent
+                        Id: eb971fa0-6a68-4280-93b5-ea7792164649
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e909764ddeaa34b5bd7b5be08ff4557c: !UIComponent
+                        Id: 4ce13fb3-6e24-41c8-a390-508b09b24d13
+                        Page: 7aafacb8-9fb2-4908-ae75-205c3581a631:UI/Page
+                        Resolution: {X: 1920.0, Y: 1080.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                        RenderGroup: Group31
+        -   Folder: null
+            Entity:
+                Id: 9fe2bc4d-740f-40ca-acd3-cf5259975e2b
+                Name: poring
+                Components:
+                    9ac900f415a25cb4297375afc0e53472: !TransformComponent
+                        Id: 63e61358-bb90-4d77-bff5-088e056a6a57
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    8cec66c7833c8290568683e740443750: !ModelComponent
+                        Id: 9e55b44f-9ea9-434b-b852-4f9f1f30a075
+                        Model: 6ac9599f-e8ab-45bf-b75c-9fdad0da4d93:Characters/poring/poring
+                        Materials: {}
+                    61517b6a3c240fcd4cc78f1de504cd26: !AnimationComponent
+                        Id: 5d59e67d-d728-46a2-9d21-45ccf09b2266
+                        Animations:
+                            e9b3ef2cafe778fb40baab11bb70701c~Idle: 55fb3f79-405d-4e77-b0d7-c9701bea4ca2:Characters/poring/idle
+                    cf98cc7ea36fb7b6d4e715de1fd1e17e: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: 2ff08370-c07e-42e0-9a19-93871aee7290
+                        key: Idle
+                        delayStart*: 0.33
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: 8c5d355b-65be-4270-afb2-d6938e3a5aed
+                InstanceId: 7626e520-d2b5-4a23-a2a4-ee5c13c3a15e
+        -   Folder: null
+            Entity:
+                Id: a99a33ec-388c-44af-8074-b2b0a2b2c2c5
+                Name: poring
+                Components:
+                    9ac900f415a25cb4297375afc0e53472: !TransformComponent
+                        Id: 2b5f7d5a-0fa0-43bb-9c93-e6aee3def867
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    8cec66c7833c8290568683e740443750: !ModelComponent
+                        Id: 46414765-ce98-4bc4-ac7b-845d683ecde4
+                        Model: 6ac9599f-e8ab-45bf-b75c-9fdad0da4d93:Characters/poring/poring
+                        Materials: {}
+                    61517b6a3c240fcd4cc78f1de504cd26: !AnimationComponent
+                        Id: 67c40fa5-19e8-4ff5-9de6-1503d9a311fd
+                        Animations:
+                            e9b3ef2cafe778fb40baab11bb70701c~Idle: 55fb3f79-405d-4e77-b0d7-c9701bea4ca2:Characters/poring/idle
+                    cf98cc7ea36fb7b6d4e715de1fd1e17e: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: b50a3ffe-7206-4fc3-9cd3-6b51105a7fbd
+                        key: Idle
+                        delayStart*: 0.33
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: 8c5d355b-65be-4270-afb2-d6938e3a5aed
+                InstanceId: 476b2e9a-8848-4054-a715-7066a00d51b8
+        -   Entity:
+                Id: b1053010-47cd-411c-a5fd-a1b600440ec5
+                Name: SwordSlot
+                Components:
+                    ef972ac4604758bab15c90af9032f696: !TransformComponent
+                        Id: 14e4a973-7eec-41c5-a3f9-cf5fde2230c9
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.7071067, Y: 0.0, Z: 0.0, W: 0.7071067}
+                        Scale: {X: 0.25, Y: 0.25, Z: 0.25}
+                        Children: {}
+                    34c68d95f9e6f4d5a03b9c2e7a89d70f: !ModelNodeLinkComponent
+                        Id: df5e3649-135f-4eb0-95c4-06989ba57828
+                        Target: ref!! e60528a0-89cf-4a7e-ba0f-e2e7031b7ed6
+                        NodeName: QuickRigCharacter_RightHand
+                    16a713a6e3bc1dba594386863f5d8e78: !ModelComponent
+                        Id: b52a285d-63ad-4794-9c75-1198a0030172
+                        Model: 07c62a09-bb5a-43fc-924b-1eda96e09d67:Characters/equipment/Sword
+                        Materials: {}
+        -   Folder: null
+            Entity:
+                Id: b9938ce6-0ccd-46b9-b612-bb229573cf31
+                Name: Camera
+                Components:
+                    a116d811cab5bf4da5211050e1d34e10: !TransformComponent
+                        Id: 3ede5057-6eb0-45a0-8def-ecd6cf6d0a0d
+                        Position*: {X: 0.0, Y: 0.0, Z: 12.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1fb7d1656248fc4eb7c13c9d933979c7: !CameraComponent
+                        Id: ade9e5b4-4576-4045-8d8f-ff6c3317e87d
+                        Name: null
+                        Projection: Perspective
+                        Slot: c15adccd-88f4-4cd9-a45a-55ce9f8e89e5
+            Base:
+                BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
+                BasePartId: 3fa9c531-b276-4f1f-b26f-80ec96769077
+                InstanceId: 82774d2e-3ddb-49f1-abd7-4abeba26b0e3
+        -   Folder: null
+            Entity:
+                Id: ba3b3e37-fd41-4572-96c3-3858a9594a72
+                Name: Poring
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: d2083709-cb67-4681-8ae6-0a9df3fd3202
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f0099cb60d70a1d3d911750e987431b6: ref!! 9c1bf132-7044-4210-9349-1a396c2a091a
+                            48972639f936a163c30baed6aa3818c4: ref!! d4ea282c-8330-4dc7-a5cb-d57a0de915ac
+                    66409bd59700aaa9eefd89045bee6719: !BNDT.Gameplay.PoringScript,BNDT.Game
+                        Id: f23670fd-23fa-4c18-b851-a342caf491b0
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        Trigger: ref!! bcf52fcb-ec1e-48a5-aef9-8cbb28f96e05
+                    774134e92b72633b52aa7503778f2692: !StaticColliderComponent
+                        Id: 442ffd74-1d12-47a8-963d-2ddef5623773
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ae8256108fb5bdb3095b979e98a8f25f: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.8
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+                    39d58f99b3b5bba79f6125fc526d5f79: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: bcf52fcb-ec1e-48a5-aef9-8cbb28f96e05
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: e029775e-4388-4f86-8add-b49afce189ed
+                InstanceId: 9b5b2adf-98b0-4ad5-8a59-e72fb3610a57
+        -   Folder: null
+            Entity:
+                Id: bb2c908c-941b-4291-9db6-af871d93bd17
+                Name: CollisionWall
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: 35c9f19f-56fa-41c9-b34c-fc420ce175d2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c04f3f7555ec06045fe74e2183e4bad5: !StaticColliderComponent
+                        Id: ebbd0fc4-8ad8-415d-861e-6bea18fb90e9
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            67adbdab058c6af2856445a4f608952d: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: f74f3b64-d57e-4f55-8609-b843d166fb4d
+                InstanceId: 476b2e9a-8848-4054-a715-7066a00d51b8
+        -   Folder: null
+            Entity:
+                Id: be11e1a6-24e1-47a2-a8f7-961061c2fdf1
+                Name: CameraTarget
+                Components:
+                    39d4bdb202782a41869f2a6d53da4edf: !TransformComponent
+                        Id: dfee4d87-3755-4bf7-a68d-b840595846be
+                        Position: {X: 0.0, Y: 1.65, Z: 0.0}
+                        Rotation*: {X: -0.0579649881, Y: 0.928320646, Z: 0.3287356, W: 0.163688019}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a116d811cab5bf4da5211050e1d34e10: ref!! 3ede5057-6eb0-45a0-8def-ecd6cf6d0a0d
+                            2cc25b5c90dc91c4a0f1b2e4837a1a2b: ref!! 4f9f7ec4-bfb8-48a7-9549-7dce1c5b871e
+            Base:
+                BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
+                BasePartId: 4ac6a8ee-552d-4b53-8147-44467b0a0fc1
+                InstanceId: 82774d2e-3ddb-49f1-abd7-4abeba26b0e3
+        -   Folder: null
+            Entity:
+                Id: c1f6f41e-c72a-4ed5-ae25-893ce483ee4b
+                Name: CollisionWall
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: d4ea282c-8330-4dc7-a5cb-d57a0de915ac
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c04f3f7555ec06045fe74e2183e4bad5: !StaticColliderComponent
+                        Id: 66a4a63d-2dd3-4b93-82be-d38d86662493
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            67adbdab058c6af2856445a4f608952d: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: f74f3b64-d57e-4f55-8609-b843d166fb4d
+                InstanceId: 9b5b2adf-98b0-4ad5-8a59-e72fb3610a57
+        -   Folder: Lights
+            Entity:
+                Id: c5a3ceec-a1f4-42b2-b8f5-aec347f55799
+                Name: Directional light
+                Components:
+                    a0c23ed6345b183a8b7c85d57886306d: !TransformComponent
+                        Id: 08c2abe2-cfca-45ca-8d85-d06d342a5952
+                        Position: {X: -7.54264164, Y: 4.478979, Z: -1.48010671}
+                        Rotation: {X: -0.08682408, Y: -0.852868557, Z: -0.150383741, W: 0.492403835}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78a2141ebad9dcc78ea7c6a73d90c92e: !LightComponent
+                        Id: 63e42607-ef23-4a63-9482-54c0869f06f5
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 0.5
+        -   Entity:
+                Id: c664efac-ae72-4307-83a3-f1ab398117c8
+                Name: Poring
+                Components:
+                    5d3dd9cd30f0ea2c9635735013677ce9: !TransformComponent
+                        Id: d8620b4a-27ee-4930-aa8d-f8c9020d66a6
+                        Position: {X: 1.50849962, Y: -0.332006335, Z: 3.51773143}
+                        Rotation: {X: 0.0, Y: 0.997944, Z: 0.0, W: -0.06409121}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f9f48972bd37fac240fab6f3673fb342: ref!! 111beca7-1a9b-42c1-b426-0e3a10b5d536
+        -   Folder: Lights
+            Entity:
+                Id: cc6ac5c0-214c-42b7-917d-43b9066a3273
+                Name: Point light
+                Components:
+                    38fa1a819bf601bfcf2f3ca977878fc1: !TransformComponent
+                        Id: 56d3fdad-b4b4-4ce3-8785-6b644b56723f
+                        Position: {X: -4.844242, Y: 0.444650173, Z: -10.2142544}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f906dcaf20d49de19857fc415d4efcc4: !LightComponent
+                        Id: 4ea32936-093e-4768-ab4f-30892bfca6bd
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Radius: 5.0
+                            Shadow:
+                                Enabled: true
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 10.0
+        -   Entity:
+                Id: ddad9f37-adf6-4a55-ab2d-6b8e7f26e7ca
+                Name: Poring
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: 111beca7-1a9b-42c1-b426-0e3a10b5d536
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f0099cb60d70a1d3d911750e987431b6: ref!! 2b868c7c-3633-4521-b38c-e9ed2b521f54
+                            48972639f936a163c30baed6aa3818c4: ref!! 33b23e9c-606b-4d68-b56b-370763e0cfcf
+                    66409bd59700aaa9eefd89045bee6719: !BNDT.Gameplay.PoringScript,BNDT.Game
+                        Id: 95be7707-7231-4520-b207-cd29d942fec5
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        Trigger: ref!! 97e6646c-7e63-444b-a60a-8f434706ddc0
+                    774134e92b72633b52aa7503778f2692: !StaticColliderComponent
+                        Id: 1e65b551-9f0e-4475-8c79-5ad8da8df89d
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ae8256108fb5bdb3095b979e98a8f25f: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.8
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+                    39d58f99b3b5bba79f6125fc526d5f79: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 97e6646c-7e63-444b-a60a-8f434706ddc0
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: e029775e-4388-4f86-8add-b49afce189ed
+                InstanceId: 964b7766-7fac-4588-a848-cf9567c82061
+        -   Folder: Lights
+            Entity:
+                Id: e7529c38-54f0-4729-a674-65ba13a882f0
+                Name: Point light
+                Components:
+                    38fa1a819bf601bfcf2f3ca977878fc1: !TransformComponent
+                        Id: 39a2c3ae-2ada-4dbd-af39-280e84199c2f
+                        Position: {X: -2.75343156, Y: 3.70553446, Z: 1.621537}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f906dcaf20d49de19857fc415d4efcc4: !LightComponent
+                        Id: c489c954-cb3d-4f0a-9364-7a73f4e44aad
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Radius: 5.0
+                            Shadow:
+                                Enabled: true
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 10.0
+        -   Entity:
+                Id: e7d6efab-c2df-4d09-b477-c80fc4ad071a
+                Name: Poring
+                Components:
+                    5d3dd9cd30f0ea2c9635735013677ce9: !TransformComponent
+                        Id: 145f3833-f093-407a-a6d4-f96b9e5f80c0
+                        Position: {X: -6.145198, Y: -1.24132943, Z: -2.64770746}
+                        Rotation: {X: 0.0, Y: 0.9087881, Z: 0.0, W: 0.4172579}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f9f48972bd37fac240fab6f3673fb342: ref!! 7d3ea099-ff2c-4e83-9af1-fc400c0c1d99
+        -   Folder: null
+            Entity:
+                Id: ed1b2ea7-db34-4936-b5b6-d92f2c2032a6
+                Name: Poring
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: 93dd8f5b-90a6-4558-9582-8073c99fda7b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f0099cb60d70a1d3d911750e987431b6: ref!! 2b5f7d5a-0fa0-43bb-9c93-e6aee3def867
+                            48972639f936a163c30baed6aa3818c4: ref!! 35c9f19f-56fa-41c9-b34c-fc420ce175d2
+                    66409bd59700aaa9eefd89045bee6719: !BNDT.Gameplay.PoringScript,BNDT.Game
+                        Id: d8549733-ea76-419d-b9d6-726b92cdd273
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        Trigger: ref!! 14c4355b-ce4c-4fa7-a9e9-ed0a3a027e58
+                    774134e92b72633b52aa7503778f2692: !StaticColliderComponent
+                        Id: 59e3c727-2e39-41ad-9375-40912cf014a7
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ae8256108fb5bdb3095b979e98a8f25f: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.8
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+                    39d58f99b3b5bba79f6125fc526d5f79: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 14c4355b-ce4c-4fa7-a9e9-ed0a3a027e58
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: 0f97f932-c19f-418b-9de3-0ae0647b0902:Characters/Poring
+                BasePartId: e029775e-4388-4f86-8add-b49afce189ed
+                InstanceId: 476b2e9a-8848-4054-a715-7066a00d51b8
+        -   Entity:
+                Id: ff9faa06-5038-4d01-8c2c-0ad306d04f51
+                Name: Poring
+                Components:
+                    5d3dd9cd30f0ea2c9635735013677ce9: !TransformComponent
+                        Id: a40bde56-3bff-4367-a94f-069628112c32
+                        Position: {X: -1.14557755, Y: -0.332006335, Z: 2.35988045}
+                        Rotation: {X: 0.0, Y: 0.9087881, Z: 0.0, W: 0.4172579}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f9f48972bd37fac240fab6f3673fb342: ref!! d2083709-cb67-4681-8ae6-0a9df3fd3202

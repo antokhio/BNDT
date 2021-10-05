@@ -1,0 +1,7 @@
+!Texture
+Id: 247badb0-a995-45c0-a0a1-e5fa39082ade
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../BANDAI TAMAGOTCHI TOKEN/bg1.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

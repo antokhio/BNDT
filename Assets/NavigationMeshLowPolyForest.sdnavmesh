@@ -1,0 +1,18 @@
+!NavigationMeshAsset
+Id: 20f7e496-3bb9-4059-a38e-ffa08aa807b1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Scene: c443fb7f-5e60-46a8-86e2-b4dbfb53dcc5:LowPolyForest
+IncludedCollisionGroups: CustomFilter1
+BuildSettings:
+    CellHeight: 0.05
+    CellSize: 0.05
+    TileSize: 16
+    MinRegionArea: 10
+    RegionMergeArea: 20
+    MaxEdgeLen: 20.0
+    MaxEdgeError: 3.0
+    DetailSamplingDistance: 3.0
+    MaxDetailSamplingError: 3.0
+SelectedGroups:
+    2b0e99aa83f145fab54d56cbb80b44ef: 9398904c-72b7-ca9b-e966-23346704ae98

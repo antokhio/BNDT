@@ -1,0 +1,31 @@
+!PrefabAsset
+Id: a172dcff-ffcc-4aa0-be3c-8b12fa504233
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 573b2c66-350a-46cb-a4df-1a4715c9c13b
+    Parts:
+        -   Entity:
+                Id: 573b2c66-350a-46cb-a4df-1a4715c9c13b
+                Name: _rig
+                Components:
+                    87fd968e6104b0518088dfdc714cc068: !TransformComponent
+                        Id: 64fa5c6d-654e-40b8-89e9-3bd75e56e4e2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    00f6c41b9326497be0a18194bfb617bb: !ModelComponent
+                        Id: 25d5d3a6-2f2d-4975-abbd-0c9354a5cb88
+                        Model: bbca0bd0-47c8-49c3-a694-46b486680ba2:Characters/p1/_rig
+                        Materials: {}
+                    d011857dbd1289f5242846130f35954d: !AnimationComponent
+                        Id: 9532ba7d-a207-4562-9a14-f8932a533a76
+                        Animations:
+                            a6080fa2943500c2ba4e6c68d0483289~idle: c33bcdaf-b77d-46c8-aecc-9765951cf891:Characters/p1/Idle
+                            cf563ab965cf806c1dc6c0490004b2ca~jump: b9708e2a-9772-4ed4-8561-fa6d5d7a29f6:Characters/p1/Jumping
+                    d18a0f6716f27285a511f75a2b6c7ea4: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: c38c351c-79d2-4a00-a50e-356dc94b9869
+                        key: idle
+                        delayStart: 0.0

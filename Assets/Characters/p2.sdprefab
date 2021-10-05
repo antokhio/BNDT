@@ -1,0 +1,45 @@
+!PrefabAsset
+Id: 96c05103-98d1-450d-b67d-5e25e7551b47
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! cefe3308-bad7-4519-b37e-3ae1aecc3a35
+        - ref!! 5e05504f-f63e-49ff-98f6-0ba920bd330a
+    Parts:
+        -   Entity:
+                Id: 5e05504f-f63e-49ff-98f6-0ba920bd330a
+                Name: Sprite
+                Components:
+                    5f6daa5a20e8d5e3b947092051bd7025: !TransformComponent
+                        Id: 8f0c4959-5a1a-4e4f-b828-0245137392e1
+                        Position*: {X: -0.305876374, Y: 2.16424942, Z: 0.0152400667}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    ca23a13938e932aa79917bf559e32356: !SpriteComponent
+                        Id: 1abb3f44-8484-47b6-8b1a-af18f3fd9218
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: "1bb913d9-0422-404e-acc5-53844c57a25e:Characters/bubbles/Облачко-03"
+                            Center*: {X: 500.0, Y: 700.0}
+                            CenterFromMiddle*: true
+                        SpriteType: Billboard
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    b210dd53cb38b7357ca49dadb299ec7d: !BNDT.Gameplay.BubbleScript,BNDT.Game
+                        Id: 42d781d2-ff20-432c-9064-f8132c7e0590
+                        Time: 1.0
+                        TimeOffset: 1.0
+        -   Entity:
+                Id: cefe3308-bad7-4519-b37e-3ae1aecc3a35
+                Name: _rig
+                Components:
+                    b1c617f789c927933ca41f7a37a3ec88: !TransformComponent
+                        Id: db152651-b065-4df9-90a0-c9df1e086c59
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    9a2f69d5354d8a1638e4cee057b8ad8a: !ModelComponent
+                        Id: 2dadc6a9-a047-447c-83ed-6c84321b0ef1
+                        Model: 1a39c4d8-7dba-4a2f-8535-4919520acad1:Characters/p2/_rig
+                        Materials: {}

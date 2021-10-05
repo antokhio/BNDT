@@ -1,0 +1,90 @@
+!PrefabAsset
+Id: 0f97f932-c19f-418b-9de3-0ae0647b0902
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! e029775e-4388-4f86-8add-b49afce189ed
+    Parts:
+        -   Entity:
+                Id: 8c5d355b-65be-4270-afb2-d6938e3a5aed
+                Name: poring
+                Components:
+                    9ac900f415a25cb4297375afc0e53472: !TransformComponent
+                        Id: 0911895e-f55e-4831-bf5b-6915783407ba
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    8cec66c7833c8290568683e740443750: !ModelComponent
+                        Id: 2b11e811-2469-4760-b111-8b7d5945efae
+                        Model: 6ac9599f-e8ab-45bf-b75c-9fdad0da4d93:Characters/poring/poring
+                        Materials: {}
+                    61517b6a3c240fcd4cc78f1de504cd26: !AnimationComponent
+                        Id: 83418f28-1171-4715-858c-ed233ef78b4d
+                        Animations:
+                            e9b3ef2cafe778fb40baab11bb70701c~Idle: 55fb3f79-405d-4e77-b0d7-c9701bea4ca2:Characters/poring/idle
+                    cf98cc7ea36fb7b6d4e715de1fd1e17e: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: 56365f61-98af-4144-8547-990b7e5e93c5
+                        key: Idle
+                        delayStart: 0.0
+        -   Entity:
+                Id: e029775e-4388-4f86-8add-b49afce189ed
+                Name: Poring
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: 5402674c-5506-4030-ad4c-65fa8102bd37
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a94018e243340aa1154f48c3d61040f0: ref!! 0911895e-f55e-4831-bf5b-6915783407ba
+                            63a7ba14391df94134fff4da70ac0896: ref!! 1293d8f6-c2dc-484a-bab7-3ba2d0674142
+                    66409bd59700aaa9eefd89045bee6719: !BNDT.Gameplay.PoringScript,BNDT.Game
+                        Id: 0d7e0674-d17f-4ffa-a629-8c7b12ed6212
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        Trigger: ref!! edb3151a-6dc5-4a2e-8a16-3d5d7fa96320
+                    774134e92b72633b52aa7503778f2692: !StaticColliderComponent
+                        Id: 4ddb2f73-1c36-4601-9493-07f986345803
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            ae8256108fb5bdb3095b979e98a8f25f: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 0.8
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}
+                    39d58f99b3b5bba79f6125fc526d5f79: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: edb3151a-6dc5-4a2e-8a16-3d5d7fa96320
+                        TriggerCondition: StartOnly
+        -   Entity:
+                Id: f74f3b64-d57e-4f55-8609-b843d166fb4d
+                Name: CollisionWall
+                Components:
+                    cd1c3df7442a9a1014092b997e53bc6e: !TransformComponent
+                        Id: 1293d8f6-c2dc-484a-bab7-3ba2d0674142
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c04f3f7555ec06045fe74e2183e4bad5: !StaticColliderComponent
+                        Id: 4624924c-8026-4eb3-8d3d-da6c5d3ec484
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            67adbdab058c6af2856445a4f608952d: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.4, Z: 0.0}

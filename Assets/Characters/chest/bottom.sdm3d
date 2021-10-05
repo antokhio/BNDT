@@ -1,0 +1,19 @@
+!Model
+Id: dc9160ed-80cc-4a14-bfad-1bfd48d1ad99
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/chest/chest-bottom.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    9bea4a778634ae3c4bd3ffe494daeb12:
+        Name: Material
+        MaterialInstance:
+            Material: 57ded4cc-4265-4406-95b6-aee109d908ba:Characters/chest/Wood
+    a79faefe9b86821d6d71f9b689dfd6b5:
+        Name: Materisdfsdfsdfal
+        MaterialInstance:
+            Material: 1bce5eee-a095-424c-8a8e-7c78e7a2b938:Characters/chest/Steel
+Modifiers: {}
+~SourceHashes:
+    3e07380c0229b10634cfb42a91587991~../../../Resources/chest/chest-bottom.FBX: c12f68429febd629f3d1a0ebf9852bb4

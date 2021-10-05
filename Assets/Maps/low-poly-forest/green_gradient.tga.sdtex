@@ -1,0 +1,7 @@
+!Texture
+Id: 770a5f61-f35e-470e-a822-4a77156bf63a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/low-poly-forest/green_gradient.tga.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,19 @@
+!Model
+Id: 6ac9599f-e8ab-45bf-b75c-9fdad0da4d93
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/poring/poring.FBX
+Skeleton: 6dfd41d5-4366-4b4f-abe4-50e5c573fa10:Characters/poring/poring Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    8791c6561d3c1aeda28acdd05574077e:
+        Name: Skin
+        MaterialInstance:
+            Material: 7a718363-f9b0-4d45-a141-aa16e9678e15:Characters/poring/Skin
+    aad3f4eb979d42207406f04ae9248a3a:
+        Name: Eyes
+        MaterialInstance:
+            Material: b83a3f5f-1caa-4ff6-b414-d7a351eb8917:Characters/poring/Eyes
+Modifiers: {}
+~SourceHashes:
+    f2574a79611e6746f324e817ec27b051~../../../Resources/poring/poring.FBX: a8951a32cae4f2a97d83566a1a281fd8

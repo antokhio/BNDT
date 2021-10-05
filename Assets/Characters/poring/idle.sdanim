@@ -1,0 +1,19 @@
+!Animation
+Id: 55fb3f79-405d-4e77-b0d7-c9701bea4ca2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/poring/idle.FBX
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 6dfd41d5-4366-4b4f-abe4-50e5c573fa10:Characters/poring/poring Skeleton
+RootMotion: false
+PreviewModel: 6ac9599f-e8ab-45bf-b75c-9fdad0da4d93:Characters/poring/poring
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:00.9600000
+~SourceHashes:
+    958fff4f3de8a13a251b3418525627aa~../../../Resources/poring/idle.FBX: ba3893287ccaf519625b24c82ab022ba

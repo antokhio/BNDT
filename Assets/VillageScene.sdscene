@@ -11,16 +11,18 @@ Hierarchy:
         - ref!! 666920a6-3b04-4855-b15d-a9a9580dbc16
         - ref!! 3b927a91-e080-4cb6-85db-fd35fa40031c
         - ref!! 048935b0-3181-4d37-8da5-8297f9536905
-        - ref!! 1c2705a4-7a23-4eab-b265-359322574994
+        - ref!! f097427b-45ae-456b-9cdc-e384739e10e0
         - ref!! 2b20cd44-3a91-47c8-be18-b8d4900c886a
         - ref!! 9c25a693-9520-4a3c-88d0-a6cc8dfe1470
-        - ref!! d1cfa839-201e-4013-96c7-cf2a0d06b199
-        - ref!! 61bcb51a-c37b-44b0-b996-541e4da5db4a
-        - ref!! f83a772c-0989-4326-bcf2-86e77d05407b
+        - ref!! 0c9f1f9c-4ef4-40c4-a6c4-c1ea45e2a7d3
         - ref!! e24be4aa-a51f-4494-acd3-a058cb99b412
         - ref!! 9b44173d-cfdf-4dfe-8dbf-1ba1f8eaa015
         - ref!! 5966c869-1902-4891-841a-8d286538aada
-        - ref!! 3f27f109-4f50-402c-bd4e-21ce93fdc094
+        - ref!! 335b0ee1-963d-4b4b-8e7a-e9e45c7e405f
+        - ref!! 1e66b0eb-0870-4aca-8cdf-3bb09295c0c9
+        - ref!! 238e6dfa-ad5d-4f78-90a6-7de2dd44dfc0
+        - ref!! b9b63b61-e708-402b-ba94-d11a31393d01
+        - ref!! 0f0989b5-5e83-46f5-8391-67cf0ed7f47e
     Parts:
         -   Entity:
                 Id: 048935b0-3181-4d37-8da5-8297f9536905
@@ -41,7 +43,7 @@ Hierarchy:
                 Components:
                     b296752080481e41b569d385767428ce: !TransformComponent
                         Id: bddc74b8-7caf-4474-9f47-a788af7118a3
-                        Position: {X: -11.5558882, Y: 0.458277345, Z: -0.5798434}
+                        Position: {X: -10.7604208, Y: 0.6121467, Z: 1.019669}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -86,8 +88,32 @@ Hierarchy:
                         ClickEffect: d1fe10e2-3afc-49d0-a536-ebb5ce89e28d:VFXPrefabs/vfx-ClickEffect
                     46ae7b6257b0c84e8a26b517d4b95492: !NavigationComponent
                         Id: 9f963154-cb5a-4824-93b6-1934e8dd05d1
-                        NavigationMesh: 8a5c1615-aeae-4575-8123-5bbde498fe34:NavigationMesh
+                        NavigationMesh: 454ee07c-c0cf-44ca-be6d-b1c4d65aa157:NavigationMesh2
                         GroupId: 9398904c-72b7-ca9b-e966-23346704ae98
+        -   Entity:
+                Id: 0c9f1f9c-4ef4-40c4-a6c4-c1ea45e2a7d3
+                Name: vendor
+                Components:
+                    426d1f4b9449f58d7e71fb058db1f447: !TransformComponent
+                        Id: c222f29b-7dc0-4e6c-864d-ada80cbfd85e
+                        Position: {X: -1.92013407, Y: 0.0, Z: 1.33723378}
+                        Rotation: {X: 0.0, Y: -0.712814569, Z: 0.0, W: 0.701352537}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e4c25c71fc6f8efbc1378f136659ce2c: ref!! 80078cd4-7a35-46f3-9fd4-e8b83b83008d
+                            90797e7f9e16106e1c08d36660ff04f2: ref!! edb5cc5f-d11c-4f68-8889-f5f0a0a65d8a
+        -   Entity:
+                Id: 0f0989b5-5e83-46f5-8391-67cf0ed7f47e
+                Name: p5
+                Components:
+                    89cc2512b032c09c578eda1a60799cb1: !TransformComponent
+                        Id: 7a36fc13-0f01-4f8d-949e-a79a51eda960
+                        Position: {X: 3.09680843, Y: 0.0, Z: -7.17640972}
+                        Rotation: {X: 0.0, Y: -0.354136884, Z: 0.0, W: 0.9351936}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a5e17e9d8b6700e1b695ab38c94e319f: ref!! daa033aa-c541-4a3e-bb7b-8861f1cd4d96
+                            8c91a5fe4e837133d82da3d8be007a8e: ref!! 308dbd75-b9d4-4df1-b334-0a519f28aaa3
         -   Folder: Lights
             Entity:
                 Id: 175f0726-10e1-4724-815d-3674ae92e152
@@ -106,35 +132,46 @@ Hierarchy:
                     e15c2b89428bc58672b2d39036647aa2: !BackgroundComponent
                         Id: 8e2da221-61d3-46db-b849-4bac9c926f7d
                         Texture: 43d42a1a-cfaf-4de8-bf09-fcd999669511:Skybox Texture
-        -   Folder: Scene
-            Entity:
-                Id: 1c2705a4-7a23-4eab-b265-359322574994
-                Name: nav
+        -   Entity:
+                Id: 1e66b0eb-0870-4aca-8cdf-3bb09295c0c9
+                Name: Chest
                 Components:
-                    b947a0790b7c04f679e331c40bd860ce: !TransformComponent
-                        Id: eff9fa8d-fc2b-4e2f-a873-3d36d88b891b
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
+                    d06e4c3d0b87e154232f3859662d71bd: !TransformComponent
+                        Id: 45cf4333-ddf0-40f3-9840-3e0d535c34c5
+                        Position: {X: -8.286979, Y: 0.0, Z: -6.42475939}
+                        Rotation: {X: 0.0, Y: 0.29577744, Z: 0.0, W: 0.9552569}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            6d306da03e93e47c6a84920487f2c27e: ref!! 09a1bb47-5702-433a-9d8c-fb2d41c2bd40
+        -   Entity:
+                Id: 2057da95-ced0-4c54-9a64-fcb5afcbe845
+                Name: bottom
+                Components:
+                    cc9be234d1b2ea8b9dd5555a40ac7f7b: !TransformComponent
+                        Id: 8e0b75d1-21a4-43a4-9d2e-8d2e310a0005
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
                         Children: {}
-                    ab90d5049d4e36cf173e3d47aedc3ead: !ModelComponent
-                        Id: 69547355-2df8-4a56-a4ff-975b2aaae2de
-                        Model: 25cc823a-9b76-4298-bc76-38129c044366:Maps/magic-village/nav
+                    62fdda7adfb67b875e25450c1daa2b19: !ModelComponent
+                        Id: dda1fefc-fa07-478f-a911-90cc43f29199
+                        Model: dc9160ed-80cc-4a14-bfad-1bfd48d1ad99:Characters/chest/bottom
                         Materials: {}
-                    1b0a1ab7c92da6eb958a1e704b6360db: !StaticColliderComponent
-                        Id: cf5ac87b-6e0c-4d0a-b683-e5819ac44f8a
-                        CollisionGroup: CustomFilter1
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        AlwaysUpdateNaviMeshCache: false
-                        ColliderShapes:
-                            1e3b351430b7f069a16682d25ea29e62: !ColliderShapeAssetDesc
-                                Shape: c507b629-a16a-404d-be54-9d366163755a:Maps/magic-village/ColliderHull_4
+            Base:
+                BasePartAsset: bc6d3f69-1c87-40e1-b278-af7a841015af:Characters/Chest
+                BasePartId: 2decdc0e-2f40-4231-abf2-a70aa8f29aaf
+                InstanceId: 0e579dcd-f218-477a-95b9-eb94ab9a84bc
+        -   Entity:
+                Id: 238e6dfa-ad5d-4f78-90a6-7de2dd44dfc0
+                Name: Chest
+                Components:
+                    a92f8ae921fea5f496226a7c0fc4a47e: !TransformComponent
+                        Id: ca3b73e1-9a51-4dc9-ae3e-d2ae2c99dee3
+                        Position: {X: -1.924844, Y: 0.182433739, Z: 4.42197943}
+                        Rotation: {X: 0.0, Y: -0.513613164, Z: 0.0, W: 0.858021855}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            5556a95b25dc93c867c3bce03107c6a0: ref!! 7bf59582-2563-4cea-a63c-233eaef6e796
         -   Folder: Scene
             Entity:
                 Id: 2b20cd44-3a91-47c8-be18-b8d4900c886a
@@ -142,15 +179,27 @@ Hierarchy:
                 Components:
                     5a8e9fa17fcfa39ad2f70759d6a702ec: !TransformComponent
                         Id: fb3aa10f-aeb9-44a0-835c-8e0ba97aadf4
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Position: {X: 0.0, Y: -0.1, Z: 0.0}
                         Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     7ece2b5b09aeca40d62897e2f7b15480: !ModelComponent
                         Id: 30426058-c30f-4c41-907f-c3d0bceebfdc
-                        Enabled: false
                         Model: b5cbc342-a9ed-42ec-9d04-a6304f7ed929:Maps/magic-village/00
-                        Materials: {}
+                        Materials:
+                            7b251172906c8ce2f4919cda44514d94~0: cb84b9a0-d46c-4eee-aea0-12f59d3ae6c3:Maps/magic-village/earth
+        -   Entity:
+                Id: 335b0ee1-963d-4b4b-8e7a-e9e45c7e405f
+                Name: p4
+                Components:
+                    8d4e6728e2243706adbcfc69c111336b: !TransformComponent
+                        Id: 6fd224d2-fc96-4421-976c-76588b915487
+                        Position: {X: -4.07921553, Y: 0.0, Z: -4.955339}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            b4aebedf3d3bf05420024f74710d2a2e: ref!! 81a9cd2e-78b2-4fe6-986e-0600b8739dfc
+                            ff39f9478fc8aef14ec304d3498ea2ff: ref!! debd0a7f-11a1-47ac-aecc-e60d483f357d
         -   Entity:
                 Id: 392775b4-e9c4-413a-9171-0750c2ae50d8
                 Name: Camera
@@ -256,16 +305,23 @@ Hierarchy:
                                 BiasParameters: {}
                         Intensity: 10.0
         -   Entity:
-                Id: 3f27f109-4f50-402c-bd4e-21ce93fdc094
-                Name: LootBox
+                Id: 52a69fc9-674c-4786-991f-6cb6a3bbc03b
+                Name: top
                 Components:
-                    3fe13f31f6d6751012dd8db67ebd6599: !TransformComponent
-                        Id: 7f0262a3-3bec-4699-959e-393efb8e5ebb
-                        Position: {X: -0.4138198, Y: 0.118293859, Z: -3.86855125}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            3083b3eb9da25b708044fe9dc0aa2da9: ref!! 80beb0e8-21ca-4f1c-87e7-f3c37eae8fe5
+                    762d35a9cf8996023e1d167b2798e1d6: !TransformComponent
+                        Id: e6162653-25a1-4a1d-bf46-374f90a04fc7
+                        Position: {X: 0.0, Y: 0.576381564, Z: -0.396888822}
+                        Rotation: {X: -1.91364839E-15, Y: -4.3711438E-08, Z: 4.37791243E-08, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    91d2f98d1b6b72ab2cbc61f4f0505874: !ModelComponent
+                        Id: a154fd00-a6fe-420b-808d-25ea8619f860
+                        Model: c50650d8-a23d-492c-b92c-5e700d79eacc:Characters/chest/top
+                        Materials: {}
+            Base:
+                BasePartAsset: bc6d3f69-1c87-40e1-b278-af7a841015af:Characters/Chest
+                BasePartId: 4f33f0a6-dff6-43e1-ae58-1ca1fcb72282
+                InstanceId: 0e579dcd-f218-477a-95b9-eb94ab9a84bc
         -   Folder: Lights
             Entity:
                 Id: 5966c869-1902-4891-841a-8d286538aada
@@ -289,26 +345,29 @@ Hierarchy:
                                 BiasParameters: {}
                         Intensity: 10.0
         -   Entity:
-                Id: 61bcb51a-c37b-44b0-b996-541e4da5db4a
-                Name: p4
+                Id: 5f9f161f-f134-4200-bd42-44d5ee5310f7
+                Name: vendor
                 Components:
-                    93016028647cd6f29db71b2add8cede5: !TransformComponent
-                        Id: 1fa71035-92c2-42a5-b87a-b40c57ed252e
-                        Position: {X: -2.33094525, Y: 0.1425016, Z: -6.56234264}
-                        Rotation: {X: 0.0, Y: -0.07902825, Z: 0.0, W: 0.996872365}
-                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                    af9ea342703ee9ea4cf80d744d6401c3: !TransformComponent
+                        Id: 80078cd4-7a35-46f3-9fd4-e8b83b83008d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.4152168, Y: 1.4152168, Z: 1.4152168}
                         Children: {}
-                    71c9b6bf421758d26b73c5c92fa68fac: !ModelComponent
-                        Id: eebe25b4-39b8-43c6-95a1-98a984101d2e
-                        Model: eda4d1e2-4e6b-4597-89ba-e1999082aa3e:Characters/p4/_rig
+                    a4e71370da9c2c63a4dfea0e206edeec: !ModelComponent
+                        Id: bc692c9d-ff95-49c8-9da3-a09c2ec5d341
+                        Model: 02e6d66b-1274-4a3d-a42c-0b403c349a43:Characters/vendor/vendor
                         Materials: {}
-                    0b9662fdf881946d2cf73d1aff199eda: !AnimationComponent
-                        Id: e7865cd8-a4d3-4455-8947-d4db9bcd1b4e
+                    4e4a121adbc660fd028c8e93a80406e2: !AnimationComponent
+                        Id: 96e2eb69-dd63-49a2-b962-f0a9b89d8bfd
                         Animations:
-                            e3a01d040931cdf012aa5e643e8a41c0~Jump: 0a4e2d1e-da00-44cd-8810-d05891e31135:Characters/p4/Idle
-                    70bbcef4176b4d1d812439c08c6b7ebb: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
-                        Id: 8bf10026-71b1-43ff-8317-133dee292dc2
-                        key: Jump
+                            255c704971d58002bb67d10d85c4fcbe~Waving: 7e096008-203d-4ffe-a074-4ca563b430e0:Characters/vendor/vendor-waving
+                    07010b84508db6f671d56bfec842fa90: !BNDT.Gameplay.VendorIdleScript,BNDT.Game
+                        Id: 8c2ad283-7e10-4ce7-a6b6-471dfcd95285
+            Base:
+                BasePartAsset: 029ec3d5-84ed-4336-9a54-1c9d0bb69a45:Characters/vendor
+                BasePartId: 586f3efd-395a-49cc-bb4e-5a12b2c6d36f
+                InstanceId: d78fee4a-fc2f-44ef-ab57-ee63600d903a
         -   Folder: Lights
             Entity:
                 Id: 666920a6-3b04-4855-b15d-a9a9580dbc16
@@ -333,6 +392,88 @@ Hierarchy:
                                 ComputeTransmittance: false
                                 BiasParameters: {}
         -   Entity:
+                Id: 6daee11a-d58b-433a-9475-07316bcf416e
+                Name: Sprite
+                Components:
+                    5f6daa5a20e8d5e3b947092051bd7025: !TransformComponent
+                        Id: 308dbd75-b9d4-4df1-b334-0a519f28aaa3
+                        Position: {X: -0.305876374, Y: 2.16424942, Z: 0.0152400667}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    ca23a13938e932aa79917bf559e32356: !SpriteComponent
+                        Id: 827f412e-7b48-499d-abb2-a1a88f9fa671
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: "1bb913d9-0422-404e-acc5-53844c57a25e:Characters/bubbles/Облачко-03"
+                            Center: {X: 500.0, Y: 700.0}
+                        SpriteType: Billboard
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        RenderGroup: Group31
+                    b210dd53cb38b7357ca49dadb299ec7d: !BNDT.Gameplay.BubbleScript,BNDT.Game
+                        Id: 51c2ace0-6d0c-420e-bf02-58200c331864
+                        Time: 1.0
+                        TimeOffset: 3.0
+            Base:
+                BasePartAsset: ac365b7e-0a72-4413-876c-47ecf1bb90e3:Characters/p5
+                BasePartId: a36ba8ab-8983-43fb-8495-96c9f67d4e67
+                InstanceId: 65e825a7-d45d-4d7f-a7a2-68d3ebc4cac7
+        -   Entity:
+                Id: 797e7d52-29f1-44aa-b734-3000d27c9989
+                Name: Sprite
+                Components:
+                    5f6daa5a20e8d5e3b947092051bd7025: !TransformComponent
+                        Id: edb5cc5f-d11c-4f68-8889-f5f0a0a65d8a
+                        Position: {X: -0.150107756, Y: 1.98374236, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    ca23a13938e932aa79917bf559e32356: !SpriteComponent
+                        Id: e039d5bc-660c-416f-b531-c2def9db6df4
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: "faa7a21f-b8c5-4b6f-96e0-82067fce9588:Characters/bubbles/Облачко-01"
+                            Center: {X: 500.0, Y: 700.0}
+                        SpriteType: Billboard
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 2.0
+                    3d9dc5aa846901a064140439f1c9a408: !BNDT.Gameplay.BubbleScript,BNDT.Game
+                        Id: cdc1c229-f1de-49ca-bf6b-7022b0a78f22
+                        Time: 1.0
+                        TimeOffset: 2.0
+            Base:
+                BasePartAsset: 029ec3d5-84ed-4336-9a54-1c9d0bb69a45:Characters/vendor
+                BasePartId: 205cb3e3-0d30-45af-9a5e-77673f030799
+                InstanceId: d78fee4a-fc2f-44ef-ab57-ee63600d903a
+        -   Entity:
+                Id: 7f2cf191-a058-4335-b9f2-8e36ef19e029
+                Name: CollisionWall
+                Components:
+                    6231537620de4cd9fdccc5d522fe38fb: !TransformComponent
+                        Id: 0259c55d-418d-49bb-9482-7ec8306a7172
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    9c3f04c725a67fd97b1cb40f9b274138: !StaticColliderComponent
+                        Id: 3c64ebc0-4de0-4e21-80b6-baffd90aaeee
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            43e2c7f3e4a46f15b308b649e48c38af: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.3, Y: 0.3, Z: 0.2}
+                                LocalOffset: {X: 0.0, Y: 0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: bc6d3f69-1c87-40e1-b278-af7a841015af:Characters/Chest
+                BasePartId: 53dde1f6-5349-4d62-a90d-64b5c6bcc629
+                InstanceId: 0e579dcd-f218-477a-95b9-eb94ab9a84bc
+        -   Entity:
                 Id: 861c0009-fdbe-4813-bc94-d9b9268e0a89
                 Name: CameraTarget
                 Components:
@@ -356,7 +497,7 @@ Hierarchy:
                         Id: e2ea8097-f641-4666-9e4e-f3276a9fe172
                         Position: {X: 0.0, Y: 4.76837158E-07, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Scale*: {X: 4.0, Y: 4.0, Z: 4.0}
                         Children:
                             651acbbf06fe12468058e1f473b74a32: ref!! 4e904f35-4a89-4b24-9124-e82cbe775bfe
                     0fa4902c57c2de428808e383912863ea: !ModelComponent
@@ -380,6 +521,31 @@ Hierarchy:
                 BasePartAsset: a375bd3f-a8ab-476a-be09-98acec5111a8:Characters/PlayerCharacter
                 BasePartId: ff4b6a2d-2c03-464f-973b-f24a00d5d9ea
                 InstanceId: 375a7663-bcf0-46fa-9600-82e1300f3eb7
+        -   Entity:
+                Id: 9abaf286-4846-4cbd-8ff2-8fa8b43efb2f
+                Name: Sprite
+                Components:
+                    5f6daa5a20e8d5e3b947092051bd7025: !TransformComponent
+                        Id: 518b16dc-7a0e-4d9b-8a22-6d216a5db433
+                        Position: {X: -0.305876374, Y: 2.16424942, Z: 0.0152400667}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    ca23a13938e932aa79917bf559e32356: !SpriteComponent
+                        Id: 10615b61-2771-497a-8959-525c018ad9ad
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: "1bb913d9-0422-404e-acc5-53844c57a25e:Characters/bubbles/Облачко-03"
+                            Center: {X: 500.0, Y: 700.0}
+                        SpriteType: Billboard
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    b210dd53cb38b7357ca49dadb299ec7d: !BNDT.Gameplay.BubbleScript,BNDT.Game
+                        Id: dd379252-94da-4d72-9ad4-c210f2f560c3
+                        Time: 1.0
+                        TimeOffset: 1.0
+            Base:
+                BasePartAsset: 96c05103-98d1-450d-b67d-5e25e7551b47:Characters/p2
+                BasePartId: 5e05504f-f63e-49ff-98f6-0ba920bd330a
+                InstanceId: 3cb6df59-95ac-4bfd-aa88-f7735808cb85
         -   Folder: Lights
             Entity:
                 Id: 9b44173d-cfdf-4dfe-8dbf-1ba1f8eaa015
@@ -409,7 +575,7 @@ Hierarchy:
                 Components:
                     8997f8970e1fd68b09dccbc89894cfff: !TransformComponent
                         Id: 512e126e-c31b-4916-93db-c4cc42cf4760
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Position: {X: 0.0, Y: -0.1, Z: 0.0}
                         Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -418,42 +584,20 @@ Hierarchy:
                         Model: 5da189c1-271d-4507-a440-2860e270c7d8:Maps/magic-village/01
                         Materials: {}
         -   Entity:
-                Id: d1cfa839-201e-4013-96c7-cf2a0d06b199
-                Name: vendor
+                Id: 9ee60aa4-8dea-4f00-b6cd-9051ef63f0e9
+                Name: Chest
                 Components:
-                    af9ea342703ee9ea4cf80d744d6401c3: !TransformComponent
-                        Id: fbfca25a-8b94-4bb0-a41d-60ef592ed0bd
-                        Position: {X: -2.21278834, Y: 0.0883628353, Z: 1.261722}
-                        Rotation: {X: 0.0, Y: -0.660575032, Z: 0.0, W: 0.75076}
-                        Scale: {X: 1.4152168, Y: 1.4152168, Z: 1.4152168}
-                        Children: {}
-                    a4e71370da9c2c63a4dfea0e206edeec: !ModelComponent
-                        Id: 9c563918-44ff-457d-9ca6-cefb765129fd
-                        Model: 02e6d66b-1274-4a3d-a42c-0b403c349a43:Characters/vendor/vendor
-                        Materials: {}
-                    4e4a121adbc660fd028c8e93a80406e2: !AnimationComponent
-                        Id: d1bdf0d7-75f1-4fab-a8ee-dc27a707b046
-                        Animations:
-                            255c704971d58002bb67d10d85c4fcbe~Waving: 7e096008-203d-4ffe-a074-4ca563b430e0:Characters/vendor/vendor-waving
-                    07010b84508db6f671d56bfec842fa90: !BNDT.Gameplay.VendorIdleScript,BNDT.Game
-                        Id: fb14d642-6d38-4c34-9ef8-5d2c78d289d6
-        -   Entity:
-                Id: e0219b70-428d-4b49-b20c-421f537502c6
-                Name: LootBox
-                Components:
-                    4bfa77cbdae1aa40aeba86b0b487ad99: !TransformComponent
-                        Id: 80beb0e8-21ca-4f1c-87e7-f3c37eae8fe5
-                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                    ad8128536299ccf624707c449be3f418: !TransformComponent
+                        Id: 7bf59582-2563-4cea-a63c-233eaef6e796
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
-                            81e049a26ff49a468daa04fa529c1955: ref!! e8e7dd78-dd2f-4e6d-aa29-6214acb64e29
-                    92a01d27b6aa2e49b6f4555de61f78e4: !ModelComponent
-                        Id: 9824dd93-b598-473a-962c-ed21c1ae0508
-                        Model: 958a1abf-57ac-4cd9-8859-0e6043e21ce4:Models/BoxF
-                        Materials: {}
-                    9ff39e9a53a90d49bb7faec06f6d32ca: !StaticColliderComponent
-                        Id: 50497ce1-f813-4ed6-8101-65ef42c6fe97
+                            faa879575f31385defd675da7fe52217: ref!! d4f52337-4b77-4eec-b79a-94834ae74085
+                            f5b0f272747aa822ff16a6760531f626: ref!! f466e9ca-a5d3-4557-9311-3595ac0e2715
+                            8e3827d9988e84cd05f9b0a1f4d03e07: ref!! c0285bf5-f128-445b-94c6-315e3de4ddde
+                    0265e00d8594d1efb6cc1ec11340b645: !StaticColliderComponent
+                        Id: e974e3b6-95cb-499d-ac6c-87c0b4101587
                         CollisionGroup: CustomFilter2
                         CanSleep: false
                         Restitution: 0.0
@@ -464,24 +608,198 @@ Hierarchy:
                         IsTrigger: true
                         AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
-                            42588de189ce0146b55493835f755fe8: !BoxColliderShapeDesc
+                            92cdfc4b6bc420c0956d9aeed3f4d0b6: !BoxColliderShapeDesc
                                 Is2D: false
-                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Size: {X: 1.2, Y: 1.2, Z: 0.8}
+                                LocalOffset: {X: 0.0, Y: 0.6, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    4e93d2aaca7cd64e9e2cdb87b6dea8c1: !BNDT.Gameplay.CrateScript,BNDT.Game
-                        Id: 137a0f3a-f96e-475f-bbab-eb87625a92f2
+                    64cf071776b0b4b41c5315fdce8ca1d1: !BNDT.Gameplay.ChestScript,BNDT.Game
+                        Id: 24f4ec63-e29e-4023-a4fc-0e0624eaec8a
                         CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
-                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
-                        SoundEffect: f9d957dd-0c73-47b9-b5a8-a6a395e9e908:Audio/crate_breaking
-                        Trigger: ref!! 1ed225d4-bda8-4e39-9444-e0bdb51542f8
-                    28cbe91f2b1efd4a865067a932c54649: !BNDT.Gameplay.Trigger,BNDT.Game
-                        Id: 1ed225d4-bda8-4e39-9444-e0bdb51542f8
+                        CoinSpawnModel*: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        Trigger: ref!! 48bd7940-2ba2-44b4-bde5-fb15f9dc51b7
+                        Top: ref!! e52a9a24-0238-44be-b822-579e7db79f64
+                    5375b5a2f4a13a0ab635fbbe2f64f1f6: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 48bd7940-2ba2-44b4-bde5-fb15f9dc51b7
                         TriggerCondition: StartOnly
             Base:
-                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
-                BasePartId: 7482eb0c-78ea-4a3c-8d85-8133ed9d63b2
-                InstanceId: bef60c2b-c07f-43cb-861a-f89dca0bbffe
+                BasePartAsset: bc6d3f69-1c87-40e1-b278-af7a841015af:Characters/Chest
+                BasePartId: 6cf7a2b9-bf42-4dc2-82b2-9940c5b8bbb9
+                InstanceId: c74a15e5-31fc-4fc2-ad0b-36a87f48ab2b
+        -   Entity:
+                Id: a02762d5-8f85-4287-a2d9-2d17f82350ab
+                Name: _rig
+                Components:
+                    2c041635cd30a301aa46b769764f5789: !TransformComponent
+                        Id: daa033aa-c541-4a3e-bb7b-8861f1cd4d96
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    f8d5c0fe9440ee1da839b1153577d935: !ModelComponent
+                        Id: 74bcf8a1-65bb-4073-8bdb-fd2c90e8cef4
+                        Model: 157cf7e3-3800-4d1e-a9b2-f050cea20070:Characters/p5/_rig
+                        Materials: {}
+                    ead06e5ad26afe9cb8b29b2ba250fb85: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: da3daa12-6f29-4249-bb55-e052c783b9fc
+                        key: Idle
+                        delayStart: 0.0
+                    df52deb0dc37c15204d4c78464382558: !AnimationComponent
+                        Id: 6f9a9996-7784-4103-bf3a-e286fc490395
+                        Animations:
+                            99ea98571e9e16bedd3af2abee25fe31~Idle: 2d4110dd-3d59-4609-816a-34ff259cd2e3:Characters/p5/Excited
+            Base:
+                BasePartAsset: ac365b7e-0a72-4413-876c-47ecf1bb90e3:Characters/p5
+                BasePartId: 83ae2da0-481b-487a-8369-9e1095952a3a
+                InstanceId: 65e825a7-d45d-4d7f-a7a2-68d3ebc4cac7
+        -   Entity:
+                Id: a7d42535-a895-42cd-afe7-f370c556895e
+                Name: _rig
+                Components:
+                    b1c617f789c927933ca41f7a37a3ec88: !TransformComponent
+                        Id: 5d339ccc-d267-4b34-9828-256ebbc516dc
+                        Position*: {X: 0.0, Y: -0.005352419, Z: 0.0}
+                        Rotation*: {X: 0.0, Y: 0.3089083, Z: 0.0, W: 0.9510918}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    9a2f69d5354d8a1638e4cee057b8ad8a: !ModelComponent
+                        Id: 285e35f2-c32a-4d7f-93cb-b8f95dc15f39
+                        Model: 1a39c4d8-7dba-4a2f-8535-4919520acad1:Characters/p2/_rig
+                        Materials: {}
+            Base:
+                BasePartAsset: 96c05103-98d1-450d-b67d-5e25e7551b47:Characters/p2
+                BasePartId: cefe3308-bad7-4519-b37e-3ae1aecc3a35
+                InstanceId: 3cb6df59-95ac-4bfd-aa88-f7735808cb85
+        -   Entity:
+                Id: ad00a4b8-ba96-430b-b97c-d9b1e5064790
+                Name: CollisionWall
+                Components:
+                    6231537620de4cd9fdccc5d522fe38fb: !TransformComponent
+                        Id: c0285bf5-f128-445b-94c6-315e3de4ddde
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    9c3f04c725a67fd97b1cb40f9b274138: !StaticColliderComponent
+                        Id: 109007ef-90ff-4d0d-82c1-ce62d69bdcbd
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            43e2c7f3e4a46f15b308b649e48c38af: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.3, Y: 0.3, Z: 0.2}
+                                LocalOffset: {X: 0.0, Y: 0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: bc6d3f69-1c87-40e1-b278-af7a841015af:Characters/Chest
+                BasePartId: 53dde1f6-5349-4d62-a90d-64b5c6bcc629
+                InstanceId: c74a15e5-31fc-4fc2-ad0b-36a87f48ab2b
+        -   Entity:
+                Id: b9b63b61-e708-402b-ba94-d11a31393d01
+                Name: p2
+                Components:
+                    a78239c7ba000845717fd0ae4dd09fc5: !TransformComponent
+                        Id: cad03328-ef45-41b2-9f86-7744e84cfe8b
+                        Position: {X: -1.5471251, Y: 0.0, Z: 9.401724}
+                        Rotation: {X: 0.0, Y: -0.7535434, Z: 0.0, W: 0.6573982}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            148c675715ff13c39cc34ff8975713b3: ref!! 5d339ccc-d267-4b34-9828-256ebbc516dc
+                            bad9cc311254e5cd8c253f53878b5bc3: ref!! 518b16dc-7a0e-4d9b-8a22-6d216a5db433
+        -   Entity:
+                Id: bf3b18dd-8ca4-4a58-8f10-352cf03b1790
+                Name: bottom
+                Components:
+                    cc9be234d1b2ea8b9dd5555a40ac7f7b: !TransformComponent
+                        Id: f466e9ca-a5d3-4557-9311-3595ac0e2715
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    62fdda7adfb67b875e25450c1daa2b19: !ModelComponent
+                        Id: 7ab9447f-2e7a-43d1-a870-354b486eb00f
+                        Model: dc9160ed-80cc-4a14-bfad-1bfd48d1ad99:Characters/chest/bottom
+                        Materials: {}
+            Base:
+                BasePartAsset: bc6d3f69-1c87-40e1-b278-af7a841015af:Characters/Chest
+                BasePartId: 2decdc0e-2f40-4231-abf2-a70aa8f29aaf
+                InstanceId: c74a15e5-31fc-4fc2-ad0b-36a87f48ab2b
+        -   Entity:
+                Id: c2abb733-40cb-49fd-8915-1c34d14f552e
+                Name: Chest
+                Components:
+                    ad8128536299ccf624707c449be3f418: !TransformComponent
+                        Id: 09a1bb47-5702-433a-9d8c-fb2d41c2bd40
+                        Position*: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            faa879575f31385defd675da7fe52217: ref!! e6162653-25a1-4a1d-bf46-374f90a04fc7
+                            f5b0f272747aa822ff16a6760531f626: ref!! 8e0b75d1-21a4-43a4-9d2e-8d2e310a0005
+                            8e3827d9988e84cd05f9b0a1f4d03e07: ref!! 0259c55d-418d-49bb-9482-7ec8306a7172
+                    0265e00d8594d1efb6cc1ec11340b645: !StaticColliderComponent
+                        Id: 07fe9963-0ec0-4100-8462-24b5df38c65d
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            92cdfc4b6bc420c0956d9aeed3f4d0b6: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size*: {X: 1.2, Y: 1.2, Z: 0.8}
+                                LocalOffset: {X: 0.0, Y: 0.6, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    64cf071776b0b4b41c5315fdce8ca1d1: !BNDT.Gameplay.ChestScript,BNDT.Game
+                        Id: 0e48eb40-06eb-4c62-bad2-c4bd897c29cd
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        Trigger: ref!! 39545506-4bfc-48b3-9ee5-c86b0416cd1d
+                        Top: ref!! 52a69fc9-674c-4786-991f-6cb6a3bbc03b
+                    5375b5a2f4a13a0ab635fbbe2f64f1f6: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 39545506-4bfc-48b3-9ee5-c86b0416cd1d
+                        TriggerCondition: StartOnly
+            Base:
+                BasePartAsset: bc6d3f69-1c87-40e1-b278-af7a841015af:Characters/Chest
+                BasePartId: 6cf7a2b9-bf42-4dc2-82b2-9940c5b8bbb9
+                InstanceId: 0e579dcd-f218-477a-95b9-eb94ab9a84bc
+        -   Entity:
+                Id: d173a881-3e40-4e5a-ac4d-52e59381a12b
+                Name: Sprite
+                Components:
+                    5f6daa5a20e8d5e3b947092051bd7025: !TransformComponent
+                        Id: debd0a7f-11a1-47ac-aecc-e60d483f357d
+                        Position: {X: -0.305876374, Y: 2.616603, Z: 0.0152400667}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    ca23a13938e932aa79917bf559e32356: !SpriteComponent
+                        Id: c30654f0-859f-465c-914c-f59102c4d2b7
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: "01ee70f9-1913-4670-988c-50b8944ac909:Characters/bubbles/Облачко-02"
+                            Center: {X: 500.0, Y: 700.0}
+                        SpriteType: Billboard
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity*: 2.0
+                        PremultipliedAlpha*: false
+                    b210dd53cb38b7357ca49dadb299ec7d: !BNDT.Gameplay.BubbleScript,BNDT.Game
+                        Id: 37c7498a-cfe2-4115-a923-5c6f3fb3bb94
+                        Time*: 1.0
+                        TimeOffset: 0.0
+            Base:
+                BasePartAsset: 9171beb9-e204-437b-9bfa-29dd260f9f0e:Characters/p4
+                BasePartId: 387c8063-e5bb-48ee-990f-03e764546b1a
+                InstanceId: 199ad912-9126-4ab4-b2ff-2ebf435b1f22
         -   Entity:
                 Id: e24be4aa-a51f-4494-acd3-a058cb99b412
                 Name: UI
@@ -495,41 +813,41 @@ Hierarchy:
                     e909764ddeaa34b5bd7b5be08ff4557c: !UIComponent
                         Id: baf45960-c5cb-45d0-adf7-814d676760cf
                         Page: 7aafacb8-9fb2-4908-ae75-205c3581a631:UI/Page
-                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Resolution: {X: 1920.0, Y: 1080.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                        RenderGroup: Group31
         -   Entity:
-                Id: f83a772c-0989-4326-bcf2-86e77d05407b
-                Name: p2
+                Id: e52a9a24-0238-44be-b822-579e7db79f64
+                Name: top
                 Components:
-                    2c1e0af8e8f2ab12688953d3e2fe4749: !TransformComponent
-                        Id: 122d8f0d-9ce8-4e62-9bb8-d599dd00781e
-                        Position: {X: -0.303983927, Y: 0.0, Z: 8.978999}
-                        Rotation: {X: 0.0, Y: -0.9100927, Z: 0.0, W: 0.41440472}
+                    762d35a9cf8996023e1d167b2798e1d6: !TransformComponent
+                        Id: d4f52337-4b77-4eec-b79a-94834ae74085
+                        Position: {X: 0.0, Y: 0.576381564, Z: -0.396888822}
+                        Rotation: {X: -1.91364839E-15, Y: -4.3711438E-08, Z: 4.37791243E-08, W: 1.0}
                         Scale: {X: 4.0, Y: 4.0, Z: 4.0}
                         Children: {}
-                    4cb3464503f103fac289efbae66fe9aa: !ModelComponent
-                        Id: ef6109c2-0592-4145-80af-a9efc2d3386f
-                        Model: 1a39c4d8-7dba-4a2f-8535-4919520acad1:Characters/p2/_rig
+                    91d2f98d1b6b72ab2cbc61f4f0505874: !ModelComponent
+                        Id: 2e37fb6c-12ab-4177-9757-520d919bb5d1
+                        Model: c50650d8-a23d-492c-b92c-5e700d79eacc:Characters/chest/top
                         Materials: {}
-                    e00d504f22b15097b00b4d12b74dd1ad: !AnimationComponent
-                        Id: 76132c60-e303-4af2-a20c-b9bb55438f1c
-                        Animations:
-                            6587743447e9745d0966abced3344754~Waving: eeaac0ae-07a6-4711-9c73-c9b972173ea5:Characters/p2/Waving
-                    895258781bc705795ea384cfe0e4f46e: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
-                        Id: 2c865e59-0a41-4783-b39b-e4da74f81de8
-                        key: Waving
-        -   Entity:
-                Id: fa0d93e8-525c-47a9-902c-cbc807b62b9b
-                Name: CollisionWall
+            Base:
+                BasePartAsset: bc6d3f69-1c87-40e1-b278-af7a841015af:Characters/Chest
+                BasePartId: 4f33f0a6-dff6-43e1-ae58-1ca1fcb72282
+                InstanceId: c74a15e5-31fc-4fc2-ad0b-36a87f48ab2b
+        -   Folder: Scene
+            Entity:
+                Id: f097427b-45ae-456b-9cdc-e384739e10e0
+                Name: HeighField
                 Components:
-                    81e049a26ff49a468daa04fa529c1955: !TransformComponent
-                        Id: e8e7dd78-dd2f-4e6d-aa29-6214acb64e29
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    5491821e53547ca2f51a67ead2a62b16: !TransformComponent
+                        Id: e6bacd44-2bb6-495e-8ea0-e98b213319ca
+                        Position: {X: 0.0, Y: -0.55, Z: 0.0}
+                        Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    b5c346a60c652a4b9b497d243845df03: !StaticColliderComponent
-                        Id: c3062ed4-d0ab-4b47-95ec-d72ba86778eb
+                    cab0b8e34ee696070f7a89d8acb1fb60: !StaticColliderComponent
+                        Id: de431c7b-65f6-43a6-a02e-afed66006deb
+                        CollisionGroup: CustomFilter1
                         CanSleep: false
                         Restitution: 0.0
                         Friction: 0.5
@@ -539,12 +857,36 @@ Hierarchy:
                         IsTrigger: false
                         AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
-                            d1515cec847a6046ab7daa4368a533f7: !BoxColliderShapeDesc
-                                Is2D: false
-                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            807cd54cf8775c9012d2d826e57a36d7: !ColliderShapeAssetDesc
+                                Shape: 140f318b-9d44-4a21-a3f2-fb2c5ea72717:Maps/ColliderHeightfield
+                    5d2dc2022805b3d704fad74de4ce3674: !ModelComponent
+                        Id: eaba6dfb-fcd6-4c99-9659-257d7bc9b876
+                        Enabled: false
+                        Model: a12df69e-0698-4a18-9036-4f8997277b2f:Maps/Plane
+                        Materials: {}
+        -   Entity:
+                Id: f9fad0aa-f5ad-47b8-9c81-318a4f362e49
+                Name: p4
+                Components:
+                    93016028647cd6f29db71b2add8cede5: !TransformComponent
+                        Id: 81a9cd2e-78b2-4fe6-986e-0600b8739dfc
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    71c9b6bf421758d26b73c5c92fa68fac: !ModelComponent
+                        Id: 1fa24050-48ea-4cfe-87a0-4884bce5f816
+                        Model: eda4d1e2-4e6b-4597-89ba-e1999082aa3e:Characters/p4/_rig
+                        Materials: {}
+                    0b9662fdf881946d2cf73d1aff199eda: !AnimationComponent
+                        Id: 39c7aa5e-1df5-4247-9f93-f82a031dff1f
+                        Animations:
+                            e3a01d040931cdf012aa5e643e8a41c0~Jump: 0a4e2d1e-da00-44cd-8810-d05891e31135:Characters/p4/Idle
+                    70bbcef4176b4d1d812439c08c6b7ebb: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: ce0b4c7d-d94a-4f69-a4fc-590eea8224f1
+                        key: Jump
+                        delayStart: 0.0
             Base:
-                BasePartAsset: c6447392-97c7-4e6b-bcad-b1e09bfd44c9:LootBox
-                BasePartId: 9e2837fb-0640-4774-9d3b-bbf81562d9aa
-                InstanceId: bef60c2b-c07f-43cb-861a-f89dca0bbffe
+                BasePartAsset: 9171beb9-e204-437b-9bfa-29dd260f9f0e:Characters/p4
+                BasePartId: 0bec1dd7-9c36-419d-990f-f51b397798c6
+                InstanceId: 199ad912-9126-4ab4-b2ff-2ebf435b1f22

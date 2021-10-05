@@ -17,9 +17,19 @@ namespace BNDT.Gameplay
         [Display("Animation Key")]
         public string key;
 
+        [Display("Animation Delay Seconds")]
+        public double delayStart = 0;
+
         public override void Start()
         {
-            Entity.Get<AnimationComponent>().Play(key);
+            if (delayStart > 0)
+                Task.Run(async () =>
+                {
+                    await Task.Delay((int)(delayStart * 1000));
+                    Entity.Get<AnimationComponent>().Play(key);
+                });
+            else
+                Entity.Get<AnimationComponent>().Play(key);
         }
     }
 }

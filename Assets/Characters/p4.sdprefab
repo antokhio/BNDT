@@ -1,0 +1,53 @@
+!PrefabAsset
+Id: 9171beb9-e204-437b-9bfa-29dd260f9f0e
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 387c8063-e5bb-48ee-990f-03e764546b1a
+        - ref!! 0bec1dd7-9c36-419d-990f-f51b397798c6
+    Parts:
+        -   Entity:
+                Id: 0bec1dd7-9c36-419d-990f-f51b397798c6
+                Name: p4
+                Components:
+                    93016028647cd6f29db71b2add8cede5: !TransformComponent
+                        Id: a08c7200-208d-4861-b4a9-a3eb68c47736
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    71c9b6bf421758d26b73c5c92fa68fac: !ModelComponent
+                        Id: af4e3f51-11ee-4e37-b663-b3c8f15cc5fb
+                        Model: eda4d1e2-4e6b-4597-89ba-e1999082aa3e:Characters/p4/_rig
+                        Materials: {}
+                    0b9662fdf881946d2cf73d1aff199eda: !AnimationComponent
+                        Id: 615bb444-8e67-4192-b0be-78c3ae9ce1f8
+                        Animations:
+                            e3a01d040931cdf012aa5e643e8a41c0~Jump: 0a4e2d1e-da00-44cd-8810-d05891e31135:Characters/p4/Idle
+                    70bbcef4176b4d1d812439c08c6b7ebb: !BNDT.Gameplay.StartAnimationScript,BNDT.Game
+                        Id: bc02fd26-a1bb-4210-95d4-f636a65e681f
+                        key: Jump
+                        delayStart: 0.0
+        -   Entity:
+                Id: 387c8063-e5bb-48ee-990f-03e764546b1a
+                Name: Sprite
+                Components:
+                    5f6daa5a20e8d5e3b947092051bd7025: !TransformComponent
+                        Id: a8ade700-d099-4284-b6d3-f838ca2b2b11
+                        Position*: {X: -0.305876374, Y: 2.616603, Z: 0.0152400667}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    ca23a13938e932aa79917bf559e32356: !SpriteComponent
+                        Id: cec0c66a-7ad7-4fbf-8351-a6b3a60713a7
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: "01ee70f9-1913-4670-988c-50b8944ac909:Characters/bubbles/Облачко-02"
+                            Center*: {X: 500.0, Y: 700.0}
+                            CenterFromMiddle*: true
+                        SpriteType: Billboard
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    b210dd53cb38b7357ca49dadb299ec7d: !BNDT.Gameplay.BubbleScript,BNDT.Game
+                        Id: 565b8cb0-d121-4b2e-a5ec-453f0df28c03
+                        Time: 5.0
+                        TimeOffset: 0.0

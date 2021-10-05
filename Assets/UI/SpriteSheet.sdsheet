@@ -1,0 +1,50 @@
+!SpriteSheet
+Id: 6e10d0f1-2c52-4581-bae2-80cc64a635a3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    da37c9108da9a58683280a7789322e37:
+        Source: !file ../../Resources/ui/coin.png
+        Name: coin
+        TextureRegion: {X: 0, Y: 0, Width: 96, Height: 96}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d8c8a6f037a53a10a016c4cce9e568bc:
+        Source: !file ../../Resources/ui/crystal.png
+        Name: crystal
+        TextureRegion: {X: 0, Y: 0, Width: 96, Height: 96}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f1e6fce94710f2c4529aec2b7f24adfc:
+        Source: !file ../../Resources/ui/food.png
+        Name: food
+        TextureRegion: {X: 0, Y: 0, Width: 96, Height: 96}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d073cff82e6fa6e4a597d21e9b2085a8:
+        Source: !file ../../Resources/ui/shield.png
+        Name: shield
+        TextureRegion: {X: 0, Y: 0, Width: 70, Height: 88}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7c88bc6e9db0f4c8475f495bca5e372f:
+        Source: !file ../../Resources/ui/slider_back.png
+        Name: slider_back
+        TextureRegion: {X: 0, Y: 0, Width: 49, Height: 38}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    b2bb53c2bdd341dab6af96e89283181c:
+        Source: !file ../../Resources/ui/slider_fill.png
+        Name: slider_fill
+        TextureRegion: {X: 0, Y: 0, Width: 49, Height: 38}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

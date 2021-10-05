@@ -1,0 +1,7 @@
+!Texture
+Id: dfb3f1b3-3ef1-4b90-affc-dd0bbdad4fd3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file "../../Resources/ui/Облачко-01.png"
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

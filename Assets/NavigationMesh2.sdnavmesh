@@ -1,0 +1,18 @@
+!NavigationMeshAsset
+Id: 454ee07c-c0cf-44ca-be6d-b1c4d65aa157
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Scene: 5da87f09-2014-4d71-8302-034e5b1471c0:VillageScene
+IncludedCollisionGroups: CustomFilter1
+BuildSettings:
+    CellHeight: 0.05
+    CellSize: 0.05
+    TileSize: 16
+    MinRegionArea: 10
+    RegionMergeArea: 20
+    MaxEdgeLen: 20.0
+    MaxEdgeError: 3.0
+    DetailSamplingDistance: 3.0
+    MaxDetailSamplingError: 3.0
+SelectedGroups:
+    2b0e99aa83f145fab54d56cbb80b44ef: 9398904c-72b7-ca9b-e966-23346704ae98

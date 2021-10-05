@@ -1,0 +1,27 @@
+!Model
+Id: c5082ddc-61ba-4866-9b76-9e58d2e49e7b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/low-poly-forest/folliage.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    02ca3ce434bf8d835da1f006d6e442bd:
+        Name: bark
+        MaterialInstance:
+            Material: f19a165a-7995-4ba6-8079-caf2757f1840:Maps/low-poly-forest/Bark
+    1e0af791c800a10578e204006c2dc8ec:
+        Name: petal_b
+        MaterialInstance:
+            Material: ced08942-e2e7-4b29-a9f8-fd60ea057436:Maps/low-poly-forest/PetalB
+    be5a4e829173ac6c7d1fe6e6bab7c826:
+        Name: leafs
+        MaterialInstance:
+            Material: 402309b5-1ae7-4e4a-8eed-9adeb18c607f:Maps/low-poly-forest/Leafs
+    24ffd2cf0a3a1771cda5c7e962d94032:
+        Name: petal_a
+        MaterialInstance:
+            Material: 5588eca6-62b8-464c-bc55-9ddf690ad9ff:Maps/low-poly-forest/PetalA
+Modifiers: {}
+~SourceHashes:
+    9f51ff82c8cc70512364f5a6ba1d5b89~../../../Resources/low-poly-forest/folliage.FBX: 6a051f64e6ffd6f88e7f2fd3d8ee31ca

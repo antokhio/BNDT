@@ -1,0 +1,15 @@
+!Model
+Id: 07c62a09-bb5a-43fc-924b-1eda96e09d67
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/equipment/sword.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    8e5867b5a6498f316d3aa52cb177baee:
+        Name: sword5
+        MaterialInstance:
+            Material: 6cfda27f-f017-427f-86f3-442189e7a78d:Characters/equipment/SwordMaterial
+Modifiers: {}
+~SourceHashes:
+    074c8acfc877a43bf65a9ed9fccba114~../../../Resources/equipment/sword.FBX: 97178bcb943b6c939e742b06c2c45ae7

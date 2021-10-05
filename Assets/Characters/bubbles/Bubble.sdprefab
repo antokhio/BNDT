@@ -1,0 +1,25 @@
+!PrefabAsset
+Id: 7fcee1d1-9506-4445-8ce8-53719074a460
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 4bcb8d26-29d4-4563-b337-b81cffcb08b7
+    Parts:
+        -   Entity:
+                Id: 4bcb8d26-29d4-4563-b337-b81cffcb08b7
+                Name: Sprite
+                Components:
+                    5f6daa5a20e8d5e3b947092051bd7025: !TransformComponent
+                        Id: e4815c37-2e4e-42cd-8c1d-20771ff1db6e
+                        Position: {X: 0.0, Y: 0.561661959, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.05, Y: 0.05, Z: 0.05}
+                        Children: {}
+                    ca23a13938e932aa79917bf559e32356: !SpriteComponent
+                        Id: cb4e6a70-5c7f-4673-bf69-7e1b6b32e704
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: "01ee70f9-1913-4670-988c-50b8944ac909:Characters/bubbles/Облачко-02"
+                            Center: {X: 0.0, Y: 0.0}
+                        SpriteType: Billboard
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}

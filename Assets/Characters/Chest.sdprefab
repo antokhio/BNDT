@@ -1,0 +1,101 @@
+!PrefabAsset
+Id: bc6d3f69-1c87-40e1-b278-af7a841015af
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 6cf7a2b9-bf42-4dc2-82b2-9940c5b8bbb9
+    Parts:
+        -   Entity:
+                Id: 2decdc0e-2f40-4231-abf2-a70aa8f29aaf
+                Name: bottom
+                Components:
+                    cc9be234d1b2ea8b9dd5555a40ac7f7b: !TransformComponent
+                        Id: 375ebe31-dde9-4322-a657-22bf4fce55df
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    62fdda7adfb67b875e25450c1daa2b19: !ModelComponent
+                        Id: f8e70916-13e9-4ae4-bc15-5e185716076e
+                        Model: dc9160ed-80cc-4a14-bfad-1bfd48d1ad99:Characters/chest/bottom
+                        Materials: {}
+        -   Entity:
+                Id: 4f33f0a6-dff6-43e1-ae58-1ca1fcb72282
+                Name: top
+                Components:
+                    762d35a9cf8996023e1d167b2798e1d6: !TransformComponent
+                        Id: 5212c31f-1720-46f6-97c2-9dfd40e30da8
+                        Position: {X: 0.0, Y: 0.576381564, Z: -0.396888822}
+                        Rotation: {X: -1.91364839E-15, Y: -4.3711438E-08, Z: 4.37791243E-08, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    91d2f98d1b6b72ab2cbc61f4f0505874: !ModelComponent
+                        Id: 7ead89e4-d6ed-4da1-bbd3-71483fe50d43
+                        Model: c50650d8-a23d-492c-b92c-5e700d79eacc:Characters/chest/top
+                        Materials: {}
+        -   Entity:
+                Id: 53dde1f6-5349-4d62-a90d-64b5c6bcc629
+                Name: CollisionWall
+                Components:
+                    6231537620de4cd9fdccc5d522fe38fb: !TransformComponent
+                        Id: 100e7167-04e0-47db-84c1-efc06e2168d1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 4.0, Y: 4.0, Z: 4.0}
+                        Children: {}
+                    9c3f04c725a67fd97b1cb40f9b274138: !StaticColliderComponent
+                        Id: 5401e4ec-a8aa-450b-81d4-934dc6917581
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            43e2c7f3e4a46f15b308b649e48c38af: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.3, Y: 0.3, Z: 0.2}
+                                LocalOffset: {X: 0.0, Y: 0.15, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 6cf7a2b9-bf42-4dc2-82b2-9940c5b8bbb9
+                Name: Chest
+                Components:
+                    ad8128536299ccf624707c449be3f418: !TransformComponent
+                        Id: bac105b9-9cc1-4d34-ac43-9f8b33604e92
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            faa879575f31385defd675da7fe52217: ref!! 5212c31f-1720-46f6-97c2-9dfd40e30da8
+                            f5b0f272747aa822ff16a6760531f626: ref!! 375ebe31-dde9-4322-a657-22bf4fce55df
+                            8e3827d9988e84cd05f9b0a1f4d03e07: ref!! 100e7167-04e0-47db-84c1-efc06e2168d1
+                    0265e00d8594d1efb6cc1ec11340b645: !StaticColliderComponent
+                        Id: 3edb16bb-1a2d-4d63-a29b-c3c976134867
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            92cdfc4b6bc420c0956d9aeed3f4d0b6: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.2, Y: 1.2, Z: 0.8}
+                                LocalOffset: {X: 0.0, Y: 0.6, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    64cf071776b0b4b41c5315fdce8ca1d1: !BNDT.Gameplay.ChestScript,BNDT.Game
+                        Id: 7a3a72e6-9dd4-4775-84ad-3cf952ec8655
+                        CoinGetEffect: 490edefc-0a42-4572-a468-0325962da5b5:VFXPrefabs/vfx-Dustcloud
+                        CoinSpawnModel: 1632818c-6c15-4dbb-bb11-9b52fc21bc0c:LootGoldCoin
+                        Trigger: ref!! 276dc976-6ac6-4a63-b736-bba75ddb63ac
+                        Top: ref!! 4f33f0a6-dff6-43e1-ae58-1ca1fcb72282
+                    5375b5a2f4a13a0ab635fbbe2f64f1f6: !BNDT.Gameplay.Trigger,BNDT.Game
+                        Id: 276dc976-6ac6-4a63-b736-bba75ddb63ac
+                        TriggerCondition: StartOnly

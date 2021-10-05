@@ -1,0 +1,15 @@
+!HeightmapAsset
+Id: 58646085-38f2-42c1-b057-babd5397ee91
+SerializedVersion: {Stride: 3.0.0.0}
+Tags: []
+Source: !file ../../Resources/depth.dds
+HeightConversionParameters: !Stride.Assets.Physics.ShortHeightmapHeightConversionParameters,Stride.Assets
+    HeightRange: {X: 0.0, Y: 4.0}
+    HeightScaleCalculator: !Stride.Physics.HeightScaleCalculator,Stride.Physics {}
+Resize:
+    Enabled: true
+    Size: {X: 43, Y: 44}
+ScaleToHeightRange: false
+FloatingPointComponentRange: {X: 0.0, Y: 1.0}
+IsSymmetricShortComponent: false
+sRGB sampling: false

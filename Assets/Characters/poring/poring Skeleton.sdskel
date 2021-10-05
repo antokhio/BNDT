@@ -1,0 +1,14 @@
+!Skeleton
+Id: 6dfd41d5-4366-4b4f-abe4-50e5c573fa10
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/poring/poring.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    f7eb362963add93b0cc999fe0851d62e: {Name: RootNode, Depth: 0}
+    15b61dbdf747c949347101947ed652bc: {Name: poring, Depth: 1}
+    7df474905bf1c5650039b9dc6b5a88b7: {Name: joint1, Depth: 1}
+    b42ef9dd431ca2dae35a9f941c173f7c: {Name: joint2, Depth: 2}
+    1672c125e780c875256931bbeae8e03b: {Name: joint3, Depth: 3}
+~SourceHashes:
+    987368531d3361900e291b2a58a34b96~../../../Resources/poring/poring.FBX: a8951a32cae4f2a97d83566a1a281fd8

@@ -1,0 +1,7 @@
+!Texture
+Id: 6f6d0f87-4d2f-4622-aa68-28202fc876c0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/chest/chest_diff.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

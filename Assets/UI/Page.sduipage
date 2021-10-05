@@ -8,64 +8,32 @@ Hierarchy:
     RootParts:
         - !Grid ref!! 5dfb6faf-4c08-4f89-a07e-ff76f2e0d98b
     Parts:
-        -   UIElement: !ImageElement
-                Id: 166c0feb-c5d4-4c83-8290-68b7a829f874
-                DependencyProperties: {}
-                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
-                Width: 70.36367
-                Height: 86.0000458
-                HorizontalAlignment: Left
-                VerticalAlignment: Top
-                Margin: {Left: 83.18176, Top: 32.8887329}
-                MaximumWidth: 3.40282347E+38
-                MaximumHeight: 3.40282347E+38
-                MaximumDepth: 3.40282347E+38
-                Source: !SpriteFromTexture
-                    Texture: f6d4b769-389d-441d-bbbc-c28099d2c0c2:UI/shield
-                    Center: {X: 0.0, Y: 0.0}
-                Color: {R: 255, G: 255, B: 255, A: 255}
         -   UIElement: !Grid
                 Id: 5dfb6faf-4c08-4f89-a07e-ff76f2e0d98b
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 0
                 Margin: {}
                 MaximumWidth: 3.40282347E+38
                 MaximumHeight: 3.40282347E+38
                 MaximumDepth: 3.40282347E+38
                 Children:
-                    56848e51b78f72f3de7597f2d74cbe9a: !ImageElement ref!! 166c0feb-c5d4-4c83-8290-68b7a829f874
-                    3d1ca80f5a1b03a61fc17f866b8e3334: !Slider ref!! da38f088-aae8-4286-958b-39ebfcd3e96c
+                    82acfd592ca53508dceba098675f2aaa: !ImageElement ref!! ec54491f-0546-431a-8276-1dd3f3d596d8
                 RowDefinitions: {}
                 ColumnDefinitions: {}
                 LayerDefinitions: {}
-        -   UIElement: !Slider
-                Id: da38f088-aae8-4286-958b-39ebfcd3e96c
+        -   UIElement: !ImageElement
+                Id: ec54491f-0546-431a-8276-1dd3f3d596d8
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
-                DrawLayerNumber: 5
-                CanBeHitByUser: false
-                Width: 272.999969
-                Height: 32.0
-                HorizontalAlignment: Left
+                Width: 1920.0
+                Height: 320.0
                 VerticalAlignment: Top
-                Margin: {Left: 180.545441, Top: 60.9999847}
+                Margin: {}
                 MaximumWidth: 3.40282347E+38
                 MaximumHeight: 3.40282347E+38
                 MaximumDepth: 3.40282347E+38
-                TrackBackgroundImage: !SpriteFromSheet
-                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
-                    CurrentFrame: 9
-                TrackForegroundImage: !SpriteFromSheet
-                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
-                    CurrentFrame: 12
-                TrackStartingOffsets: {X: 3.0, Y: 3.0}
-                ThumbImage: !SpriteFromSheet
-                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
-                    CurrentFrame: 7
-                MouseOverThumbImage: !SpriteFromSheet
-                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
-                    CurrentFrame: 6
-                TickImage: !SpriteFromSheet
-                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
-                    CurrentFrame: 8
-                TickOffset: 13.0
+                Source: !SpriteFromTexture
+                    Texture: 3859728d-ace7-4779-a110-785ef742f423:UI/ui
+                    Center: {X: 0.0, Y: 0.0}
+                Color: {R: 255, G: 255, B: 255, A: 255}

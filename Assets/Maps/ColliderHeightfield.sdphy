@@ -1,0 +1,14 @@
+!ColliderShapeAsset
+Id: 140f318b-9d44-4a21-a3f2-fb2c5ea72717
+SerializedVersion: {Stride: 3.0.0.0}
+Tags: []
+ColliderShapes:
+    e5b5f2b44b6bc62cd57a6373d9fde5be: !HeightfieldColliderShapeDesc
+        HeightStickArraySource: !Stride.Physics.HeightStickArraySourceFromHeightmap,Stride.Physics
+            Heightmap: 58646085-38f2-42c1-b057-babd5397ee91:Maps/depth
+        FlipQuadEdges: false
+        Centering:
+            Enabled: true
+            CenterHeight: 0.0
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

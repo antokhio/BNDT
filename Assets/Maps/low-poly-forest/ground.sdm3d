@@ -1,0 +1,23 @@
+!Model
+Id: fba352ed-8bab-4b93-82fa-c33032f69caf
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/low-poly-forest/ground.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    cdaa7081b14a7ec2214de6690abf4365:
+        Name: water
+        MaterialInstance:
+            Material: f1845065-1338-4ca4-a314-222a8ce7e978:Maps/low-poly-forest/Water
+    a236231a53a674b175adf9ef42c13ae4:
+        Name: slope
+        MaterialInstance:
+            Material: 192481d9-5461-4965-b101-3e33407bfac1:Maps/low-poly-forest/Slope
+    7e64cedc7127e3e76c496774a46a988f:
+        Name: grnd
+        MaterialInstance:
+            Material: 8ef7fc14-2a81-4f50-a184-fd91b253ca48:Maps/low-poly-forest/Grnd
+Modifiers: {}
+~SourceHashes:
+    6df3cd4ac69909bf16dafd1fd815d7d6~../../../Resources/low-poly-forest/ground.FBX: e7c62aff54d847f3e5a1dd6cbebd0567

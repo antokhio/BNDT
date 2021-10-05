@@ -1,0 +1,19 @@
+!Model
+Id: 5d00b72a-0495-4310-9ef1-b2d1d0b39146
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/coin.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    14318f734857ec8aa3f31cabd5ef7edb:
+        Name: Material_1
+        MaterialInstance:
+            Material: 7203da73-28e5-40bd-9764-8673409c5b13:Characters/coin/Gold
+    257c4af44c53af21dfa6bca87d8078d7:
+        Name: Material_2
+        MaterialInstance:
+            Material: e1fe9bf5-7a1d-4ca6-839d-0613bcf98a76:Characters/coin/Material
+Modifiers: {}
+~SourceHashes:
+    d4bf1d03eb2cab97fb8747bb2d14a0c2~../../../Resources/coin.FBX: bd6dc96d933edbcee8e6d05e968aa39f

@@ -1,0 +1,6 @@
+!Texture
+Id: 8c038c67-1fb1-49ea-aad5-f6ca2514af69
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/equipment/sword5_mteal.tga.png
+Type: !GrayscaleTextureType {}

@@ -1,29 +1,51 @@
 !PrefabAsset
-Id: 6e985199-9ad7-499b-bab2-e2583ff53e77
+Id: 029ec3d5-84ed-4336-9a54-1c9d0bb69a45
 SerializedVersion: {Stride: 3.1.0.1}
 Tags: []
 Hierarchy:
     RootParts:
-        - ref!! cea25dbb-72cf-4bed-989d-86d7d0560a77
+        - ref!! 586f3efd-395a-49cc-bb4e-5a12b2c6d36f
+        - ref!! 205cb3e3-0d30-45af-9a5e-77673f030799
     Parts:
         -   Entity:
-                Id: cea25dbb-72cf-4bed-989d-86d7d0560a77
+                Id: 205cb3e3-0d30-45af-9a5e-77673f030799
+                Name: Sprite
+                Components:
+                    5f6daa5a20e8d5e3b947092051bd7025: !TransformComponent
+                        Id: f963c817-cd35-4f00-b68b-7d5cb8839094
+                        Position*: {X: -0.150107756, Y: 1.98374236, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    ca23a13938e932aa79917bf559e32356: !SpriteComponent
+                        Id: 5a4d7521-3ac1-49ec-856d-965aa987109a
+                        SpriteProvider: !SpriteFromTexture
+                            Texture*: "faa7a21f-b8c5-4b6f-96e0-82067fce9588:Characters/bubbles/Облачко-01"
+                            Center: {X: 500.0, Y: 700.0}
+                        SpriteType: Billboard
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 2.0
+                    3d9dc5aa846901a064140439f1c9a408: !BNDT.Gameplay.BubbleScript,BNDT.Game
+                        Id: ce9bbdeb-2e63-4ef9-9fe9-3f226086fbb2
+                        Time: 1.0
+                        TimeOffset: 2.0
+        -   Entity:
+                Id: 586f3efd-395a-49cc-bb4e-5a12b2c6d36f
                 Name: vendor
                 Components:
-                    ff4da86b36d41aa8b2727f41f3878c19: !TransformComponent
-                        Id: eeda15a6-6e42-440a-8eb5-0c8f1fccd952
+                    af9ea342703ee9ea4cf80d744d6401c3: !TransformComponent
+                        Id: 6025b6d6-37e5-4312-bf82-736332f957b9
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Scale: {X: 1.4152168, Y: 1.4152168, Z: 1.4152168}
                         Children: {}
-                    56dab3fa8b0386a7ca6b1642642c18db: !ModelComponent
-                        Id: d4455ba3-6561-4791-b372-1f03b7b94359
+                    a4e71370da9c2c63a4dfea0e206edeec: !ModelComponent
+                        Id: e5d33c44-1e02-4188-bd4a-136f6057c545
                         Model: 02e6d66b-1274-4a3d-a42c-0b403c349a43:Characters/vendor/vendor
                         Materials: {}
-                    fdbf8720d6fa3c2b0910339dc856305d: !AnimationComponent
-                        Id: 7ba1b925-7d00-4979-889f-9a1c6697c806
+                    4e4a121adbc660fd028c8e93a80406e2: !AnimationComponent
+                        Id: 6060057a-8035-4d29-8a08-87fd4e44d6b4
                         Animations:
-                            4a501c427acd6490278cb8001a0cbdd3~waving: 7e096008-203d-4ffe-a074-4ca563b430e0:Characters/vendor/vendor-waving
-                            346b91a601bd10403e136bd4c98ae775~backflip: eed1fa90-a8e9-4df3-b66e-4139863459ab:Characters/vendor/vendor-backflip
-                    55b05d762eba6fd2ee700d5377087fe7: !BNDT.VendorStartupScript,BNDT
-                        Id: 75c10789-b25d-4cec-83ad-c171de25b974
+                            255c704971d58002bb67d10d85c4fcbe~Waving: 7e096008-203d-4ffe-a074-4ca563b430e0:Characters/vendor/vendor-waving
+                    07010b84508db6f671d56bfec842fa90: !BNDT.Gameplay.VendorIdleScript,BNDT.Game
+                        Id: 140bb9c4-3046-403e-b5b4-be6e95a5d8b7

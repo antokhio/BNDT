@@ -1,0 +1,7 @@
+!Texture
+Id: c7cec2d9-2c8c-4f65-ae70-cbced1177b01
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/equipment/sword5_diffuse.tga.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

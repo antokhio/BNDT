@@ -1,0 +1,6 @@
+!Texture
+Id: fde75df5-9534-412d-9cde-e2e97422e399
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/chest/chest_normal.jpg
+Type: !NormalMapTextureType {}

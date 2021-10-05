@@ -1,0 +1,7 @@
+!Texture
+Id: 5dec8cdf-6b8a-4e35-8948-3ba9974b16da
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/low-poly-forest/beige_gradient.tga.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

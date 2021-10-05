@@ -168,7 +168,8 @@ namespace BNDT.Player
             {
                 // Generate a new path using the navigation component
                 pathToDestination.Clear();
-                if (navigation.TryFindPath(destination, pathToDestination))
+                if (navigation.TryFindPath(destination, pathToDestination, new NavigationQuerySettings { MaxPathPoints = 5, FindNearestPolyExtent = new Vector3{X = 2, Y =2, 
+                Z =2 }}))
                 {
                     // Skip the points that are too close to the player
                     waypointIndex = 0;
